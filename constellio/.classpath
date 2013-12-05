@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/apache-solr-core-4.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/activation.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/apache-solr-analysis-extras-4.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/apache-solr-cell-4.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/apache-solr-clustering-4.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/apache-solr-dataimporthandler-4.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/apache-solr-dataimporthandler-extras-4.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/apache-solr-noggit-r1099557.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/apache-solr-solrj-4.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/apache-solr-test-framework-4.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/apache-solr-uima-4.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/apache-solr-velocity-4.5.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/lucene-core-3.4.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

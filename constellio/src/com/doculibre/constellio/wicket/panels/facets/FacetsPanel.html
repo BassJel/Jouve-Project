@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+
+	<table cellpadding="0" cellspacing="0">
+		<wicket:enclosure>
+		<tr>
+			<td>
+				<div id="leftColMenu">
+				  <div wicket:id="collectionSearchFacetPanel"></div>	
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				&nbsp;
+			</td>
+		</tr>
+		</wicket:enclosure>
+		<wicket:enclosure>
+		<tr class="currentSearchFacet"> 
+			<td>
+				<div wicket:id="currentSearchPanel">
+				</div>
+			</td>
+		</tr>
+		</wicket:enclosure>
+		<tr>
+			<td>
+				<span wicket:id="searchableFacets">
+					<span wicket:id="facetPanel"></span>
+				</span> 
+			</td>
+		</tr>
+		<tr wicket:id="dontHideWhenEmptyPlaceHolder">
+			<td>
+				&nbsp;
+			</td>
+		</tr>
+		
+	</table>
+		
+	
+	
+</wicket:panel>
+</html>

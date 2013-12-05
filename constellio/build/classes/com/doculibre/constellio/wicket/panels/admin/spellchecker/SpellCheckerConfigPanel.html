@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+	
+	<div id="contenu">
+        
+	<form wicket:id="form">
+
+	<table class="formulaire">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="spellCheckerActive">[Use spell checker]</wicket:message>?
+			</td>
+			<td>
+				<input wicket:id="spellCheckerActive" type="checkbox" />
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="spellCheckerLanguage">[Language]</wicket:message> :
+			</td>
+			<td>
+				<select wicket:id="spellCheckerLanguage">
+					<option>[Français]</option>
+					<option>[English]</option>
+				</select> 
+			</td>
+		</tr>
+		<tr>
+			<td>
+				&nbsp;
+			</td>
+			<td>
+				<span class="btnRechIEBorder"><input wicket:id="submitButton" type="submit" class="btnRech" wicket:message="value:save" /></span>
+			</td>
+		</tr>
+	</table>
+	
+	</form>
+	
+     </div>
+
+</wicket:panel>
+</html>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+<wicket:extend>
+
+<div id="header">
+	<div id="logoRech" wicket:id="logoRechContainer">
+		<a href="app/" style="text-decoration:none;"">
+		<img wicket:id="logoImg" src="../../pages/images/logo_petit.png" />
+		</a>
+	</div>
+	
+	<div id="formSection" style="vertical-align: top;">
+		<table style="vertical-align: top;">
+			<tr>
+				<wicket:enclosure child="collectionsFacetContainer" >
+				<td style="vertical-align: top;">
+						<div id="menuAcc" wicket:id="collectionsFacetContainer">
+							<div wicket:id="collectionsFacetPanel"></div>
+						</div>
+				</td>
+				</wicket:enclosure>
+				
+				<td>
+					<div wicket:id="contenuContainer" id="contenu" style="width:100%">
+						<div wicket:id="userStatusContainer">
+							<div wicket:id="userStatusPanel" id="navigationPetit"></div>
+		  				</div>
+						<div wicket:id="searchFormPanel" style="clear: both"></div>
+					</div>
+				</td>
+			</tr>
+		</table>
+
+
+	</div>
+</div>
+
+</wicket:extend>  
+</wicket:panel>
+</html>

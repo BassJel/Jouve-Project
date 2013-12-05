@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:extend>
+
+<div id="container">
+	<table class="formulaire">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="name">[Name]</wicket:message> :
+			</td>
+			<td>
+				<div wicket:id="name">
+					<input wicket:id="nameLocale" type="text" />
+					<span wicket:id="localeName">[Locale Name]</span>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="facetType">[Facet Type]</wicket:message> :
+			</td>
+			<td>
+				<select wicket:id="facetType">
+					<option>Field Facet</option>
+					<option>Query Facet</option>
+					<option>Cluster</option>
+					<option>Cloud Keyword</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="hideEmptyValues">[Hide empty values]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="hideEmptyValues" type="checkbox" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="sortable">[Sortable]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="sortable" type="checkbox" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="multiValued">[Multiple values]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="multiValued" type="checkbox" /> 
+			</td>
+		</tr>
+	</table>	
+	
+		
+	<table wicket:id="contextFields" class="formulaire">
+		<tr wicket:id="fieldFacetFields">
+			<td class="etiquette">
+				<wicket:message key="facetField">[Facet Field]</wicket:message> :
+			</td>
+			<td>
+				<select wicket:id="facetField">
+					<option>Collection Index Field 1</option>
+					<option>Collection Index Field 2</option>
+					<option>Collection Index Field 3</option>
+				</select>
+			</td>
+		</tr>
+		
+		<tr wicket:id="cloudKeywordFacetFields">
+			<td class="etiquette">
+				<wicket:message key="facetField">[Facet Field]</wicket:message> :
+			</td>
+			<td>
+				<select wicket:id="facetField">
+					<option>Collection Index Field 1</option>
+					<option>Collection Index Field 2</option>
+					<option>Collection Index Field 3</option>
+				</select>
+			</td>
+		</tr>
+		
+		<wicket:container wicket:id="clusterFacetFields">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="clusteringEngine">[Clustering Engine]</wicket:message> :
+			</td>
+			<td>
+				<select wicket:id="clusteringEngine">
+					<option>Lingo</option>
+					<option>Lingo3G</option>
+					<option>STC</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="carrotTitleField">[Title Field]</wicket:message> :
+			</td>
+			<td>
+				<select wicket:id="carrotTitleField">
+					<option>Collection Index Field 1</option>
+					<option>Collection Index Field 2</option>
+					<option>Collection Index Field 3</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="carrotUrlField">[URL Field]</wicket:message> :
+			</td>
+			<td>
+				<select wicket:id="carrotUrlField">
+					<option>Collection Index Field 1</option>
+					<option>Collection Index Field 2</option>
+					<option>Collection Index Field 3</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="carrotSnippetField">[Snippet Field]</wicket:message> :
+			</td>
+			<td>
+				<select wicket:id="carrotSnippetField">
+					<option>Collection Index Field 1</option>
+					<option>Collection Index Field 2</option>
+					<option>Collection Index Field 3</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="clusteringUseSearchResults">[Use Search Results]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="clusteringUseSearchResults" type="checkbox" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="clusteringUseCollection">[Use Clustering Collection]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="clusteringUseCollection" type="checkbox" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="clusteringUseDocSet">[Use Doc Set]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="clusteringUseDocSet" type="checkbox" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="carrotProduceSummary">[Produce Summary]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="carrotProduceSummary" type="checkbox" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="carrotNumDescriptions">[Num Descriptions]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="carrotNumDescriptions" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="carrotOutputSubclusters">[Output Subclusters]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="carrotOutputSubclusters" type="checkbox" /> 
+			</td>
+		</tr>
+		</wicket:container>
+	</table>
+</div>
+
+
+</wicket:extend>
+</html>

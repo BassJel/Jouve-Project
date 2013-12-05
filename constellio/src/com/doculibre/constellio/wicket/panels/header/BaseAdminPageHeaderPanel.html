@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+<wicket:extend>
+
+<div id="header">
+	<div id="logoAdmin">
+		<a href="app/" style="text-decoration:none;">
+		<img wicket:id="logoImg" src="../../pages/images/logo_petit.png" alt="Constellio" />
+		</a>
+	</div>
+	<div id="headerAdminRight">
+		<div id="navigation">
+			  <ul>  
+			  	<wicket:enclosure child="switchLocaleLinkHolder">
+				<li><span wicket:id="switchLocaleLinkHolder" /></li>
+			  	</wicket:enclosure>
+			  	<wicket:enclosure child="signInLinkHolder">
+				<li><span wicket:id="signInLinkHolder" /></li>
+			  	</wicket:enclosure>
+			  	<wicket:enclosure child="signOutLinkHolder">
+				<li><span wicket:id="signOutLinkHolder" /></li>
+			  	</wicket:enclosure>
+			  	<wicket:enclosure child="searchLinkHolder">
+				<li><span wicket:id="searchLinkHolder" /></li>
+			  	</wicket:enclosure>
+			  </ul>
+  		</div>
+		<div id="currentUser">
+			<div class="nomUser"><strong wicket:id="firstNameLastName">Rida Benjelloun</strong> 
+			<br /> 
+			<span class="titreUser"><span wicket:id="username">DocuLibre inc.</span></span></div>
+			<div class="imgUser">
+			<wicket:link autolink="true">
+			<img src="../../pages/images/ico_user.png" alt="Utilisateur" />
+			</wicket:link>
+			</div>
+		</div>
+  	</div><!-- fin headerAdminRight-->
+</div><!-- fin header-->
+
+</wicket:extend>  
+</wicket:panel>
+</html>

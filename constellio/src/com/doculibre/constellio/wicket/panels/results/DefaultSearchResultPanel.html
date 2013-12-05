@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:head>
+<script language="JavaScript">
+	/* This script and many more are available free online at
+	The JavaScript Source :: http://javascript.internet.com
+	Created by: Ultimater, Mr J :: http://www.webdeveloper.com/forum/showthread.php?t=77389 */
+
+	function toggleSearchResultSummary(a){
+	  var e=document.getElementById(a);
+	  if(!e)return true;
+	  if(e.style.display=="none"){
+	    e.style.display="block";
+	  } else {
+	    e.style.display="none";
+	  }
+	  return true;
+	}	
+</script>
+</wicket:head>
+<wicket:panel>	
+
+	<table cellpadding="0" cellspacing="0">
+		<tr>
+			<td style="vertical-align:top;">
+			    <a wicket:id="titleLink" target="_blank">
+					<span wicket:id="title"></span>
+				</a>
+			</td>
+			<td>
+				&nbsp;
+			</td>
+			<td style="vertical-align:top;">
+       			<div wicket:id="elevatePanel"></div>
+       		</td>
+       	</tr>
+    </table>		
+
+       <p class="description">
+       	   <span class="text12" wicket:id="excerpt"></span>
+       	   <a wicket:id="toggleSummaryLink" class="urlLink" onclick="toggleSearchResultSummary('')">
+       	   	   <wicket:message key="more">[More...]</wicket:message>
+       	   </a>
+       </p>
+       
+       <p wicket:id="summary" style="display:none; border: dashed;">
+       	   [Summary]
+       </p>	
+       <p class="adresse">
+			<wicket:enclosure child="url">
+		       <span wicket:id="url" class="urlLink">[Link]</span>
+			</wicket:enclosure>
+			
+			<wicket:child />
+       </p>
+	   
+	   <wicket:enclosure child="searchResultFields">
+	   <table style="margin-bottom:10px;">
+	       <tr wicket:id="searchResultFields">
+	           <td class="etiquette">
+	               <span class="urlLink" wicket:id="indexField">[Index field]</span> :&nbsp;
+	           </td>
+	           <td class="etiquette">
+	               <span wicket:id="indexFieldValue">[Index field value]</span>
+	           </td>		
+	       </tr>	
+	   </table>
+	   </wicket:enclosure>
+       
+</wicket:panel>
+</html>

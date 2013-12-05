@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:extend>
+
+<div id="container">
+	<table class="formulaire">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="sourceIndexField">[Champ source]</wicket:message> :
+			</td>
+			<td>
+				<select wicket:id="indexField">
+					<option>Field 1</option>
+					<option>Field 2</option>
+				</select> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="matchRegexp">[Regular expression]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="matchRegexp" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="matchRegexpIndexedValues">[Indexed values if regular expression is matched]</wicket:message> :
+			</td>
+			<td>
+				<div wicket:id="matchRegexpIndexedValues" /> 
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+</wicket:extend>
+</html>

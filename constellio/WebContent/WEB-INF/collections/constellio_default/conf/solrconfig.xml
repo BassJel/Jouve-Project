@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+ contributor license agreements.  See the NOTICE file distributed with
+ this work for additional information regarding copyright ownership.
+ The ASF licenses this file to You under the Apache License, Version 2.0
+ (the "License"); you may not use this file except in compliance with
+ the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<!--
+ This is a stripped down config file used for a simple example...  
+ It is *not* a good example to work from. 
+-->
+<config>
+  <updateHandler class="solr.DirectUpdateHandler2" />
+  
+  <queryParser name="constellioDismax" class="com.doculibre.constellio.solr.handler.component.DisMaxQParserPlugin"/>
+
+  <requestDispatcher handleSelect="true" >
+    <requestParsers enableRemoteStreaming="false" multipartUploadLimitInKB="2048" />
+  </requestDispatcher>
+  
+  <requestHandler name="standard" class="solr.StandardRequestHandler" />
+  <requestHandler name="/update" class="solr.XmlUpdateRequestHandler" />
+  <requestHandler name="/admin/" class="org.apache.solr.handler.admin.AdminHandlers" />
+  
+  <searchComponent name="termsComponent" class="org.apache.solr.handler.component.TermsComponent"/>
+  
+  <lockType>native</lockType>
+  
+  <requestHandler name="/terms" class="org.apache.solr.handler.component.SearchHandler">
+     <lst name="defaults">
+      <bool name="terms">true</bool>
+    </lst>     
+    <arr name="components">
+      <str>termsComponent</str>
+    </arr>
+  </requestHandler>
+  
+ <!--  <searchComponent name="elevator" class="com.doculibre.constellio.solr.handler.component.ConstellioElevationComponent" >
+    <str name="queryFieldType">string</str>
+    <str name="config-file">elevate.xml</str>
+  </searchComponent>-->
+  
+ <!-- <searchComponent name="authorizer" class="com.doculibre.constellio.solr.handler.component.ConstellioAuthorizationComponent" >
+  </searchComponent>-->
+
+  <requestHandler name="/elevate" class="solr.SearchHandler" default="true">
+    <lst name="defaults">
+      <str name="echoParams">explicit</str>
+    </lst>
+    <arr name="last-components">
+      <str>elevator</str>
+      <str>authorizer</str>
+      <str>manifoldCFSecurity</str>
+    </arr>
+  </requestHandler>
+  
+  <requestHandler name="/admin/luke" class="org.apache.solr.handler.admin.LukeRequestHandler" />
+
+  <!--
+    RequestHandler that provides much the same functionality as analysis.jsp. Provides the ability
+    to specify multiple field types and field names in the same request and outputs index-time and
+    query-time analysis for each of them.
+
+    Request parameters are:
+    analysis.fieldname - The field name whose analyzers are to be used
+    analysis.fieldtype - The field type whose analyzers are to be used
+    analysis.fieldvalue - The text for index-time analysisple
+    q (or analysis.q) - The text for query time analysis
+    analysis.showmatch (true|false) - When set to true and when query analysis is performed, the produced
+                                      tokens of the field value analysis will be marked as "matched" for every
+                                      token that is produces by the query analysis
+   -->
+  <requestHandler name="/analysis/field" class="solr.FieldAnalysisRequestHandler" />
+      
+  <!-- requestHandler plugins... incoming queries will be dispatched to the
+     correct handler based on the path or the qt (query type) param.
+     Names starting with a '/' are accessed with the a path equal to the 
+     registered name.  Names without a leading '/' are accessed with:
+      http://host/app/select?qt=name
+     If no qt is defined, the requestHandler that declares default="true"
+     will be used.
+  -->
+  <requestHandler name="/clustering" class="solr.SearchHandler" default="false">
+    <!-- default values for query parameters -->
+     <lst name="defaults">
+       <str name="echoParams">explicit</str>
+       <!-- 
+       <int name="rows">10</int>
+       <str name="fl">*</str>
+       <str name="version">2.1</str>
+        -->
+     </lst>
+    <arr name="last-components">
+      <str>clustering</str>
+      <str>authorizer</str>
+      <str>manifoldCFSecurity</str>
+    </arr>
+  </requestHandler>
+  
+  <!-- queryResponseWriter plugins... query responses will be written using the
+    writer specified by the 'wt' request parameter matching the name of a registered
+    writer.
+    The "standard" writer is the default and will be used if 'wt' is not specified 
+    in the request. XMLResponseWriter will be used if nothing is specified here.
+    The json, python, and ruby writers are also available by default.
+
+    <queryResponseWriter name="standard" class="org.apache.solr.request.XMLResponseWriter"/>
+    <queryResponseWriter name="json" class="org.apache.solr.request.JSONResponseWriter"/>
+    <queryResponseWriter name="python" class="org.apache.solr.request.PythonResponseWriter"/>
+    <queryResponseWriter name="ruby" class="org.apache.solr.request.RubyResponseWriter"/>
+
+    <queryResponseWriter name="custom" class="com.example.MyResponseWriter"/>
+  --> 
+
+  <!-- DisMaxRequestHandler allows easy searching across multiple fields
+       for simple user-entered phrases.  It's implementation is now
+       just the standard SearchHandler with a default query type
+       of "dismax". 
+       see http://wiki.apache.org/solr/DisMaxRequestHandler
+   -->
+  <!-- <searchComponent class="com.doculibre.constellio.solr.handler.cluster.ConstellioClusteringComponent" name="clustering"> -->
+    <!-- Declare an engine -->
+     <!--<lst name="engine">-->
+      <!-- The name, only one can be named "default" -->
+     <!--  <str name="name">lingo</str>-->
+     <!--  <str name="carrot.algorithm">org.carrot2.clustering.lingo.LingoClusteringAlgorithm</str>-->
+   <!--  </lst>-->
+
+    <!-- <lst name="engine">-->
+     <!--  <str name="name">stc</str>-->
+     <!--  <str name="carrot.algorithm">org.carrot2.clustering.stc.STCClusteringAlgorithm</str>-->
+    <!-- </lst>-->
+  <!--</searchComponent >-->
+
+  
+  <highlighting class="org.apache.solr.highlight.ParsedContentSolrHighlighter">
+   <!-- Configure the standard fragmenter -->
+   <!-- This could most likely be commented out in the "default" case -->
+   <fragmenter name="gap" class="org.apache.solr.highlight.GapFragmenter" default="true">
+    <lst name="defaults">
+     <int name="hl.fragsize">100</int>
+    </lst>
+   </fragmenter>
+
+   <!-- A regular-expression-based fragmenter (f.i., for sentence extraction) -->
+   <fragmenter name="regex" class="org.apache.solr.highlight.RegexFragmenter">
+    <lst name="defaults">
+      <!-- slightly smaller fragsizes work better because of slop -->
+      <int name="hl.fragsize">70</int>
+      <!-- allow 50% slop on fragment sizes -->
+      <float name="hl.regex.slop">0.5</float>
+      <!-- a basic sentence pattern -->
+      <str name="hl.regex.pattern">[-\w ,/\n\"']{20,200}</str>
+    </lst>
+   </fragmenter>
+
+   <!-- Configure the standard formatter -->
+   <formatter name="html" class="org.apache.solr.highlight.HtmlFormatter" default="true">
+    <lst name="defaults">
+     <str name="hl.simple.pre"><![CDATA[<em>]]></str>
+     <str name="hl.simple.post"><![CDATA[</em>]]></str>
+    </lst>
+   </formatter>
+  </highlighting>
+      
+  <!-- config for the admin interface --> 
+  <admin>
+    <defaultQuery>solr</defaultQuery>
+  </admin>
+
+</config>
+

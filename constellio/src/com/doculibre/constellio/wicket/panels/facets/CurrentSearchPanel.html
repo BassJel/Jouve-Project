@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+
+<table class="currentSearch">
+  	<wicket:enclosure child="query">
+  	<tr class="queryValue">
+    	<td colspan="2">
+			<span style="float:right;">
+				<a wicket:id="deleteQueryLink" wicket:message="alt:clearQuery" href="#" style="text-decoration:none;">
+					<wicket:link autolink="true">
+					<img src="../../pages/images/exclude.png" />
+					</wicket:link>
+		    	</a>
+			</span> 
+			<span wicket:id="query" class="rechercheEnCoursElementInclus">[Machin]</span>
+    	</td>
+  	</tr>
+  	</wicket:enclosure>
+	
+  	<wicket:container wicket:id="tagsSection">	
+  	<tr class="tagsLabel">
+    	<td colspan="2"><wicket:message key="tags">[Tags]</wicket:message> :</td>
+    </tr>
+    <tr>
+    	<td colspan="2">&nbsp;</td>
+  	</tr>
+  	<tr class="tagsValue" wicket:id="tags">
+    	<td><span wicket:id="tag" class="rechercheEnCoursElementInclus">[Tag name]</span></td>
+    	<td align="right"><a wicket:id="removeTagLink" wicket:message="alt:delete" href="#" style="text-decoration:none;">
+			<wicket:link autolink="true">
+			<img src="../../pages/images/exclude.png" />
+			</wicket:link>
+    	</a></td>
+  	</tr>
+  	</wicket:container>
+	
+  	<wicket:container wicket:id="searchedFacetsSection">	
+  	<tr class="criteriaLabel">
+    	<td colspan="2"><wicket:message key="criteria">[Criteria]</wicket:message> :</td>
+  	</tr>
+  
+  	<tr wicket:id="includedFacetValuesModel">
+    	<td><span wicket:id="label" class="rechercheEnCoursElementInclus">[Formats: "html"]</span></td>
+    	<td align="right"><a wicket:id="deleteIncludedFacetLink" wicket:message="alt:delete" href="#" style="text-decoration:none;">
+			<wicket:link autolink="true">
+			<img src="../../pages/images/exclude.png" />
+			</wicket:link>
+    	</a></td>
+  	</tr>
+  
+  	<tr wicket:id="excludedFacetValuesModel">
+    	<td><span wicket:id="label" class="rechercheEnCoursElementExclu" style="text-decoration:line-through;">[Ministère/Organisme: "Agence Québec Wallonie Bruxelles pour la jeunesse]"</span></td>
+    	<td align="right"><a wicket:id="deleteExcludedFacetLink" wicket:message="alt:delete" href="#" style="text-decoration:none;">
+			<wicket:link autolink="true">
+			<img src="../../pages/images/exclude.png" />
+			</wicket:link>
+    	</a></td>
+  	</tr>
+  	</wicket:container> 
+  
+  	<wicket:enclosure child="cloudKeyword.keyword">	
+  	<tr class="cloudKeywordLabel">
+    	<td colspan="2"><wicket:message key="cloudsWords">[Cloud word(s)]</wicket:message> :</td>
+  	</tr>
+  	<tr class="cloudKeywordValue">
+    	<td><span wicket:id="cloudKeyword.keyword" class="rechercheEnCoursElementInclus">[l'éducation au Québec]</span></td>
+    	<td align="right"><a wicket:id="deleteCloudKeywordLink" wicket:message="alt:delete" href="#" style="text-decoration:none;">
+			<wicket:link autolink="true">
+			<img src="../../pages/images/exclude.png" />
+			</wicket:link>
+    	</a></td>
+  	</tr>
+  	</wicket:enclosure>
+</table>
+	
+</wicket:panel>
+</html>

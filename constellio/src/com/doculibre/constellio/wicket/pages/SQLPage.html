@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:wicket="http://wicket.sourceforge.net/">
+<wicket:extend>
+
+	<h1><wicket:message key="title"></wicket:message></h1>
+	
+	<form wicket:id="form" action="#">
+		<div wicket:id="feedback"></div>
+		<table class="formulaire">
+			<tr>
+				<td>
+					<wicket:message key="query">[SQL query]</wicket:message>
+				</td>
+				<td>
+					<textarea wicket:id="query" rows="10" cols="20"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<span class="btnRechIEBorder"><input wicket:id="submitButton" type="submit" wicket:message="value:submit" class="btnRech" /></span>
+				</td>
+			</tr>
+		</table>
+	</form>
+
+</wicket:extend>
+</html>

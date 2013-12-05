@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+
+	<table cellpadding="2" cellspacing="2">
+		<tr>
+			<td>
+				<a wicket:id="titleLink">
+					<span wicket:id="title"></span>
+				</a>
+			</td>
+       	</tr>
+       </table>		
+
+       <p class="description"><span class="text12" wicket:id="excerpt"></span></p>
+       <p class="adresse">
+	
+	<wicket:enclosure child="url">
+       <span class="urlLink" wicket:id="url"></span> - 
+	</wicket:enclosure>
+	
+	<wicket:child />
+	
+       </p>
+       
+</wicket:panel>
+</html>

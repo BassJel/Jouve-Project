@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+	
+<wicket:panel>
+
+<script language="javascript" type="text/javascript"> 
+        jQuery(document).ready(function(){ 
+            if (typeof Wicket != 'undefined' && Wicket.Window) {
+                    Wicket.Window.unloadConfirmation = false; 
+            }
+        }); 
+</script> 
+
+<div id="container">
+<div id="popup">
+    <h4 wicket:id="panelTitle">
+    	[Queries]
+    </h4>
+    
+    <form wicket:id="addForm">
+    
+    <div wicket:id="feedback" />
+    
+    <table class="formulaire">
+       	<tr>
+       		<td class="etiquette">
+       			<wicket:message key="query">[Query]</wicket:message> : 
+			</td> 
+			<td>
+				<input wicket:id="query" type="text" /> 
+			</td>  
+		</tr>
+       	<tr>
+       		<td>
+       			&nbsp;
+			</td> 
+			<td>
+				<input wicket:id="addButton" type="submit" wicket:message="value:add" class="btnRech" /> 
+			</td>  
+		</tr>
+   	</table>
+   	</form>		
+       
+    <fieldset style="margin-left:0px;">
+	    <table wicket:id="queriesContainer" width="100%" border="0" cellspacing="1" cellpadding="0" class="affichage">
+	      <tr>
+	      	<th scope="col"><wicket:message key="queries">[Queries]</wicket:message></th>
+	        <th>&nbsp;</th>
+	      </tr>
+	      <tr wicket:id="queries">
+	        <td>
+	 			<span wicket:id="query">[Query]</span>
+			</td>
+	 		<td>
+                <div id="icon">
+                	<a wicket:id="deleteLink" href="#" class="delete">
+    				<wicket:link autolink="true">
+    				<img src="../../../pages/images/ico_poubelle.png" alt="Supprimer" />
+    				</wicket:link>
+                	</a>
+                </div>
+	 		</td>
+	      </tr>
+		</table>
+	    <table width="100%" border="0" cellspacing="1" cellpadding="0" class="affichage">
+			<tr>
+				<td colspan="2" align="center">
+					<form wicket:id="form">
+					<span class="btnRechIEBorder"><input wicket:id="submitButton" type="submit" wicket:message="value:save" class="btnRech" /></span>
+					<input wicket:id="cancelButton" type="submit" wicket:message="value:cancel" class="btnReset" />
+					</form>
+				</td>
+			</tr>
+		</table>
+    </fieldset>
+</div>
+</div>    
+
+</wicket:panel>
+</html>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:extend>
+
+<div id="container">
+	<table class="formulaire">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="paramName">[Param name]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="paramName" type="text" />
+			</td>
+		</tr>
+		<wicket:enclosure child="paramType">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="paramType">[Type]</wicket:message> :
+			</td>
+			<td>
+				<select wicket:id="paramType">
+					<option>[Text]</option>
+					<option>[Image]</option>
+					<option>[CSS]</option>
+					<option>[Javascript]</option>
+				</select>
+			</td>
+		</tr>
+		</wicket:enclosure>
+		<wicket:enclosure child="inherited">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="inherited">[Inherited]</wicket:message> :
+			</td>
+			<td>
+				<wicket:container wicket:id="inherited" />
+			</td>
+		</tr>
+		</wicket:enclosure>
+		<wicket:enclosure child="textValue">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="textValue">[Value]</wicket:message> :
+			</td>
+			<td>
+				<textarea wicket:id="textValue" cols="40" rows="10"></textarea>
+			</td>
+		</tr>
+		</wicket:enclosure>
+		<wicket:enclosure child="binaryValue">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="binaryValue">[File]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="binaryValue" type="file" />
+			</td>
+		</tr>
+		</wicket:enclosure>
+	</table>
+</div>
+
+</wicket:extend>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+<wicket:extend>
+
+	<table class="formulaire">
+	<tr>
+		<td class="etiquette">
+			<wicket:message key="useGoogleAnalytics">[Use Google Analytics]</wicket:message>
+		</td>
+		<td>
+			<input wicket:id="useGoogleAnalytics" type="checkbox"/>
+		</td>
+	</tr>	
+	<tr>
+		<td class="etiquette">
+			<wicket:message key="googleAnalyticsUA">[UA Code]</wicket:message>
+		</td>
+		<td>
+			<input wicket:id="googleAnalyticsUA" type="text" />	(UA-XXXXX-X)
+		</td>
+	</tr>
+	<tr>
+		<td class="etiquette">
+			<wicket:message key="googleAnalyticsHeader">[Head Tag HTML]</wicket:message>
+		</td>
+		<td>
+			<textarea wicket:id="googleAnalyticsHeader" cols="50" rows="10"></textarea>	
+		</td>
+	</tr>
+	</table>
+	
+</wicket:extend>
+</wicket:panel>
+</html>

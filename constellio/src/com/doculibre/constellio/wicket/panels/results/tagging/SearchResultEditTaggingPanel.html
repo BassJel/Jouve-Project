@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+
+<wicket:panel>
+<div id="formulaire">
+<div id="popup">
+
+	<h4><wicket:message key="title">[Edit tagging]</wicket:message></h4>
+<div id="popupTag" style="text-align: left;">
+
+	<div style="margin-bottom:20px; border-bottom: 1px solid #C2E0ED;">
+		<wicket:message key="taggingSource">[Source]</wicket:message> :
+		<select wicket:id="taggingSource">
+			<option>[Free Text]</option>
+			<option>[Thesaurus 1]</option>
+			<option>[Thesaurus 2]</option>
+		</select>
+		<span wicket:id="sourceName"></span>
+	</div>
+
+		<table cellpadding="2" cellspacing="2" width="100%">
+			<tr>
+				<td style="width:49%;" class="etiquetteLabel">
+					<h3 class="titreBlocAdmin"><wicket:message key="availableTags">[Available tags]</wicket:message></h3>
+				</td>
+				<td style="width:1%;"></td>
+				<td class="etiquetteLabel">
+					<h3 class="titreBlocAdmin"><wicket:message key="appliedTags">[Applied tags]</wicket:message></h3>
+        		</td>
+        	</tr>
+        	<tr>
+        		<td colspan="3">
+        			<table class="tableBloc">
+						<tr>
+							<th>
+							<form wicket:id="filterAddForm">
+								<div style="display: inline;">
+									<wicket:message key="filterAdd">[Filter/Add]</wicket:message> :
+									<input wicket:id="filterAddField" type="text" style="text-align:left; width:200px" />
+									<span class="btnRechIEBorder"><input wicket:id="filterAddButton" type="submit" class="btnRech" /></span>
+								</div>
+								</form>
+							</th>
+						
+						</tr>
+					</table>
+        		
+        		</td>
+        	</tr>
+			<tr>
+				<td>
+					<table wicket:id="availableTagsContainer" class="tableBloc">
+						<tr wicket:id="availableTags">
+							<th>
+								<a wicket:id="detailsLink"><span wicket:id="name">[Tag name]</span></a>
+								<div wicket:id="detailsModal" />
+							</th>
+							<th style="text-align: right" >
+								<a wicket:id="addLink" href="#" style="text-decoration:none">
+									<wicket:link autolink="true" wicket:message="alt:apply">
+									<img src="../../../pages/images/ico_plus.gif" />
+									</wicket:link>
+								</a>
+							</th>
+						</tr>
+					</table>
+				</td>
+				<td></td>
+				<td> 
+					<table class="tableBloc" wicket:id="appliedTagsContainer">
+						<tr wicket:id="appliedTags">
+							<th>
+								<a wicket:id="detailsLink"><span wicket:id="name">[Tag name]</span></a>
+								<div wicket:id="detailsModal" />
+							</th>
+							<th style="text-align: right;">
+								<a wicket:id="removeLink" href="#">
+									<wicket:link autolink="true" wicket:message="alt:apply">
+									<img src="../../../pages/images/exclude.png" />
+									</wicket:link>
+								</a>
+							</th>
+						</tr>
+					</table>
+        		</td>
+        	</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<span class="btnRechIEBorder"><input wicket:id="closeLink" type="submit" wicket:message="value:close" class="btnRech" /></span>
+        		</td>
+        	</tr>
+        </table>	
+</div> 
+</div>       
+</div>
+</wicket:panel>
+
+</html>

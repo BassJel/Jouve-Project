@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:extend>
+
+	
+<div id="container">
+	<table class="formulaire">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="name">[Name]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="name" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="fieldTypeClass">[Type Class]</wicket:message> :
+			</td>
+			<td>
+				<a wicket:id="addFieldTypeClassLink" href="#">
+					<wicket:message key="addFieldTypeClass">[Add Field Type]</wicket:message>
+				</a>
+				<div wicket:id="fieldTypeClassModal" />
+				<br />
+				<select wicket:id="fieldTypeClass">
+					<option>[Option 1]</option>
+					<option>[Option 2]</option>
+				</select> 
+			</td>
+		</tr>
+
+		<tr>
+			<td class="etiquette" colspan="2">
+				<wicket:message key="indexAnalyzer">[Index Analyzer]</wicket:message> 
+			</td>
+		</tr>
+		<wicket:container wicket:id="analyzerPanel" />
+		<tr>
+			<td class="etiquette" colspan="2">
+				<wicket:message key="queryAnalyzer">[Query Analyzer]</wicket:message> 
+			</td>
+		</tr>
+		<wicket:container wicket:id="queryAnalyzerPanel" />
+		
+		<tr>
+			<td class="etiquette" colspan="2">
+				<hr /> 
+			</td>
+		</tr>
+
+
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="precisionStep">[Precision Step]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="precisionStep" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="positionIncrementGap">[Position Increment Gap]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="positionIncrementGap" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="sortMissingLast">[Sort Missing Last]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="sortMissingLast" type="checkbox" />
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="omitNorms">[Omit Norms]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="omitNorms" type="checkbox" />
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="multiValued">[Multi valued]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="multiValued" type="checkbox" />
+			</td>
+		</tr>
+	</table>
+</div>
+
+</wicket:extend>
+</html>

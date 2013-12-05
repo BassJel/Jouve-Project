@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:wicket="http://wicket.sourceforge.net/">
+<wicket:extend>
+	<div id="nbresults">
+	  <h1><span wicket:id="detailsRes">Résultats 1-10 sur un total de 123 pour Québec (0,234 secondes)</span></h1>
+	</div>
+	
+	<div id="leftCol">
+ 		<div wicket:id="facetsPanel"></div>
+	</div>
+
+	<div id="resultats">
+		<wicket:enclosure child="spellChecker">
+		<div id="orthographe">
+		  <p class="orthographe" style="margin:0;"><span wicket:id="spellChecker"></span></p>
+		</div>
+		</wicket:enclosure>
+		<wicket:enclosure child="thesaurusSuggestion">
+		<div>
+		  <p style="margin:0;"><span wicket:id="thesaurusSuggestion"></span></p>
+		</div>
+		</wicket:enclosure>
+
+	
+		<wicket:container wicket:id="searchResultsSection">	
+        <wicket:enclosure>	
+        	<span style="float:right;">
+        		<span style="vertical-align: top;">
+        			<wicket:message key="tri">[Tri]</wicket:message> : 
+        		</span>
+        		<select wicket:id="sortField">
+        			<option>[Relevance]</option>
+        			<option>[Date (ascending)]</option>
+        			<option>[Date (descending)]</option>
+        		</select>
+        	</span>
+        </wicket:enclosure>
+	        
+		<div wicket:id="featuredLink" class="encart">
+		  	<h2 wicket:id="title">Québec</h2>
+			<div wicket:id="description"> 
+			  <p>Vous cherchez des renseignements à propos de Québec? S'agit-il de :</p>
+			  <ul class="listePuce">
+			    <li>Gouvernement</li>
+			    <li>Ville</li>
+			    <li>Images </li>
+			  </ul>
+			</div>
+ 		</div>
+ 
+ 		<div style="clear:both;"></div>
+ 		<div wicket:id="resultatsRecherchePanel"></div>
+		</wicket:container>
+	</div>
+
+</wicket:extend>
+</html>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+
+<div wicket:id="feedback"></div>
+<form wicket:id="form" action="#">
+	
+<div id="container">
+<div id="popup">
+	<h4 wicket:id="title">[Title]</h4>
+	<table class="formulaire">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="connectorInstance">[Connector]</wicket:message> :
+			</td>
+			<td>
+				<select wicket:id="connectorInstance">
+					<option>[Field 1]</option>
+					<option>[Field 2]</option>
+					<option>[Field 3]</option>
+				</select> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="connectorInstanceMeta">[Meta]</wicket:message> :
+			</td>
+			<td>
+				<select wicket:id="connectorInstanceMeta">
+					<option>[Field 1]</option>
+					<option>[Field 2]</option>
+					<option>[Field 3]</option>
+				</select> 
+			</td>
+		</tr>
+		<tr>
+			<td>
+				&nbsp;
+			</td>
+			<td>
+				<span class="btnRechIEBorder"><input wicket:id="submitButton" type="submit" wicket:message="value:save" class="btnRech" /></span>
+				<input wicket:id="cancelButton" type="submit" wicket:message="value:cancel" class="btnReset" />
+			</td>
+		</tr>
+	</table>
+</div>
+</div>	
+
+</form>
+
+</wicket:panel>
+</html>

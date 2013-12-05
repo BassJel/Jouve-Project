@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+<table>
+<!--	    <tr>-->
+<!--	    	<td align="left">-->
+<!--	    		<span wicket:id="indexFieldPanel"></span>-->
+<!--	    	</td>-->
+<!--	    </tr>-->
+	    <tr>
+	    	<td align="left">
+				<div class="blocAdmin">
+    				<h3 class="titreBlocAdmin">
+						<wicket:message key="documentBoost">[Document boost]</wicket:message>    					
+    				</h3>
+				</div>
+				<div wicket:id="documentBoost"></div>
+	    	</td>
+	    </tr>
+
+	    <tr>
+	    	<td align="left">
+				<div class="blocAdmin">
+    				<h3 class="titreBlocAdmin">
+						<wicket:message key="fieldBoost">[Field boost]</wicket:message>    					
+    				</h3>
+				</div>
+				<div wicket:id="fieldBoost"></div>
+	    	</td>
+	    </tr>
+	    
+	   <tr>
+	    	<td align="left">
+				<div class="blocAdmin">
+    				<h3 class="titreBlocAdmin">
+						<wicket:message key="queryBoost">[Query boost (dismax)]</wicket:message>    					
+    				</h3>
+				</div>
+				<div wicket:id="queryBoost"></div>
+	    	</td>
+	    </tr>
+	    
+	   <tr>
+	    	<td align="left">
+				<div class="blocAdmin">
+    				<h3 class="titreBlocAdmin">
+						<wicket:message key="resultsRelevance">[Boost based on documents consultation]</wicket:message>    					
+    				</h3>
+				</div>
+				<div wicket:id="resultsRelevance"></div>
+	    	</td>
+	    </tr>
+	</table>
+
+</wicket:panel>
+</html>
+

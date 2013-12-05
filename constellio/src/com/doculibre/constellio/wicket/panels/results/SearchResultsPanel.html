@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<!--  
+<wicket:head>
+	<wicket:link autolink="true">
+	<link href="../../pages/nicetitle.css" rel="stylesheet" type="text/css" />
+	<script language="JavaScript" src="../../pages/nicetitle.js"></script>
+	</wicket:link>
+</wicket:head>
+-->
+
+<wicket:panel>
+
+	<div wicket:id="searchResults">
+		<table cellpadding="0" cellspacing="0">
+			<tr>
+				<wicket:enclosure child="icon">
+				<td style="vertical-align:top;">
+					<img wicket:id="icon" src="" alt="" style="margin: 20px 0 0 0;" />
+				</td>
+				<td>
+					&nbsp;
+				</td>
+				</wicket:enclosure>
+				<td style="vertical-align:top;">
+					<table cellpadding="2" cellspacing="2">
+						<tr><td><div wicket:id="searchResultPanel" class="detailResult"></div></td></tr>
+						<tr><td><div wicket:id="taggingPanel"></div></td></tr>
+					</table>	
+	       		</td>
+	       	</tr>
+	    </table>	
+	</div>
+	<div id="pagination">
+        <span wicket:id="resultsPN"></span>
+    </div>
+    <div wicket:id="noResultsMessage" style="text-align: center">
+    <br/>
+    	<wicket:message key="noResults">[noResults]</wicket:message>
+    </div>
+</wicket:panel>
+
+</html>
