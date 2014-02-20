@@ -1,0 +1,4 @@
+add=Ajouter Policy ACL
+file=File
+noValidEntry=The uploaded file contains no valid entry
+effectiveAfterIndexing=The uploaded ACL Policy will be effective after all collection records have been reindexed

@@ -1,0 +1,2379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subcollections>
+  <subcollection>
+    <name>sc_gouvqc_minorg_fr</name>
+    <whitelist />
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrq_loi_rcr</name>
+    <whitelist>http://www.rrq.gouv.qc.ca/fr/loi_commentee_RCR/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_bape</name>
+    <whitelist>http://www.bape.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_bape_eau</name>
+    <whitelist>http://www.bape.gouv.qc.ca/sections/archives/eau/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_bape_prodporcine</name>
+    <whitelist>http://www.bape.gouv.qc.ca/sections/mandats/prod-porcine/index.htm</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_msp</name>
+    <whitelist>http://www.securitepublique.gouv.qc.ca/</whitelist>
+    <blacklist>http://www.msp.gouv.qc.ca/incendie/carte_vign/,http://www.msp.gouv.qc.ca/incendie/page_cachee/,http://www.msp.gouv.qc.ca/incendie/documentation.htm,http://www.msp.gouv.qc.ca/secivile/dotsc/cnv/datas/,http://www.msp.gouv.qc.ca/secivile/dotsc/cnv/tableaux/,http://www.msp.gouv.qc.ca/secivile/dotsc/cnv_interne/,http://www.msp.gouv.qc.ca/inc/,http://www.msp.gouv.qc.ca/mspexpress/accuse_reception/,http://www.msp.gouv.qc.ca/coroner/ftp/,http://www.msp.gouv.qc.ca/coroner/inc/,http://www.msp.gouv.qc.ca/coroner/recommandations/inc/,http://www.msp.gouv.qc.ca/coroner/recommandations/recom_impression.asp,http://www.msp.gouv.qc.ca/coroner/configuration.inc,http://www.msp.gouv.qc.ca/coroner/impression.asp,http://www.msp.gouv.qc.ca/jeunesse/inc/,http://www.msp.gouv.qc.ca/mspexpress/mspexpress.inc</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_opc</name>
+    <whitelist>https://www.opc.gouv.qc.ca,http://www.opc.gouv.qc.ca/</whitelist>
+    <blacklist>http://www.opc.gouv.qc.ca/WebForms/Admin/,http://www.opc.gouv.qc.ca/Documents/Publications/RecoursCivil/,http://www.opc.gouv.qc.ca/Documents/Publications/Depliants</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_acces_mce</name>
+    <whitelist>http://www.acces.mce.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_accommodements</name>
+    <whitelist>http://www.accommodements.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_adresse</name>
+    <whitelist>http://www4.gouv.qc.ca/(fr|en)/Portail/Citoyens/Evenements/changement-adresse/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_adressesymphonique</name>
+    <whitelist>http://www.adressesymphonique.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_aee</name>
+    <whitelist>http://www.aee.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_aetmis</name>
+    <whitelist>http://www.aetmis.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_afe</name>
+    <whitelist>http://www.afe.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_agencesss12</name>
+    <whitelist>http://www.agencesss12.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_agesss</name>
+    <whitelist>http://www.aqesss.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_agrement_formateurs</name>
+    <whitelist>http://agrement-formateurs.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_agression_sexuelle</name>
+    <whitelist>http://www.agressionsexuelle.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_aimersansviolence</name>
+    <whitelist>http://www.aimersansviolence.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_aines</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/aines/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_alguesbleuvert</name>
+    <whitelist>http://www.alguesbleuvert.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_amendes</name>
+    <whitelist>https://www.amendes.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_amt</name>
+    <whitelist>http://www.amt.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_amt_t_aff</name>
+    <whitelist>https://secure.tesaffaires.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_approvisionnement</name>
+    <whitelist>http://www.approvisionnement-quebec.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_approvisionnement_qc</name>
+    <whitelist>https://www.approvisionnement-quebec.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_aqwbj</name>
+    <whitelist>http://www.aqwbj.org</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_assnat</name>
+    <whitelist>http://www.assnat.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_atelier_edq</name>
+    <whitelist>http://www.atelier-edq.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_atlasculturel</name>
+    <whitelist>http://www.atlasculturel.mcc.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_autorite</name>
+    <whitelist>http://www.lautorite.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_autorite_bull</name>
+    <whitelist>http://www.lautorite.qc.ca/bulletin.fr.html,http://www.lautorite.qc.ca/bulletin.en.html,http://www.lautorite.qc.ca/userfiles/File/bulletin/,http://www.lautorite.qc.ca/userfiles/File/bulletins/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_autorite_faq</name>
+    <whitelist>http://www.lautorite.qc.ca/util/faq.fr.html,http://www.lautorite.qc.ca/util/faq.en.html,http://www.lautorite.qc.ca/util/faq/,http://www.lautorite.qc.ca/userfiles/File/faq/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_autorite_form</name>
+    <whitelist>http://www.lautorite.qc.ca/formulaires.fr.html,http://www.lautorite.qc.ca/formulaires.en.html,http://www.lautorite.qc.ca/formulaires/,http://www.lautorite.qc.ca/userfiles/File/Formulaire/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_azimut</name>
+    <whitelist>https://azimut.soquij.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ba</name>
+    <whitelist>http://www.bibliotheque.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_banq</name>
+    <whitelist>http://www.banq.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_bcn</name>
+    <whitelist>http://www.bcn.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_bdrvm</name>
+    <whitelist>http://www.bdrvm.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_benevolat</name>
+    <whitelist>http://www.benevolat.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_bingos</name>
+    <whitelist>http://www.bingos-quebec.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_blogdevie</name>
+    <whitelist>http://www.blogdevie.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_bnq</name>
+    <whitelist>http://www.bnq.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_bonjour</name>
+    <whitelist>https://www.bonjourquebec.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_budget</name>
+    <whitelist>http://www.budget.finances.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_c_rdi</name>
+    <whitelist>http://www.c-rdi.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cai</name>
+    <whitelist>http://www.cai.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_calculaide</name>
+    <whitelist>http://www.calculaide.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_calq</name>
+    <whitelist>http://www.calq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_capfe</name>
+    <whitelist>http://www.capfe.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_capitale</name>
+    <whitelist>http://www.capitale.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_carra</name>
+    <whitelist>http://www.carra.gouv.qc.ca,http://www.estime.carra.gouv.qc.ca,http://www.estnrente.carra.gouv.qc.ca</whitelist>
+    <blacklist>http://www.carra.gouv.qc.ca/_borders/,http://www.carra.gouv.qc.ca/derived/,http://www.carra.gouv.qc.ca/_fpclass/,http://www.carra.gouv.qc.ca/_overlay/,http://www.carra.gouv.qc.ca/_private/,http://www.carra.gouv.qc.ca/_themes/,http://www.carra.gouv.qc.ca/_vti_bin/,http://www.carra.gouv.qc.ca/_vti_cnf/,http://www.carra.gouv.qc.ca/_vti_log/,http://www.carra.gouv.qc.ca/_vti_map/,http://www.carra.gouv.qc.ca/_vti_pvt/,http://www.carra.gouv.qc.ca/_vti_txt/,http://www.carra.gouv.qc.ca/lib/,http://www.carra.gouv.qc.ca/logs/,http://www.carra.gouv.qc.ca/bin/,http://www.carra.gouv.qc.ca/cgi-bin/,http://www.carra.gouv.qc.ca/scripts/,http://www.carra.gouv.qc.ca/sondage/,http://www.carra.gouv.qc.ca/fra/liste_inscription/,http://www.carra.gouv.qc.ca/adm_site/,http://www.carra.gouv.qc.ca/Netscape/,http://www.carra.gouv.qc.ca/dev/,http://www.carra.gouv.qc.ca/archive/,http://www.carra.gouv.qc.ca/allwebmenus/</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_carra_comm</name>
+    <whitelist>http://www.carra.gouv.qc.ca/fra/communique/communiques.htm,http://www.carra.gouv.qc.ca/fra/communique/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_carra_evie</name>
+    <whitelist>http://www.carra.gouv.qc.ca/fra/e-vie/evenements_de_la_vie.htm,http://www.carra.gouv.qc.ca/fra/e-vie/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_carra_for</name>
+    <whitelist>http://www.carra.gouv.qc.ca/fra/formulaire/formulaires_num.htm,http://www.carra.gouv.qc.ca/fra/formulaire/formulaires_par_sujet.htm,http://www.carra.gouv.qc.ca/fra/formulaire/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_carra_guide</name>
+    <whitelist>http://www.carra.gouv.qc.ca/fra/guide/administration/guide.htm,http://www.carra.gouv.qc.ca/fra/guide/administration/tbl_matieres.htm,http://www.carra.gouv.qc.ca/pdf/guide_administration.pdf,http://www.carra.gouv.qc.ca/fra/guide/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_carra_info</name>
+    <whitelist>http://www.carra.gouv.qc.ca/fra/lacarra/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_carra_pdf</name>
+    <whitelist>http://www.carra.gouv.qc.ca/pdf/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_carra_pub</name>
+    <whitelist>http://www.carra.gouv.qc.ca/fra/publications/documents.htm,http://www.carra.gouv.qc.ca/fra/publications/,http://www.carra.gouv.qc.ca/fra/lois-reglements/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_carra_reg</name>
+    <whitelist>http://www.carra.gouv.qc.ca/fra/regime/regimes.htm,http://www.carra.gouv.qc.ca/fra/regime/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_carrefourforetinnovations</name>
+    <whitelist>http://www.carrefourforetinnovations.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_carriere</name>
+    <whitelist>http://www.carrieres.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cartes</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/carte-permis-certificat/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cartierroberval</name>
+    <whitelist>http://www.cartier-roberval.gouv.qc.ca/</whitelist>
+    <blacklist>http://www.cartier-roberval.gouv.qc.ca/envoyer-a-un-ami/</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_casino_charlevoix</name>
+    <whitelist>http://www.casino-de-charlevoix.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_casino_lac_leamy</name>
+    <whitelist>http://www.casino-du-lac-leamy.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_casino_montreal</name>
+    <whitelist>http://www.casino-de-montreal.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_casinos</name>
+    <whitelist>http://www.casinos-quebec.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cavac</name>
+    <whitelist>http://www.cavac.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cbcq</name>
+    <whitelist>http://www.cbcq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ccq</name>
+    <whitelist>http://www.ccq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ccq_construction</name>
+    <whitelist>http://www.ccq.org</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ccq_construction_s</name>
+    <whitelist>https://www.ccq.org</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ccqf</name>
+    <whitelist>http://www.ccqf-cqfb.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cctm</name>
+    <whitelist>http://www.cctm.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cdg</name>
+    <whitelist>http://www.cdg.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cdm</name>
+    <whitelist>http://www.cdm.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cdpdj</name>
+    <whitelist>http://www.cdpdj.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cdpnq</name>
+    <whitelist>http://www.cdpnq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ceaeq</name>
+    <whitelist>http://www.ceaeq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ceec</name>
+    <whitelist>http://www.ceec.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ceec_sous-collections pour ce site</name>
+    <whitelist>http://www.ceec.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cefriocom</name>
+    <whitelist>http://www.cefrio.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cefrioqc</name>
+    <whitelist>https://www.cefrio.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cehq</name>
+    <whitelist>http://www.cehq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_centraide_campagne</name>
+    <whitelist>http://www.entraide.gouv.qc.ca(?!.*/artisans.*).*</whitelist>
+    <blacklist>http://www.entraide.gouv.qc.ca/admin/</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_centraide_campagne_artisans</name>
+    <whitelist>http://www.entraide.gouv.qc.ca/artisans/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cepe</name>
+    <whitelist>http://www.cepe.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cepnj</name>
+    <whitelist>http://www.cepnj.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ces</name>
+    <whitelist>http://www.ces.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cevc</name>
+    <whitelist>http://www.cevc.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cfai</name>
+    <whitelist>http://www.cfai.qc.ca/fileadmin/cent_docu/,http://www.cfai.qc.ca</whitelist>
+    <blacklist>http://www.cfai.qc.ca/index.php?id=90,http://www.cfai.qc.ca/index.php?id=90&amp;L=1</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_cfe</name>
+    <whitelist>http://www.cfe.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cgap</name>
+    <whitelist>http://www.cgap.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cger</name>
+    <whitelist>http://www.cger.mtq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_chq</name>
+    <whitelist>http://www.chq.gouv.qc.ca,https://www.chq.gouv.qc.ca,https://www.chq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cja</name>
+    <whitelist>http://www.cja.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cldc</name>
+    <whitelist>http://www.cldc.cspq.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_clicfp</name>
+    <whitelist>http://www.clicfp.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_clicsequr</name>
+    <whitelist>https://www.securite.clicsequr.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_clp</name>
+    <whitelist>http://www.clp.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cm</name>
+    <whitelist>http://www.cm.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cmadq</name>
+    <whitelist>http://www.conservatoire.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cmed</name>
+    <whitelist>http://www.cmed.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cmq</name>
+    <whitelist>http://www.cmq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cnt</name>
+    <whitelist>http://www.cnt.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_comm</name>
+    <whitelist>http://communiques.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_commissaire_lobby</name>
+    <whitelist>http://si2.commissairelobby.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_conferencedesjuristes</name>
+    <whitelist>http://www.conferencedesjuristes.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_congresmtl</name>
+    <whitelist>http://www.congresmtl.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_conseil_aines</name>
+    <whitelist>http://www.conseil-des-aines.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_conseilinterculturel</name>
+    <whitelist>http://www.conseilinterculturel.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_consomme</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/consommateur-renseignement-plainte/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_convention</name>
+    <whitelist>http://www.convention.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_copa</name>
+    <whitelist>http://www.copa.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_coroner</name>
+    <whitelist>http://www.coroner.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cpe</name>
+    <whitelist>http://www.ccpe.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cpf</name>
+    <whitelist>http://www.cfp.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cpmt</name>
+    <whitelist>http://www.cpmt.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cpn</name>
+    <whitelist>http://www.cpn.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cpnsss</name>
+    <whitelist>http://www.cpnsss.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cptaq</name>
+    <whitelist>http://www.cptaq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cqbv</name>
+    <whitelist>http://www.cqvb.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cqlc</name>
+    <whitelist>http://www.cqlc.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_criq_pub</name>
+    <whitelist>http://www.criq.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_crpspc</name>
+    <whitelist>http://www.crpspc.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_crqf</name>
+    <whitelist>http://www.crfq.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_crt</name>
+    <whitelist>http://www.crt.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_crt_decisions</name>
+    <whitelist>http://www.crt.gouv.qc.ca/decisionall.asp,http://www.crt.gouv.qc.ca/decisions/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_csbe</name>
+    <whitelist>http://www.csbe.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cse</name>
+    <whitelist>http://www.cse.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_csf</name>
+    <whitelist>http://www.csf.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cslf</name>
+    <whitelist>http://www.cslf.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_csmoe</name>
+    <whitelist>http://www.csmoe.org</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cspq</name>
+    <whitelist>http://www.cspq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_csst</name>
+    <whitelist>https://www.csst.qc.ca,http://www.csst.qc.ca,http://www.csst.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_cst</name>
+    <whitelist>http://www.cst.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ctq</name>
+    <whitelist>http://www.ctq.gouv.qc.ca,http://www.ctq.gouv.qc.ca/fileadmin/documents</whitelist>
+    <blacklist>http://www.ctq.gouv.qc.ca/fileadmin</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_curateur</name>
+    <whitelist>http://www.curateur.gouv.qc.ca,https://www.curateur.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_curateur_commun</name>
+    <whitelist>http://www.curateur.gouv.qc.ca</whitelist>
+    <blacklist>http://www.curateur.gouv.qc.ca/cura/fr/mineur/,http://www.curateur.gouv.qc.ca/cura/en/mineur/</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_curateur_mineur</name>
+    <whitelist>http://www.curateur.gouv.qc.ca/cura/fr/mineur/,http://www.curateur.gouv.qc.ca/cura/en/mineur/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_deces</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/Deces/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_defi</name>
+    <whitelist>http://www.defi.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_deont_pol</name>
+    <whitelist>http://www.deontologie-policiere.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_desequilibre</name>
+    <whitelist>http://www.desequilibrefiscal.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_devenirparent</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/DevenirParent</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_dispositiondesbiens</name>
+    <whitelist>http://www.dispositiondesbiens.gouv.qc.ca/</whitelist>
+    <blacklist>http://www.dispositiondesbiens.gouv.qc.ca/envoyer_a_un_ami.html,http://www.dispositiondesbiens.gouv.qc.ca/citoyens_et_entreprises/appels_doffres/(.)*.js,http://www.dispositiondesbiens.gouv.qc.ca/typo3conf/ext/appelsoffres/res/jquery-1.4.2.js,http://www.dispositiondesbiens.gouv.qc.ca/typo3conf/ext/appelsoffres/res/jquery-ui-1.8.5.custom.min.js,http://www.dispositiondesbiens.gouv.qc.ca/typo3/contrib/scriptaculous/scriptaculous.js</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_divorce</name>
+    <whitelist>http://www4.gouv.qc.ca/fr/Portail/Citoyens/Evenements/separation-divorce/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_dpcp</name>
+    <whitelist>http://www.dpcp.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_dpotdirect</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/depot-direct/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_drapeau</name>
+    <whitelist>http://www.drapeau.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_droitauteur</name>
+    <whitelist>http://www.droitauteur.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_educaloi</name>
+    <whitelist>http://www.educaloi.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_efficaciteenergetique</name>
+    <whitelist>http://www.efficaciteenergetique.mrn.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_egalite_jeunesse</name>
+    <whitelist>http://www.egalitejeunesse.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_electionsmunicipales</name>
+    <whitelist>http://www.electionsmunicipales.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_electionsqc</name>
+    <whitelist>http://www.electionsquebec.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_emploi</name>
+    <whitelist>http://emploiquebec.net</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_emploi_estrie</name>
+    <whitelist>http://emploiquebecestrie.net</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_emploi_et</name>
+    <whitelist>http://www.emploietudiant.qc.ca,http://emploietudiant.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_emploi_mauricie</name>
+    <whitelist>http://www.emploiquebecmauricie.net</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_emploimetropole</name>
+    <whitelist>http://emploi-metropole.org/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_enpq</name>
+    <whitelist>http://www.enpq.qc.ca</whitelist>
+    <blacklist>http://www.enpq.qc.ca/cartes,http://www.enpq.qc.ca/cgi-bin,http://www.enpq.qc.ca/CIEP,http://www.enpq.qc.ca/_Private</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_enpq_ago</name>
+    <whitelist>http://www.enpq.qc.ca/ago.html</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_enpq_gouv</name>
+    <whitelist>http://www.ecoledespompiers.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_equipe_qc</name>
+    <whitelist>http://equipequebec.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_erq</name>
+    <whitelist>http://www.erq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_espacej</name>
+    <whitelist>http://www.espacej.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_estime_carra</name>
+    <whitelist />
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_estnrente_carra</name>
+    <whitelist />
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_etatcivil</name>
+    <whitelist>http://www.etatcivil.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ethique</name>
+    <whitelist>http://www.ethique.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ethique_msss</name>
+    <whitelist>http://ethique.msss.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_express_amt</name>
+    <whitelist>http://www.express.amt.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_fadq</name>
+    <whitelist>http://www.fadq.qc.ca/index.php\?id=(\d)+(&amp;L=1)?$,http://www.fadq.qc.ca/fileadmin/cent_docu/publ/docu_juri/actes</whitelist>
+    <blacklist>http://www.fadq.qc.ca/index.php?id=118,http://www.fadq.qc.ca/?id=118,http://www.fadq.qc.ca/index.php?id=118&amp;L=1,http://www.fadq.qc.ca/?id=118&amp;L=1,http://www.fadq.qc.ca/an/,http://www.fadq.qc.ca/index.php?id=118&amp;L=0</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_fadq_cfai</name>
+    <whitelist>http://www.fadq.qc.ca/index.php?id=2099,http://www.fadq.qc.ca/index.php?id=2099,http://www.cfai.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_fadq_centre de documentation</name>
+    <whitelist>http://www.fadq.qc.ca/index.php?id=883,http://www.fadq.qc.ca/fileadmin/cent_docu/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_fadq_fadqdi</name>
+    <whitelist>http://www.fadq.qc.ca/index.php?id=1917,http://www.fadq.qc.ca/index.php?id=1917,http://www.fadqdi.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_fadqdi</name>
+    <whitelist>http://www.fadqdi.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_fcsq</name>
+    <whitelist>http://www.fcsq.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_fdrh</name>
+    <whitelist>http://www.fdrh.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_fecst</name>
+    <whitelist>http://www.fecst.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_fetedelapeche</name>
+    <whitelist>http://www.fetedelapeche.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_fgrm</name>
+    <whitelist>http://www.fgrm.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_fgti</name>
+    <whitelist>http://www.fgti.gouv.qc.ca</whitelist>
+    <blacklist>http://www.fgti.gouv.qc.ca/modules/mydownloads/brokenfile.php,http://www.fgti.gouv.qc.ca/modules/mydownloads/ratefile.php,http://www.fgti.gouv.qc.ca/modules/mylinks/brokenlink.php,http://www.fgti.gouv.qc.ca/modules/mylinks/ratelink.php,http://www.fgti.gouv.qc.ca/modules/piCal/,http://www.fgti.gouv.qc.ca/user.php</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_finance</name>
+    <whitelist>http://www.finances.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_fondationdelafaune</name>
+    <whitelist>http://www.fondationdelafaune.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_forestierenchef</name>
+    <whitelist>http://www.forestierenchef.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_forum_cam</name>
+    <whitelist>http://www.forum-cam.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_forumdc</name>
+    <whitelist>http://www.forumdc.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_forumjeunes</name>
+    <whitelist>http://www.forumjeunes.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_fqrnt</name>
+    <whitelist>http://www.fqrnt.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_fqrsc</name>
+    <whitelist>http://www.fqrsc.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_frsq</name>
+    <whitelist>http://www.frsq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_frvi</name>
+    <whitelist>http://www.frvi.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_gesef</name>
+    <whitelist>http://www.gesef.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_gouvqc</name>
+    <whitelist>http://www.gouv.qc.ca,http://www4.gouv.qc.ca</whitelist>
+    <blacklist>http://www.gouv.qc.ca/portail/quebec/pgs/commun/gouv/minorg,http://www.gouv.qc.ca/util/dwr/calendrierevenements/test/</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_gouvqc_pub</name>
+    <whitelist>http://www.publicationsduquebec.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_granddictionnaire</name>
+    <whitelist>http://w3.granddictionnaire.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_grandir</name>
+    <whitelist>http://www.grandirenqualite.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_grandsorganismes</name>
+    <whitelist>http://www.grandsorganismes.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_grandtheatre</name>
+    <whitelist>http://www.grandtheatre.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_gtie</name>
+    <whitelist>http://www.gtie.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_gttsp</name>
+    <whitelist>http://www.gttsp.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_guidesetdemarches</name>
+    <whitelist>http://www.guidesetdemarches.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_habitation</name>
+    <whitelist>http://www.habitation.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_habitation_ind</name>
+    <whitelist>http://www.habitation.gouv.qc.ca/industrie/index.html,http://www.habitation.gouv.qc.ca/industrie/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_habitation_info</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/acheter-renover-maison</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_habitation_loc</name>
+    <whitelist>http://www.habitation.gouv.qc.ca/locataires/index.html,http://www.habitation.gouv.qc.ca/en/locataires/index.html,http://www.habitation.gouv.qc.ca/locataires/,http://www.habitation.gouv.qc.ca/en/locataires/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_habitation_offices</name>
+    <whitelist>http://www.habitation.gouv.qc.ca/org/omh/index.html,http://www.habitation.gouv.qc.ca/org</whitelist>
+    <blacklist>http://www.habitation.gouv.qc.ca/org/dxri/,http://www.habitation.gouv.qc.ca/org/psl/,http://www.habitation.gouv.qc.ca/org/com/</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_habitation_pbi</name>
+    <whitelist>http://www.habitation.gouv.qc.ca/cgi-bin/pub_liste_pdf.pl,http://www.habitation.gouv.qc.ca/publications/fiches_fr/,http://www.habitation.gouv.qc.ca/publications/fiches_en</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_habitation_prog</name>
+    <whitelist>http://www.habitation.gouv.qc.ca/programmes/index.html,http://www.habitation.gouv.qc.ca/en/programmes/index.html,http://www.habitation.gouv.qc.ca/programmes/,http://www.habitation.gouv.qc.ca/en/programmes/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_habitation_prop</name>
+    <whitelist>http://www.habitation.gouv.qc.ca/proprietaires/index.html,http://www.habitation.gouv.qc.ca/en/proprietaires/index.html,http://www.habitation.gouv.qc.ca/proprietaires/,http://www.habitation.gouv.qc.ca/en/proprietaires/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_habitation_pub</name>
+    <whitelist>http://www.habitation.gouv.qc.ca/publications/index.html,http://www.habitation.gouv.qc.ca/publications/</whitelist>
+    <blacklist>http://www.habitation.gouv.qc.ca/publications/images</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_hema-quebec</name>
+    <whitelist>http://www.hema-quebec.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_hydro</name>
+    <whitelist>http://www.hydroquebec.com,https://www.hydroquebec.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_icriq</name>
+    <whitelist>http://www.icriq.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_immigrer</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/immigrer-au-quebec/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_immq</name>
+    <whitelist>http://www.immigration-quebec.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_infocles</name>
+    <whitelist>http://www.infocles.justice.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_infolot</name>
+    <whitelist>http://infolot.mrn.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_infometre</name>
+    <whitelist>http://www.infometre.cefrio.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_inforoutefpt</name>
+    <whitelist>http://www.inforoutefpt.org</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_innovatechquebec</name>
+    <whitelist>http://www.innovatechquebec.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_innus</name>
+    <whitelist>http://www.versuntraite.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_inspq</name>
+    <whitelist>http://www.inspq.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_interculturel</name>
+    <whitelist>http://www.quebecinterculturel.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_internet</name>
+    <whitelist>http://www.internet.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_invest</name>
+    <whitelist>http://www.investquebec.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_irsst</name>
+    <whitelist>http://www.irsst.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_isq</name>
+    <whitelist>http://www.isq.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ita</name>
+    <whitelist>http://www.ita.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ithq</name>
+    <whitelist>http://www.ithq.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_jcapote</name>
+    <whitelist>http://www.jcapote.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_jugements</name>
+    <whitelist>http://www.jugements.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_justice_fr</name>
+    <whitelist>http://www.justice.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_kino</name>
+    <whitelist>http://www.kino-quebec.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_lacaisse</name>
+    <whitelist>http://www.lacaisse.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_legis</name>
+    <whitelist>https://legisquebec.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_legisquebec</name>
+    <whitelist>http://legisquebec.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_livresouverts</name>
+    <whitelist>http://www.livresouverts.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_lobby</name>
+    <whitelist>https://si1.lobby.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_logement</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/vivre-en-logement/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_logicielseducatifs</name>
+    <whitelist>http://logicielseducatifs.qc.ca</whitelist>
+    <blacklist>http://logicielseducatifs.qc.ca/index.php?page=resultat_recherche,http://logicielseducatifs.qc.ca/imprimer.php</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_loto</name>
+    <whitelist>http://www.loto-quebec.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_loyerterrain</name>
+    <whitelist>https://www.loyerterrain.mrnfp.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ltg</name>
+    <whitelist>http://www.lieutenant-gouverneur.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_macm</name>
+    <whitelist>http://www.macm.org</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mamr</name>
+    <whitelist>http://www.mamrot.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mapaq</name>
+    <whitelist>http://www.mapaq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mcc</name>
+    <whitelist>http://www.mcc.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mce</name>
+    <whitelist>http://www.mce.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mcq</name>
+    <whitelist>http://www.mcq.org</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mdeie</name>
+    <whitelist>http://www.mdeie.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mels</name>
+    <whitelist>http://www.mels.gouv.qc.ca,https://www7.mels.gouv.qc.ca/dc/ecr/,https://www7.mels.gouv.qc.ca/DC/ERC/</whitelist>
+    <blacklist>http://www.mels.gouv.qc.ca/c1_dfo23_hax,http://www.mels.gouv.qc.ca/1234img</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_mels_ecr</name>
+    <whitelist>https://www7.mels.gouv.qc.ca/dc/ecr/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_menv</name>
+    <whitelist>http://www.mddefp.gouv.qc.ca,https://www.mddefp.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_menv_iqa</name>
+    <whitelist>http://www.mddefp.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_meq</name>
+    <whitelist>http://www.meq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mess</name>
+    <whitelist>http://www.mess.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mfacf</name>
+    <whitelist>http://www.mfa.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_micc</name>
+    <whitelist>http://www.micc.gouv.qc.ca,http://www.quebecinterculturel.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mnba</name>
+    <whitelist>http://www.mnba.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mondossiercitoyeni</name>
+    <whitelist>https://wwwi.mondossiercitoyen.qc,http://www.adresse.info.gouv.qc.ca,http://www.consommation.info.gouv.qc.ca,http://www.deces.info.gouv.qc.ca,http://www.depotdirect.info.gouv.qc.ca,http://www.proprietairehabitation.info.gouv.qc.ca,http://www.securite.info.gouv.qc.ca,http://www.separation-divorce.info.gouv.qc.ca,http://www.travail.info.gouv.qc.ca,http://www.logement.info.gouv.qc.ca,http://www.naissance.info.gouv.qc.ca,http://www.cartes-permis.info.gouv.qc.ca,http://www.personneshandicapees.info.gouv.qc.ca,http://www.retraite.info.gouv.qc.ca,http://www.vol-identite.info.gouv.qc.ca,http://www.aines.info.gouv.qc.ca,http://www.quebecoisaletranger.info.gouv.qc.ca/,http://www.perte-autonomie.info.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mondossiercitoyent</name>
+    <whitelist>https://wwwt.mondossiercitoyen.qc,http://www.adresse.info.gouv.qc.ca,http://www.consommation.info.gouv.qc.ca,http://www.deces.info.gouv.qc.ca,http://www.depotdirect.info.gouv.qc.ca,http://www.proprietairehabitation.info.gouv.qc.ca,http://www.securite.info.gouv.qc.ca,http://www.separation-divorce.info.gouv.qc.ca,http://www.travail.info.gouv.qc.ca,http://www.logement.info.gouv.qc.ca,http://www.naissance.info.gouv.qc.ca,http://www.cartes-permis.info.gouv.qc.ca,http://www.personneshandicapees.info.gouv.qc.ca,http://www.retraite.info.gouv.qc.ca,http://www.vol-identite.info.gouv.qc.ca,http://www.aines.info.gouv.qc.ca,http://www.quebecoisaletranger.info.gouv.qc.ca/,http://www.perte-autonomie.info.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mri</name>
+    <whitelist>http://www.mri.gouv.qc.ca</whitelist>
+    <blacklist>http://www.mri.gouv.qc.ca/portail/</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_mri_qsf</name>
+    <whitelist>http://www.mri.gouv.qc.ca/qsf/index.asp,http://www.mri.gouv.qc.ca/qsf/</whitelist>
+    <blacklist>http://www.mri.gouv.qc.ca/qsf/_scripts,http://www.mri.gouv.qc.ca/qsf/_css,http://www.mri.gouv.qc.ca/qsf/_private,http://www.mri.gouv.qc.ca/qsf/contenu,http://www.mri.gouv.qc.ca/qsf/menu,http://www.mri.gouv.qc.ca/qsf/recherche,http://www.mri.gouv.qc.ca/qsf/_includes</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_mrnf</name>
+    <whitelist>http://www.mrn.gouv.qc.ca,https://www.mrn.gouv.qc.ca,https://www.mrn.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mrnf_caribou</name>
+    <whitelist>http://www.mrn.gouv.qc.ca/publications/enligne/faune/reglementation-caribou/index.asp,http://www.mrn.gouv.qc.ca/publications/enligne/faune/reglementation-caribou/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mrnf_caribou_en</name>
+    <whitelist>http://www.mrn.gouv.qc.ca/english/publications/online/wildlife/caribou-regulations/index.asp,http://www.mrn.gouv.qc.ca/english/publications/online/wildlife/caribou-regulations/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mrnf_chasse</name>
+    <whitelist>http://www.mrn.gouv.qc.ca/publications/enligne/faune/reglementation-chasse/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mrnf_fishing</name>
+    <whitelist>http://www.mrn.gouv.qc.ca/english/publications/online/wildlife/fishing-regulations/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mrnf_hunting</name>
+    <whitelist>http://www.mrn.gouv.qc.ca/english/publications/online/wildlife/hunting-regulations/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mrnf_nousjoindre</name>
+    <whitelist>http://www.mrn.gouv.qc.ca/nousjoindre/nousjoindre-ministere.jsp,http://www.mrn.gouv.qc.ca/nousjoindre/nousjoindre-faune.jsp,http://www.mrn.gouv.qc.ca/nousjoindre/nousjoindre-energie.jsp,http://www.mrn.gouv.qc.ca/nousjoindre/nousjoindre-forets.jsp,http://www.mrn.gouv.qc.ca/nousjoindre/nousjoindre-mines.jsp,http://www.mrn.gouv.qc.ca/nousjoindre/nousjoindre-territoire.jsp,http://www.mrn.gouv.qc.ca/nousjoindre/nousjoindre-foncier.jsp,http://www.mrn.gouv.qc.ca/abitibi-temiscamingue/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/bas-saint-laurent/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/capitale-nationale/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/centre-du-quebec/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/chaudiere-appalaches/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/cote-nord/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/estrie/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/gaspesie-iles-de-la-madeleine/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/lanaudiere/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/laval/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/mauricie/index.jsp,http://www.mrn.gouv.qc.ca/monteregie/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/montreal/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/nord-du-quebec/index.jsp,http://www.mrn.gouv.qc.ca/outaouais/index.jsp,http://www.mrn.gouv.qc.ca/saguenay-lac-saint-jean/index.jsp,http://www.mrn.gouv.qc.ca/nousjoindre/,http://www.mrn.gouv.qc.ca/abitibi-temiscamingue/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/bas-saint-laurent/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/capitale-nationale/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/centre-du-quebec/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/chaudiere-appalaches/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/cote-nord/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/estrie/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/gaspesie-iles-de-la-madeleine/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/lanaudiere/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/laval/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/mauricie/index.jsp,http://www.mrn.gouv.qc.ca/monteregie/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/montreal/nousjoindre.jsp,http://www.mrn.gouv.qc.ca/nord-du-quebec/index.jsp,http://www.mrn.gouv.qc.ca/outaouais/index.jsp,http://www.mrn.gouv.qc.ca/saguenay-lac-saint-jean/index.jsp</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mrnf_peche</name>
+    <whitelist>http://www.mrn.gouv.qc.ca/publications/enligne/faune/reglementation-peche/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mrnf_piegeage</name>
+    <whitelist>http://www.mrn.gouv.qc.ca/publications/enligne/faune/reglementation-piegeage/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mrnf_salmon</name>
+    <whitelist>http://www.mrn.gouv.qc.ca/english/publications/online/wildlife/salmon-regulations/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mrnf_saumon</name>
+    <whitelist>http://www.mrn.gouv.qc.ca/publications/enligne/faune/reglementation-saumon/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mrnf_trapping</name>
+    <whitelist>http://www.mrn.gouv.qc.ca/english/publications/online/wildlife/trapping-regulations/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mrnfp</name>
+    <whitelist>http://www.mrn.gouv.qc.ca,http://www.mrn.gouv.qc.ca/faune</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_msss</name>
+    <whitelist>http://msss.gouv.qc.ca,http://wpp01.msss.gouv.qc.ca,http://www.avenirensante.com,http://www.msss.gouv.qc.ca,http://www.bdso.gouv.qc.ca</whitelist>
+    <blacklist>http://www.bdso.gouv.qc.ca/pls/ken</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_mtq</name>
+    <whitelist>http://www1.mtq.gouv.qc.ca,http://www.mtq.gouv.qc.ca/portal/page/portal/Librairie/Publications/,http://www.mtq.gouv.qc.ca/portal/page/portal/Librairie/multimedias/,http://www.mtq.gouv.qc.ca/portal/pls/,http://www.mtq.gouv.qc.ca/pls/,http://www.mtq.gouv.qc.ca/pes/,http://www.mtq.gouv.qc.ca/portal/page/portal/accueil/,http://www.mtq.gouv.qc.ca/portal/page/portal/accueil_en/,http://www.mtq.gouv.qc.ca/portal/page/portal/grand_public/,http://www.mtq.gouv.qc.ca/portal/page/portal/,http://www.quebec511.gouv.qc.ca/</whitelist>
+    <blacklist>http://www1.mtq.gouv.qc.ca/aspnet_client,http://www1.mtq.gouv.qc.ca/bd,http://www1.mtq.gouv.qc.ca/css,http://www1.mtq.gouv.qc.ca/formulaires,http://www1.mtq.gouv.qc.ca/images,http://www1.mtq.gouv.qc.ca/inc,http://www1.mtq.gouv.qc.ca/modeles,http://www1.mtq.gouv.qc.ca/mtq_old,http://www1.mtq.gouv.qc.ca/routes,http://www1.mtq.gouv.qc.ca/SAAQ,http://www1.mtq.gouv.qc.ca/scripts,http://www1.mtq.gouv.qc.ca/table,http://www1.mtq.gouv.qc.ca/Templates,http://www1.mtq.gouv.qc.ca/unix,http://www1.mtq.gouv.qc.ca/vrac,http://www.mtq.gouv.qc.ca/portal/page/portal/Librairie/Gabarit/,http://www.mtq.gouv.qc.ca/portal/page/portal/Librairie/Images/,http://www.mtq.gouv.qc.ca/portal/page/portal/Librairie/Styles/,http://www.mtq.gouv.qc.ca/portal/page/portal/Librairie/elements_perimes/,http://www.mtq.gouv.qc.ca/portal/page/portal/pilotage/,http://www.mtq.gouv.qc.ca/portal/page/portal/contenu_rss/,http://www.mtq.gouv.qc.ca/portal/page/portal/Contenus/,http://www.mtq.gouv.qc.ca/portalHelp2/,http://www.mtq.gouv.qc.ca/oracle_smp_chronos/,http://www.mtq.gouv.qc.ca/uixi/,http://www.mtq.gouv.qc.ca/images/,http://www.mtq.gouv.qc.ca/icons/,http://www.mtq.gouv.qc.ca/help/,http://www.mtq.gouv.qc.ca/cgi-bin/,http://www.mtq.gouv.qc.ca/portal/pls/portal/PORTAL.wwsbr_javascript.page_js,http://www.quebec511.gouv.qc.ca/aspnet_client,http://www.quebec511.gouv.qc.ca/bd,http://www.quebec511.gouv.qc.ca/css,http://www.quebec511.gouv.qc.ca/images,http://www.quebec511.gouv.qc.ca/inc,http://www.quebec511.gouv.qc.ca/modeles,http://www.quebec511.gouv.qc.ca/scripts,http://www.mtq.gouv.qc.ca/portal/pls/pes/PKG_PESB_TICKER.P_RECPR_MESSG_TICKER/,http://www.mtq.gouv.qc.ca/pls/apex/</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_mtq_entreprises</name>
+    <whitelist>http://www.mtq.gouv.qc.ca/portal/page/portal/entreprises/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mtq_entreprises_en</name>
+    <whitelist>http://www.mtq.gouv.qc.ca/portal/page/portal/entreprises_en/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mtq_grand_public</name>
+    <whitelist>http://www.mtq.gouv.qc.ca/portal/page/portal/grand_public/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mtq_grand_public_en</name>
+    <whitelist>http://www.mtq.gouv.qc.ca/portal/page/portal/grand_public_en/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mtq_inforoutiere</name>
+    <whitelist>http://www.quebec511.gouv.qc.ca/fr/,http://www.quebec511.gouv.qc.ca/en/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mtq_ministere</name>
+    <whitelist>http://www.mtq.gouv.qc.ca/portal/page/portal/ministere/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mtq_ministere_en</name>
+    <whitelist>http://www.mtq.gouv.qc.ca/portal/page/portal/ministere_en/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mtq_partenaires</name>
+    <whitelist>http://www.mtq.gouv.qc.ca/portal/page/portal/partenaires/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mtq_partenaires_en</name>
+    <whitelist>http://www.mtq.gouv.qc.ca/portal/page/portal/partenaires_en/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mtq_regions</name>
+    <whitelist>http://www.mtq.gouv.qc.ca/portal/page/portal/regions/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_mtq_regions_en</name>
+    <whitelist>http://www.mtq.gouv.qc.ca/portal/page/portal/regions_en/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ofqj</name>
+    <whitelist>http://www.lojiq.org/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ogm</name>
+    <whitelist>http://www.ogm.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ombuds</name>
+    <whitelist>http://www.protecteurducitoyen.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ophq</name>
+    <whitelist>http://www.ophq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ophq_formation</name>
+    <whitelist>http://www.formation.ophq.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_opq</name>
+    <whitelist>http://www.opq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_oqaj</name>
+    <whitelist>http://participer.lojiq.org/oqaj/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_oqlf</name>
+    <whitelist>http://www.oqlf.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_oqlf_w3</name>
+    <whitelist>http://w3.oqlf.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ordre_national</name>
+    <whitelist>http://www.ordre-national.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pacte_emploi</name>
+    <whitelist>http://www.pacte-emploi.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pandemic</name>
+    <whitelist>http://www.pandemiequebec.gouv.qc.ca,http://www.pandemiequebec.gouv.qc.ca/fr/index.aspx.html,http://www.pandemiequebec.gouv.qc.ca/fr/index.aspx@sujet=[0-9]*\.html,http://www.pandemiequebec.gouv.qc.ca/en/index.aspx@sujet=[0-9]*\.html</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pda</name>
+    <whitelist>http://www.pda.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_permis_usines</name>
+    <whitelist>http://permis-usines.mrnfp.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_perseverancescolairemontreal</name>
+    <whitelist>http://www.perseverancescolairemontreal.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_personneshandicapees_info</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/personne-handicapee/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_perteautonomie</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/perdre-son-autonomie/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pgs</name>
+    <whitelist>http://www.gouv.qc.ca/</whitelist>
+    <blacklist>http://www.gouv.qc.ca/portail/quebec/pgs/commun/actualites/rss</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_pgsc</name>
+    <whitelist>http://www.gouv.qc.ca/portail/quebec/pgs/citoyens</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pgsc_services</name>
+    <whitelist>http://www.gouv.qc.ca/portail/quebec/servicesquebec/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pgse</name>
+    <whitelist>http://www2.gouv.qc.ca/entreprises/portail/quebec</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pgsi2</name>
+    <whitelist>http://www.gouv.qc.ca/portail/quebec/international/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pgsi2_bel</name>
+    <whitelist>http://www.gouv.qc.ca/portail/quebec/international/belgique/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pgsi2_deu</name>
+    <whitelist>http://www.gouv.qc.ca/portail/quebec/international/allemagne/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pgsi2_esp</name>
+    <whitelist>http://www.gouv.qc.ca/portail/quebec/international/espagne/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pgsi2_fra</name>
+    <whitelist>http://www.gouv.qc.ca/portail/quebec/international/france/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pgsi2_gbr</name>
+    <whitelist>http://www.gouv.qc.ca/portail/quebec/international/royaumeuni/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pgsi2_ita</name>
+    <whitelist>http://www.gouv.qc.ca/portail/quebec/international/italie/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pgsi2_jpn</name>
+    <whitelist>http://www.gouv.qc.ca/portail/quebec/international/japon/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pgsi2_mex</name>
+    <whitelist>http://www.gouv.qc.ca/portail/quebec/international/mexique/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pgsi2_usa</name>
+    <whitelist>http://www.gouv.qc.ca/portail/quebec/international/usa/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_piscines</name>
+    <whitelist>http://www.piscines.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_piv</name>
+    <whitelist>http://www.piv.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_plannord</name>
+    <whitelist>http://www.plannord.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_plans_thematiques</name>
+    <whitelist>http://plans-thematiques.mrnfp.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_politiques_inspq</name>
+    <whitelist>http://politiquespubliques.inspq.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_poolsafety</name>
+    <whitelist>http://www.poolsafety.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_portailmamr</name>
+    <whitelist>https://www.portail.mamr.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_portailmamsl</name>
+    <whitelist>https://www.portail.mamsl.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ppp</name>
+    <whitelist>http://www.ppp.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pqdcs</name>
+    <whitelist>http://www.pqdcs.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_premier</name>
+    <whitelist>http://www.premier-ministre.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_preservart</name>
+    <whitelist>http://preservart.ccq.mcc.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_prix</name>
+    <whitelist>http://www.prixduquebec.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_protecteur</name>
+    <whitelist>https://www.protecteurducitoyen.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_protegez_vous</name>
+    <whitelist>http://www.protegez-vous.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_pub_cetech</name>
+    <whitelist>http://www.cetech.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_qcgeo</name>
+    <whitelist>http://www.quebecgeographique.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_quebecoisaletranger</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/quebecois-hors-quebec/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_racj</name>
+    <whitelist>http://www.racj.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ramq</name>
+    <whitelist>http://www.ramq.gouv.qc.ca/,http://www.ramq.gouv.qc.ca/fr/citoyens/,http://www.ramq.gouv.qc.ca/en/citoyens/,http://www.ramq.gouv.qc.ca/fr/professionnels/,http://www.ramq.gouv.qc.ca/fr/regie/,http://www.ramq.gouv.qc.ca/en/regie/,http://www.ramq.gouv.qc.ca/fr/statistiques/,http://www.ramq.gouv.qc.ca/en/statistiques/,http://www.ramq.gouv.qc.ca/fr/courrier/,http://www.ramq.gouv.qc.ca/en/courrier/,http://www.ramq.gouv.qc.ca/fr/formulaires/,http://www.ramq.gouv.qc.ca/en/formulaires/,http://www.ramq.gouv.qc.ca/fr/publications/,http://www.ramq.gouv.qc.ca/en/publications/,http://www.ramq.gouv.qc.ca/fr/general/,http://www.ramq.gouv.qc.ca/en/general/</whitelist>
+    <blacklist>http://www.ramq.gouv.qc.ca/fr/professionnels/listmed/lm_tdmf.shtml</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_ramq_cit</name>
+    <whitelist>http://www.ramq.gouv.qc.ca/fr/citoyens,http://www.ramq.gouv.qc.ca/en/citoyens</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ramq_form</name>
+    <whitelist>http://www.ramq.gouv.qc.ca/fr/formulaires,http://www.ramq.gouv.qc.ca/en/formulaires</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ramq_prof</name>
+    <whitelist>http://www.ramq.gouv.qc.ca/fr/professionnels,http://www.ramq.gouv.qc.ca/en/professionnels</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ramq_pub</name>
+    <whitelist>http://www.ramq.gouv.qc.ca/fr/publications,http://www.ramq.gouv.qc.ca/en/publications</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ramq_reg</name>
+    <whitelist>http://www.ramq.gouv.qc.ca/fr/regie,http://www.ramq.gouv.qc.ca/en/regie</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ramq_stat</name>
+    <whitelist>http://www.ramq.gouv.qc.ca/fr/statistiques,http://www.ramq.gouv.qc.ca/en/statistiques</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rbq</name>
+    <whitelist>http://www.rbq.gouv.qc.ca,http://www.rbq.gouv.qc.ca/publications.html,http://www.rbq.gouv.qc.ca/qualification-professionnelle/,http://www.rbq.gouv.qc.ca/lois-reglements-et-codes/,http://www.rbq.gouv.qc.ca/licence/la-licence/,http://www.rbq.gouv.qc.ca/entrepreneur/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rbq_ent</name>
+    <whitelist>http://www.rbq.gouv.qc.ca/dirEntrepreneurs/dirObtenirLicence/index.asp,http://www.rbq.gouv.qc.ca/dirEntrepreneurs/,http://www.rbq.gouv.qc.ca/dirPublication/dirEntreprises/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rbq_loi</name>
+    <whitelist>http://www.rbq.gouv.qc.ca/dirLoisReglementsCodes/dirLoiReglement/liste_lois.asp,http://www.rbq.gouv.qc.ca/dirLoisReglementsCodes/,http://www.rbq.gouv.qc.ca/dirPublication/dirEntreprises/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rbq_ren</name>
+    <whitelist>http://www.rbq.gouv.qc.ca/dirGrandPublic/dirConstructionRenovation/ConstructionRenovation.asp,http://www.rbq.gouv.qc.ca/dirGrandPublic/dirConstructionRenovation/,http://www.rbq.gouv.qc.ca/dirPublication/dirEntreprises/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rcq</name>
+    <whitelist>http://www.rcq.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rcq_test</name>
+    <whitelist>http://test.rcq.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rdl</name>
+    <whitelist>http://www.rdl.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_recrutement_sq</name>
+    <whitelist>http://www.recrutement-sq.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_recyc</name>
+    <whitelist>http://www.recyc-quebec.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg1</name>
+    <whitelist>http://www.bassaintlaurent.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg10</name>
+    <whitelist>http://www.nordduquebec.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg11</name>
+    <whitelist>http://www.gaspesieilesdelamadeleine.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg12</name>
+    <whitelist>http://www.chaudiereappalaches.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg13</name>
+    <whitelist>http://www.laval.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg14</name>
+    <whitelist>http://www.lanaudiere.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg15</name>
+    <whitelist>http://www.laurentides.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg16</name>
+    <whitelist>http://www.monteregie.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg17</name>
+    <whitelist>http://www.centreduquebec.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg2</name>
+    <whitelist>http://www.saguenaylacsaintjean.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg3</name>
+    <whitelist>http://www.capitalenationale.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg4</name>
+    <whitelist>http://www.mauricie.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg5</name>
+    <whitelist>http://www.estrie.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg6</name>
+    <whitelist>http://www.montreal.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg7</name>
+    <whitelist>http://www.outaouais.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg8</name>
+    <whitelist>http://www.abitibitemiscamingue.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reg9</name>
+    <whitelist>http://www.cotenord.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_regent</name>
+    <whitelist>http://www.registreentreprises.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_registre_fonc</name>
+    <whitelist>http://www.registrefoncier.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_regpubd</name>
+    <whitelist>http://www.regpubd.mddefp.gouv.qc.ca,http://wwwg.regpubd.mddefp.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_req</name>
+    <whitelist>http://www.regie-energie.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reseau_justice</name>
+    <whitelist>https://www.amendes.qc.ca/,http://si2.rdprm.gouv.qc.ca,http://si2.commissairelobby.qc.ca,http://si1.infocles.justice.gouv.qc.ca,http://142.213.87.17,http://www.csj.qc.ca,http://www.cja.gouv.qc.ca,http://www.opc.gouv.qc.ca,http://www.opq.gouv.qc.ca,http://www.soquij.qc.ca,http://www.taq.gouv.qc.ca,http://www.tribunaux.qc.ca,http://www.dpcp.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_retraite</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/retraite/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_reussir</name>
+    <whitelist>http://www.toutpourreussir.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_revenu</name>
+    <whitelist>http://www.revenuquebec.ca/fr/,http://www.revenuquebec.ca/en/</whitelist>
+    <blacklist>http://www.revenuquebec.ca/fr/centre-information/,http://www.revenuquebec.ca/en/centre-information/</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_revenu_all</name>
+    <whitelist>http://www.revenuquebec.ca</whitelist>
+    <blacklist>http://www.revenuquebec.ca/en/pub_form/guides/,http://www.revenuquebec.ca/fr/pub_form/guides/</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_revenu_ci</name>
+    <whitelist>http://www.revenuquebec.ca/fr/centre-information/,http://www.revenuquebec.ca/en/centre-information/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_revenu_cit</name>
+    <whitelist>http://www.revenuquebec.ca/fr/citoyen/,http://www.revenuquebec.ca/en/citoyen/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_revenu_comm</name>
+    <whitelist>http://www.revenuquebec.ca/fr/centre-information/,http://www.revenuquebec.ca/en/centre-information/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_revenu_ent</name>
+    <whitelist>http://www.revenuquebec.ca/fr/entreprise/,http://www.revenuquebec.ca/en/entreprise/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_revenu_form</name>
+    <whitelist>http://www.revenuquebec.ca/fr/sepf/formulaires/,http://www.revenuquebec.ca/en/sepf/formulaires/,http://www.revenuquebec.ca/fr/sepf/publications/,http://www.revenuquebec.ca/en/sepf/publications/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_revenu_guides</name>
+    <whitelist>http://www.revenuquebec.ca/en/pub_form/guides/,http://www.revenuquebec.ca/fr/pub_form/guides/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_revenu_min</name>
+    <whitelist>http://www.revenuquebec.ca/fr/a-propos/,http://www.revenuquebec.ca/en/a-propos/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_revenu_nouvfisc</name>
+    <whitelist>http://www.revenuquebec.ca/fr/centre-information/,http://www.revenuquebec.ca/en/centre-information/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_revenu_sepf</name>
+    <whitelist>http://www.revenuquebec.ca/fr/sepf/,http://www.revenuquebec.ca/en/sepf/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_revenu_ta</name>
+    <whitelist>http://www.revenuquebec.ca/fr/citoyen/clientele/travailleur_autonome/,http://www.revenuquebec.ca/en/citoyen/clientele/travailleur_autonome/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rio</name>
+    <whitelist>http://www.rio.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rmaaq</name>
+    <whitelist>http://www.rmaaq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rqap</name>
+    <whitelist>http://www.rqap.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rqap_global</name>
+    <whitelist>http://www.rqap-lois.gouv.qc.ca/,http://www.rqap.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rqap_lois</name>
+    <whitelist>http://www.rqap-lois.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rqct</name>
+    <whitelist>http://www.rqct.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrq2</name>
+    <whitelist>http://www.rrq.gouv.qc.ca/</whitelist>
+    <blacklist>http://www.rrq.gouv.qc.ca/fr/loi_commentee_RCR/,http://www.rrq.gouv.qc.ca/fr/lexique,http://www.rrq.gouv.qc.ca/en/lexique,http://www.rrq.gouv.qc.ca/fr/loi_acces/communications/,http://www.rrq.gouv.qc.ca/fr/loi_acces/renseignements_personnels/,http://www.rrq.gouv.qc.ca/fr/services/depeches/,http://www.rrq.gouv.qc.ca/en/services/depeches/,http://www.rrq.gouv.qc.ca/fr/produits_services/,http://www.rrq.gouv.qc.ca/en/produits_services/,http://www.rrq.gouv.qc.ca/fra/porrq/,http://www.rrq.gouv.qc.ca/fra/posae/</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_rrq2_citoyens</name>
+    <whitelist>http://www.rrq.gouv.qc.ca/fr/,http://www.rrq.gouv.qc.ca/en/,http://www.rrq.gouv.qc.ca/fr/,http://www.rrq.gouv.qc.ca/en/</whitelist>
+    <blacklist>http://www.rrq.gouv.qc.ca/fr/clienteles/,http://www.rrq.gouv.qc.ca/en/clienteles/,http://www.rrq.gouv.qc.ca/fr/administrateur/,http://www.rrq.gouv.qc.ca/en/administrateur/,http://www.rrq.gouv.qc.ca/fr/employeur/,http://www.rrq.gouv.qc.ca/en/employeur/,http://www.rrq.gouv.qc.ca/fr/dirigeants_pme/,http://www.rrq.gouv.qc.ca/fr/professionnels/,http://www.rrq.gouv.qc.ca/en/professionnels/,http://www.rrq.gouv.qc.ca/fr/professionnel_sante/,http://www.rrq.gouv.qc.ca/fr/syndicat/,http://www.rrq.gouv.qc.ca/en/syndicat/,http://www.rrq.gouv.qc.ca/en/professionnel_sante/,http://www.rrq.gouv.qc.ca/fr/loi_commentee_RCR/,http://www.rrq.gouv.qc.ca/fr/lexique,http://www.rrq.gouv.qc.ca/en/lexique</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_rrq2_entreprise</name>
+    <whitelist>http://www.rrq.gouv.qc.ca/fr/clienteles/,http://www.rrq.gouv.qc.ca/en/clienteles/,http://www.rrq.gouv.qc.ca/fr/administrateur/,http://www.rrq.gouv.qc.ca/fr/employeur/,http://www.rrq.gouv.qc.ca/fr/professionnels/,http://www.rrq.gouv.qc.ca/fr/professionnel_sante/,http://www.rrq.gouv.qc.ca/fr/syndicat/,http://www.rrq.gouv.qc.ca/fr/clienteles/,http://www.rrq.gouv.qc.ca/fr/regie/salle_presse/,http://www.rrq.gouv.qc.ca/en/regie/salle_presse/,http://www.rrq.gouv.qc.ca/en/clienteles/,http://www.rrq.gouv.qc.ca/en/employeur/,http://www.rrq.gouv.qc.ca/en/administrateur/,http://www.rrq.gouv.qc.ca/en/professionnels/,http://www.rrq.gouv.qc.ca/en/syndicat/,http://www.rrq.gouv.qc.ca/fr/dirigeants_pme/,http://www.rrq.gouv.qc.ca/fr/services/,http://www.rrq.gouv.qc.ca/en/services/</whitelist>
+    <blacklist>http://www.rrq.gouv.qc.ca/fr/loi_commentee_RCR/</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_rrq2_loi_rcr</name>
+    <whitelist>http://www.rrq.gouv.qc.ca/fr/loi_commentee_rcr/,http://www.rrq.gouv.qc.ca/Interactif/PR3I217_ValdrAuthnPortlRRQ/PR3SValdrAbonnPortlRRQ/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrq2_regcomm</name>
+    <whitelist>http://www.rrq.gouv.qc.ca/fr/loi_acces/communications/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrspt</name>
+    <whitelist>http://www.rrspt.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrsss02</name>
+    <whitelist>http://www.santesaglac.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrsss03</name>
+    <whitelist>http://www.rrsss03.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrsss04</name>
+    <whitelist>http://www.agencesss04.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrsss05</name>
+    <whitelist>http://www.santeestrie.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrsss06</name>
+    <whitelist>http://www.santemontreal.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrsss07</name>
+    <whitelist>http://www.rrsss07.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrsss09</name>
+    <whitelist>http://www.rrsss09.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrsss12</name>
+    <whitelist>http://www.rrsss12.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrsss13</name>
+    <whitelist>http://www.sssslaval.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrsss15</name>
+    <whitelist>http://www.rrsss15.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrsss16</name>
+    <whitelist>http://www.rrsss16.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_rrsss17</name>
+    <whitelist>http://www.rrsss17.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_saa</name>
+    <whitelist>http://www.autochtones.gouv.qc.ca,http://www.saa.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_saaq</name>
+    <whitelist>http://www.saaq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_saic</name>
+    <whitelist>http://www.saic.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_saj</name>
+    <whitelist>http://www.jeunes.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_sante</name>
+    <whitelist>http://www.sante.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_santeoutaouais</name>
+    <whitelist>http://www.santeoutaouais.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_saq</name>
+    <whitelist>http://www.saq.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_scf</name>
+    <whitelist>http://www.scf.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_sdbj</name>
+    <whitelist>http://www.sdbj.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_securite</name>
+    <whitelist>http://www.gouv.qc.ca/portail/quebec/pgs/commun/urgence-quebec</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_sepaq</name>
+    <whitelist>http://www.sepaq.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_services</name>
+    <whitelist>http://www.msg.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ses</name>
+    <whitelist>http://www.emplois-superieurs.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_sgfqc</name>
+    <whitelist>http://www.sgfqc.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_si2rdprm</name>
+    <whitelist>https://si2.rdprm.gouv.qc.ca,https://www.rdprm.gouv.qc.ca/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_sigatgeo</name>
+    <whitelist>https://www.sigatgeo.mamr.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_siq</name>
+    <whitelist>http://www.siq.gouv.qc.ca</whitelist>
+    <blacklist>http://www.extranet.siq.gouv.qc.ca/</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_slvq</name>
+    <whitelist>http://www.slvq.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_sodec</name>
+    <whitelist>http://www.sodec.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_sofil</name>
+    <whitelist>http://www.sofil.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_sogique</name>
+    <whitelist>http://www.sogique.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_sonaccps</name>
+    <whitelist>http://www.sonaccps.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_sopfim</name>
+    <whitelist>http://www.sopfim.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_soquij</name>
+    <whitelist>http://www.soquij.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_spipb</name>
+    <whitelist>http://www.spipb.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_spl</name>
+    <whitelist>http://www.spl.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_sq</name>
+    <whitelist>http://www.suretequebec.gouv.qc.ca,http://www.surete.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_srcq</name>
+    <whitelist>http://www.srcq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_srid</name>
+    <whitelist>http://www.institutions-democratiques.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_sss</name>
+    <whitelist>http://www.adoption.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_stat</name>
+    <whitelist>http://www.stat.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_table_metropolitaine</name>
+    <whitelist>http://www.table-metropolitaine.org</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_tag</name>
+    <whitelist>http://www.thesaurus.gouv.qc.ca/</whitelist>
+    <blacklist>http://www.thesaurus.gouv.qc.ca/tag/terme.do\?d=carte&amp;id=[0-9]*$</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_taq</name>
+    <whitelist>http://www.taq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_tatournee</name>
+    <whitelist>http://www.tatournee.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_toponymie</name>
+    <whitelist>http://www.toponymie.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_tourisme_mto</name>
+    <whitelist>http://www.tourisme.gouv.qc.ca</whitelist>
+    <blacklist>http://www.tourisme.gouv.qc.ca/activites/destinationQc/index.html</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_tq</name>
+    <whitelist>http://www.telequebec.tv</whitelist>
+    <blacklist>http://www.telequebec.tv/membretelequebec/</blacklist>
+  </subcollection>
+  <subcollection>
+    <name>sc_transports_atlas</name>
+    <whitelist>http://transports.atlas.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_travail</name>
+    <whitelist>http://www.travail.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_travail_info</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/travailleur-avec-salaire/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_traversiers</name>
+    <whitelist>http://www.traversiers.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_tresor</name>
+    <whitelist>http://www.tresor.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_tribunaux</name>
+    <whitelist>http://www.tribunaux.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_trousse</name>
+    <whitelist>http://www.emploi-quebec-trousse.com</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_uqtr</name>
+    <whitelist>http://www.uqtr.ca,https://www.uqtr.ca,https://www.uqtr.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_urgencenucleaire</name>
+    <whitelist>http://www.urgencenucleaire.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_urgences-sante</name>
+    <whitelist>http://www.urgences-sante.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_vasy</name>
+    <whitelist>http://www.vasy.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_ventes</name>
+    <whitelist>http://www.ventes.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_vgq</name>
+    <whitelist>http://www.vgq.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_vgq_pub</name>
+    <whitelist>http://www.vgq.gouv.qc.ca/publications/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_viepedagogique</name>
+    <whitelist>http://www.viepedagogique.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_vitrine</name>
+    <whitelist>http://www.vitrine-technologique.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_volidentite</name>
+    <whitelist>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/proteger-identite-Internet/</whitelist>
+    <blacklist />
+  </subcollection>
+  <subcollection>
+    <name>sc_webmaestro</name>
+    <whitelist>http://www.webmaestro.gouv.qc.ca</whitelist>
+    <blacklist />
+  </subcollection>
+</subcollections>
+

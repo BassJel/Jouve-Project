@@ -1,0 +1,22 @@
+<rdf:RDF 
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:dc="http://purl.org/dc/terms/">
+<skos:ConceptScheme rdf:about="http://www.thesaurus.gouv.qc.ca/">
+	<dc:title>Thésaurus de l'activité gouvernementale</dc:title>
+	<dc:description>Un thésaurus</dc:description>
+	<dc:creator>Gouvernement du Québec</dc:creator>
+	<dc:date>2009-03-14</dc:date>
+	<dc:language>fr</dc:language>
+
+	<skos:hasTopConcept rdf:resource="http://www.thesaurus.gouv.qc.ca/tag/terme.do?id=7"/>
+</skos:ConceptScheme>
+<skos:Concept rdf:about="http://www.thesaurus.gouv.qc.ca/tag/terme.do?id=7">
+	<skos:prefLabel xml:lang="fr">A POUR PARTIE</skos:prefLabel>
+	<skos:notes>La ressource pointée est incluse comme une ressource tangible ou logique de la ressource décrite.</skos:notes>
+	<skos:prefLabel xml:lang="en">HAS PART</skos:prefLabel>
+	<skos:altLabel xml:lang="en">CONTAINS</skos:altLabel>
+	<skos:inScheme rdf:resource="http://www.thesaurus.gouv.qc.ca/"/>
+</skos:Concept>
+</rdf:RDF>

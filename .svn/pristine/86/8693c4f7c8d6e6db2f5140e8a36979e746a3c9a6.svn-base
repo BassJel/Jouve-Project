@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:extend>
+			<select wicket:id="equation" style="padding-left: 4px; padding-right: 4px;"></select>
+			<span wicket:id="comp"></span>
+			<span wicket:id="and" style="padding-left: 4px; padding-right: 4px;"></span>	
+			<span wicket:id="comp2"></span>
+</wicket:extend>
+</html>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:head>
+<wicket:link>
+	<link href="ThesaurusSuggestionPanel.css" rel="stylesheet" type="text/css" />
+</wicket:link>
+</wicket:head>
+
+<wicket:panel>
+
+	<wicket:enclosure child="prefLabelLink">
+	    <div class="anylinkSpellChecker thesaurusSuggestion"> 
+		    <ul> 
+		    	<li class="question"><wicket:message key="suggestion">[We recommend that you use]</wicket:message></li> 
+				<li><a wicket:id="prefLabelLink" class="anchorclass"><wicket:container wicket:id="prefLabelLabel">[Suggestion]</wicket:container></a></li> 
+		    </ul> 
+	    </div>  
+	</wicket:enclosure>
+
+	<wicket:enclosure child="semanticNetworkLink">
+	    <div class="anylinkSpellChecker thesaurusSuggestion"> 
+		    <ul> 
+		    	<li class="question"><wicket:message key="semanticNetwork">[You can also consult the following semantic network]</wicket:message></li> 
+				<li><a wicket:id="semanticNetworkLink" class="anchorclass"><wicket:container wicket:id="semanticNetworkLabel">[Suggestion]</wicket:container></a></li> 
+		    </ul> 
+	    </div>  
+	    <div wicket:id="semanticNetworkModal" />
+	</wicket:enclosure>
+
+	<wicket:enclosure child="disambiguation">
+	    <div class="anylinkSpellChecker thesaurusSuggestion"> 
+		    <ul> 
+		    	<li class="question"><wicket:message key="disambiguation">[Would you like to disambiguate this term?]</wicket:message></li> 
+				<li class="disambiguation" wicket:id="disambiguation"><a wicket:id="prefLabelLink" class="anchorclass"><wicket:container wicket:id="prefLabel">[Suggestion]</wicket:container></a></li> 
+		    </ul> 
+	    </div>  
+	</wicket:enclosure>
+ 
+</wicket:panel>
+</html>

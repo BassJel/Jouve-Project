@@ -1,0 +1,11 @@
+languageInSearchForm=Language restriction in the search form
+currentSearchFacet=Show "Current search" facet
+needDocLanguageFacet=Needs a facet on the field Doc_Language
+descriptionAsExcerpt=Use "description" meta as excerpt
+showCollectionsInResultFacets=Show collections box in facets section
+resultsInNewWindow=Search results in new window
+alwaysDisplayTags=Always display tags
+translateLanguageNames=Translate language names
+advancedSearchEnabled=Advanced search enabled
+truncateDisplayUrlAfter=Truncate URLs after
+emptyDoNotTruncate=0=Do not truncate

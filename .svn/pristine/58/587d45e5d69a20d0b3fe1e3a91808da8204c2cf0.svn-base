@@ -1,0 +1,11 @@
+constellio_mail_flags=États
+constellio_mail_recipients=Destinataires
+constellio_mail_sender=Expéditeur
+constellio_mail_mainFolder=Dossier
+constellio_mail_replyTo=Répondre à
+constellio_mail_size=Taille
+constellio_mail_sentDate=Date d'envoi
+constellio_mail_receivedDate=Date de réception
+constellio_mail_withAttachments=Fichiers joints?
+constellio_mail_attachmentsContents=Contenu fichier joint
+constellio_mail_attachmentsNames=Nom fichier joint

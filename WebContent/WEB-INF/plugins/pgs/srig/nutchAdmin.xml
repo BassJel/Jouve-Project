@@ -1,0 +1,2449 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+	<row>
+		<url>http://www.mrifce.gouv.qc.ca</url>
+		<sc_name>sc_mri</sc_name>
+		<mo_name>Ministère des Relations internationales</mo_name>
+		<mo_code>mri</mo_code>
+	</row>
+	<row>
+		<url>http://www.habitation.gouv.qc.ca</url>
+		<sc_name>sc_habitation</sc_name>
+		<mo_name>Société d'habitation du Québec</mo_name>
+		<mo_code>habitation</mo_code>
+	</row>
+	<row>
+		<url>https://www.bonjourquebec.com</url>
+		<sc_name>sc_bonjour</sc_name>
+		<mo_name>Tourisme Québec</mo_name>
+		<mo_code>mto</mo_code>
+	</row>
+	<row>
+		<url>http://www.tourisme.gouv.qc.ca</url>
+		<sc_name>sc_tourisme_mto</sc_name>
+		<mo_name>Tourisme Québec</mo_name>
+		<mo_code>mto</mo_code>
+	</row>
+	<row>
+		<url>http://www.lautorite.qc.ca</url>
+		<sc_name>sc_autorite</sc_name>
+		<mo_name>Autorité des marchés financiers</mo_name>
+		<mo_code>amf</mo_code>
+	</row>
+	<row>
+		<url>https://secure.tesaffaires.com</url>
+		<sc_name>sc_amt_t_aff</sc_name>
+		<mo_name>Autorité des marchés financiers</mo_name>
+		<mo_code>amf</mo_code>
+	</row>
+	<row>
+		<url>http://www.carra.gouv.qc.ca</url>
+		<sc_name>sc_carra</sc_name>
+		<mo_name>Commission administrative des régimes de retraite et
+			d'assurances</mo_name>
+		<mo_code>CARRA</mo_code>
+	</row>
+	<row>
+		<url>http://www.estime.carra.gouv.qc.ca</url>
+		<sc_name>sc_carra</sc_name>
+		<mo_name>Commission administrative des régimes de retraite et
+			d'assurances</mo_name>
+		<mo_code>CARRA</mo_code>
+	</row>
+	<row>
+		<url>http://www.estnrente.carra.gouv.qc.ca</url>
+		<sc_name>sc_carra</sc_name>
+		<mo_name>Commission administrative des régimes de retraite et
+			d'assurances</mo_name>
+		<mo_code>CARRA</mo_code>
+	</row>
+	<row>
+		<url>http://www.abitibitemiscamingue.gouv.qc.ca</url>
+		<sc_name>sc_reg8</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/changement-adresse/
+		</url>
+		<sc_name>sc_adresse</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/consommateur-renseignement-plainte/
+		</url>
+		<sc_name>sc_consomme</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cotenord.gouv.qc.ca</url>
+		<sc_name>sc_reg9</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/Deces/
+		</url>
+		<sc_name>sc_deces</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/depot-direct/
+		</url>
+		<sc_name>sc_dpotdirect</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.estrie.gouv.qc.ca</url>
+		<sc_name>sc_reg5</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.gaspesieilesdelamadeleine.gouv.qc.ca</url>
+		<sc_name>sc_reg11</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.lanaudiere.gouv.qc.ca</url>
+		<sc_name>sc_reg14</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.laurentides.gouv.qc.ca</url>
+		<sc_name>sc_reg15</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.laval.gouv.qc.ca</url>
+		<sc_name>sc_reg13</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.mauricie.gouv.qc.ca</url>
+		<sc_name>sc_reg4</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.monteregie.gouv.qc.ca</url>
+		<sc_name>sc_reg16</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.montreal.gouv.qc.ca</url>
+		<sc_name>sc_reg6</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.nordduquebec.gouv.qc.ca</url>
+		<sc_name>sc_reg10</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.outaouais.gouv.qc.ca</url>
+		<sc_name>sc_reg7</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.pandemiequebec.gouv.qc.ca</url>
+		<sc_name>sc_pandemic</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/acheter-renover-maison
+		</url>
+		<sc_name>sc_habitation_info</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.saguenaylacsaintjean.gouv.qc.ca</url>
+		<sc_name>sc_reg2</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.gouv.qc.ca/portail/quebec/pgs/commun/urgence-quebec
+		</url>
+		<sc_name>sc_securite</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/fr/Portail/Citoyens/Evenements/separation-divorce/
+		</url>
+		<sc_name>sc_divorce</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/travailleur-avec-salaire/
+		</url>
+		<sc_name>sc_travail_info</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://communiques.gouv.qc.ca</url>
+		<sc_name>sc_comm</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.bassaintlaurent.gouv.qc.ca</url>
+		<sc_name>sc_reg1</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.capitalenationale.gouv.qc.ca</url>
+		<sc_name>sc_reg3</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.centreduquebec.gouv.qc.ca</url>
+		<sc_name>sc_reg17</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.chaudiereappalaches.gouv.qc.ca</url>
+		<sc_name>sc_reg12</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.gouv.ancien.qc.ca</url>
+		<sc_name>sc_gouvqc</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/vivre-en-logement/
+		</url>
+		<sc_name>sc_logement</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ogm.gouv.qc.ca</url>
+		<sc_name>sc_ogm</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/carte-permis-certificat/
+		</url>
+		<sc_name>sc_cartes</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.gouv.qc.ca/portail/quebec/pgs/citoyens</url>
+		<sc_name>sc_pgsc</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/personne-handicapee/
+		</url>
+		<sc_name>sc_personneshandicapees_info</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/retraite/
+		</url>
+		<sc_name>sc_retraite</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www2.gouv.qc.ca/entreprises/portail/quebec</url>
+		<sc_name>sc_pgse</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/proteger-identite-Internet/
+		</url>
+		<sc_name>sc_volidentite</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/aines/
+		</url>
+		<sc_name>sc_aines</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.gouv.qc.ca/portail/quebec/international/general/</url>
+		<sc_name>sc_pgsi2</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.alguesbleuvert.gouv.qc.ca/</url>
+		<sc_name>sc_alguesbleuvert</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.guidesetdemarches.gouv.qc.ca/</url>
+		<sc_name>sc_guidesetdemarches</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.gouv.qc.ca/portail/quebec/servicesquebec/</url>
+		<sc_name>sc_pgsc_services</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/quebecois-hors-quebec/
+		</url>
+		<sc_name>sc_quebecoisaletranger</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.gouv.qc.ca</url>
+		<sc_name>sc_pgs</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/perdre-son-autonomie/
+		</url>
+		<sc_name>sc_perteautonomie</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/DevenirParent
+		</url>
+		<sc_name>sc_devenirparent</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www4.gouv.qc.ca/FR/Portail/Citoyens/Evenements/immigrer-au-quebec/
+		</url>
+		<sc_name>sc_immigrer</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.plannord.gouv.qc.ca/</url>
+		<sc_name>sc_plannord</sc_name>
+		<mo_name>Services Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.revenuquebec.ca</url>
+		<sc_name>sc_revenu</sc_name>
+		<mo_name>Revenu</mo_name>
+		<mo_code>revenu</mo_code>
+	</row>
+	<row>
+		<url>http://www.registreentreprises.gouv.qc.ca</url>
+		<sc_name>sc_regent</sc_name>
+		<mo_name>Revenu</mo_name>
+		<mo_code>revenu</mo_code>
+	</row>
+	<row>
+		<url>http://www.rrq.gouv.qc.ca</url>
+		<sc_name>sc_rrq2</sc_name>
+		<mo_name>Régie des rentes</mo_name>
+		<mo_code>RRQ</mo_code>
+	</row>
+	<row>
+		<url>http://www.calculaide.gouv.qc.ca</url>
+		<sc_name>sc_calculaide</sc_name>
+		<mo_name>Régie des rentes</mo_name>
+		<mo_code>RRQ</mo_code>
+	</row>
+	<row>
+		<url>http://www.rrq.gouv.qc.ca/fr/loi_commentee_rcr</url>
+		<sc_name>sc_rrq2_loi_rcr</sc_name>
+		<mo_name>Régie des rentes</mo_name>
+		<mo_code>RRQ</mo_code>
+	</row>
+	<row>
+		<url>http://www.rrq.gouv.qc.ca/fr/loi_acces/communications/</url>
+		<sc_name>sc_rrq2_regcomm</sc_name>
+		<mo_name>Régie des rentes</mo_name>
+		<mo_code>RRQ</mo_code>
+	</row>
+	<row>
+		<url>http://www.securitepublique.gouv.qc.ca</url>
+		<sc_name>sc_MSP</sc_name>
+		<mo_name>Ministère de la Sécurité publique</mo_name>
+		<mo_code>msp</mo_code>
+	</row>
+	<row>
+		<url>http://www.recrutement-sq.gouv.qc.ca/</url>
+		<sc_name>sc_recrutement_sq</sc_name>
+		<mo_name>Ministère de la Sécurité publique</mo_name>
+		<mo_code>msp</mo_code>
+	</row>
+	<row>
+		<url>http://www.cqlc.gouv.qc.ca</url>
+		<sc_name>sc_cqlc</sc_name>
+		<mo_name>Ministère de la Sécurité publique</mo_name>
+		<mo_code>msp</mo_code>
+	</row>
+	<row>
+		<url>http://www.coroner.gouv.qc.ca</url>
+		<sc_name>sc_coroner</sc_name>
+		<mo_name>Ministère de la Sécurité publique</mo_name>
+		<mo_code>msp</mo_code>
+	</row>
+	<row>
+		<url>http://www.cavac.qc.ca</url>
+		<sc_name>sc_cavac</sc_name>
+		<mo_name>Justice Québec</mo_name>
+		<mo_code>justice</mo_code>
+	</row>
+	<row>
+		<url>http://www.drapeau.gouv.qc.ca</url>
+		<sc_name>sc_drapeau</sc_name>
+		<mo_name>Justice Québec</mo_name>
+		<mo_code>justice</mo_code>
+	</row>
+	<row>
+		<url>http://www.soquij.qc.ca</url>
+		<sc_name>sc_soquij</sc_name>
+		<mo_name>Justice Québec</mo_name>
+		<mo_code>justice</mo_code>
+	</row>
+	<row>
+		<url>http://www.tribunaux.qc.ca</url>
+		<sc_name>sc_tribunaux</sc_name>
+		<mo_name>Justice Québec</mo_name>
+		<mo_code>justice</mo_code>
+	</row>
+	<row>
+		<url>http://www.jugements.qc.ca</url>
+		<sc_name>sc_jugements</sc_name>
+		<mo_name>Justice Québec</mo_name>
+		<mo_code>justice</mo_code>
+	</row>
+	<row>
+		<url>http://www.justice.gouv.qc.ca</url>
+		<sc_name>sc_justice_fr</sc_name>
+		<mo_name>Justice Québec</mo_name>
+		<mo_code>justice</mo_code>
+	</row>
+	<row>
+		<url>https://www.amendes.qc.ca</url>
+		<sc_name>sc_amendes</sc_name>
+		<mo_name>Justice Québec</mo_name>
+		<mo_code>justice</mo_code>
+	</row>
+	<row>
+		<url>http://www.infocles.justice.gouv.qc.ca/</url>
+		<sc_name>sc_infocles</sc_name>
+		<mo_name>Justice Québec</mo_name>
+		<mo_code>justice</mo_code>
+	</row>
+	<row>
+		<url>http://www.conferencedesjuristes.gouv.qc.ca</url>
+		<sc_name>sc_conferencedesjuristes</sc_name>
+		<mo_name>Justice Québec</mo_name>
+		<mo_code>justice</mo_code>
+	</row>
+	<row>
+		<url>http://www.dpcp.gouv.qc.ca</url>
+		<sc_name>sc_dpcp</sc_name>
+		<mo_name>Justice Québec</mo_name>
+		<mo_code>justice</mo_code>
+	</row>
+	<row>
+		<url>http://www.reseau.justice.gouv.qc.ca</url>
+		<sc_name>sc_reseau_justice</sc_name>
+		<mo_name>Justice Québec</mo_name>
+		<mo_code>justice</mo_code>
+	</row>
+	<row>
+		<url>http://www.crt.gouv.qc.ca</url>
+		<sc_name>sc_crt</sc_name>
+		<mo_name>Commission des relations du travail</mo_name>
+		<mo_code>www.crt.gouv.qc.ca</mo_code>
+	</row>
+	<row>
+		<url>http://www.rbq.gouv.qc.ca</url>
+		<sc_name>sc_rbq</sc_name>
+		<mo_name>Régie du bâtiment</mo_name>
+		<mo_code>RBQ</mo_code>
+	</row>
+	<row>
+		<url>http://www.opc.gouv.qc.ca</url>
+		<sc_name>sc_OPC</sc_name>
+		<mo_name>Office de la protection du consommateur</mo_name>
+		<mo_code>OPC</mo_code>
+	</row>
+	<row>
+		<url>http://www.travail.gouv.qc.ca</url>
+		<sc_name>sc_travail</sc_name>
+		<mo_name>Ministère du Travail</mo_name>
+		<mo_code>travail</mo_code>
+	</row>
+	<row>
+		<url>http://www.curateur.gouv.qc.ca</url>
+		<sc_name>sc_curateur</sc_name>
+		<mo_name>Curateur public</mo_name>
+		<mo_code>www.curateur.gouv.qc.ca</mo_code>
+	</row>
+	<row>
+		<url>https://www.curateur.gouv.qc.ca</url>
+		<sc_name>sc_curateur</sc_name>
+		<mo_name>Curateur public</mo_name>
+		<mo_code>www.curateur.gouv.qc.ca</mo_code>
+	</row>
+	<row>
+		<url>http://www.assnat.qc.ca</url>
+		<sc_name>sc_assnat</sc_name>
+		<mo_name>Assemblée nationale</mo_name>
+		<mo_code>assnat</mo_code>
+	</row>
+	<row>
+		<url>http://www.protecteurducitoyen.qc.ca</url>
+		<sc_name>sc_ombuds</sc_name>
+		<mo_name>Assemblée nationale</mo_name>
+		<mo_code>assnat</mo_code>
+	</row>
+	<row>
+		<url>https://www.protecteurducitoyen.qc.ca</url>
+		<sc_name>sc_protecteur</sc_name>
+		<mo_name>Assemblée nationale</mo_name>
+		<mo_code>assnat</mo_code>
+	</row>
+	<row>
+		<url>http://www.copa.qc.ca</url>
+		<sc_name>sc_copa</sc_name>
+		<mo_name>Assemblée nationale</mo_name>
+		<mo_code>assnat</mo_code>
+	</row>
+	<row>
+		<url>http://www.spl.gouv.qc.ca</url>
+		<sc_name>sc_spl</sc_name>
+		<mo_name>secrétariat à la politique linguistique</mo_name>
+		<mo_code>SPL&amp;mo=n</mo_code>
+	</row>
+	<row>
+		<url>http://www.mcc.gouv.qc.ca</url>
+		<sc_name>sc_mcc</sc_name>
+		<mo_name>Culture et Communications</mo_name>
+		<mo_code>MCC</mo_code>
+	</row>
+	<row>
+		<url>http://preservart.ccq.mcc.gouv.qc.ca</url>
+		<sc_name>sc_preservart</sc_name>
+		<mo_name>Culture et Communications</mo_name>
+		<mo_code>MCC</mo_code>
+	</row>
+	<row>
+		<url>http://www.ccq.gouv.qc.ca</url>
+		<sc_name>sc_ccq</sc_name>
+		<mo_name>Culture et Communications</mo_name>
+		<mo_code>MCC</mo_code>
+	</row>
+	<row>
+		<url>http://www.conservatoire.gouv.qc.ca</url>
+		<sc_name>sc_cmadq</sc_name>
+		<mo_name>Culture et Communications</mo_name>
+		<mo_code>MCC</mo_code>
+	</row>
+	<row>
+		<url>http://www.prixduquebec.gouv.qc.ca</url>
+		<sc_name>sc_prix</sc_name>
+		<mo_name>Culture et Communications</mo_name>
+		<mo_code>MCC</mo_code>
+	</row>
+	<row>
+		<url>http://www.scf.gouv.qc.ca</url>
+		<sc_name>sc_scf</sc_name>
+		<mo_name>Culture et Communications</mo_name>
+		<mo_code>MCC</mo_code>
+	</row>
+	<row>
+		<url>http://www.adressesymphonique.gouv.qc.ca</url>
+		<sc_name>sc_adressesymphonique</sc_name>
+		<mo_name>Culture et Communications</mo_name>
+		<mo_code>MCC</mo_code>
+	</row>
+	<row>
+		<url>http://www.cartier-roberval.gouv.qc.ca</url>
+		<sc_name>sc_cartierroberval</sc_name>
+		<mo_name>Culture et Communications</mo_name>
+		<mo_code>MCC</mo_code>
+	</row>
+	<row>
+		<url>http://www.msg.gouv.qc.ca</url>
+		<sc_name>sc_services</sc_name>
+		<mo_name>Ministère des Services gouvernementaux</mo_name>
+		<mo_code>services</mo_code>
+	</row>
+	<row>
+		<url>http://www.piv.gouv.qc.ca</url>
+		<sc_name>sc_piv</sc_name>
+		<mo_name>Ministère des Services gouvernementaux</mo_name>
+		<mo_code>services</mo_code>
+	</row>
+	<row>
+		<url>http://www.webmaestro.gouv.qc.ca</url>
+		<sc_name>sc_webmaestro</sc_name>
+		<mo_name>Ministère des Services gouvernementaux</mo_name>
+		<mo_code>services</mo_code>
+	</row>
+	<row>
+		<url>http://www.thesaurus.gouv.qc.ca</url>
+		<sc_name>sc_tag</sc_name>
+		<mo_name>Ministère des Services gouvernementaux</mo_name>
+		<mo_code>services</mo_code>
+	</row>
+	<row>
+		<url>http://www.mtq.gouv.qc.ca</url>
+		<sc_name>sc_mtq</sc_name>
+		<mo_name>Ministère des Transports</mo_name>
+		<mo_code>mtq</mo_code>
+	</row>
+	<row>
+		<url>http://transports.atlas.gouv.qc.ca</url>
+		<sc_name>sc_transports_atlas</sc_name>
+		<mo_name>Ministère des Transports</mo_name>
+		<mo_code>mtq</mo_code>
+	</row>
+	<row>
+		<url>http://www.ramq.gouv.qc.ca</url>
+		<sc_name>sc_ramq</sc_name>
+		<mo_name>Régie de l'assurance maladie du Québec</mo_name>
+		<mo_code>ramq</mo_code>
+	</row>
+	<row>
+		<url>http://www.rrsss16.gouv.qc.ca</url>
+		<sc_name>sc_rrsss16</sc_name>
+		<mo_name>Agence de la santé et des services sociaux de la Montérégie
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.saaq.gouv.qc.ca</url>
+		<sc_name>sc_saaq</sc_name>
+		<mo_name>SAAQ</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cse.gouv.qc.ca</url>
+		<sc_name>sc_cse</sc_name>
+		<mo_name>Conseil supérieur de l'éducation</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.enpq.qc.ca</url>
+		<sc_name>sc_enpq</sc_name>
+		<mo_name>École nationale de police du Québec</mo_name>
+		<mo_code>ENPQ</mo_code>
+	</row>
+	<row>
+		<url>http://www.afe.gouv.qc.ca</url>
+		<sc_name>sc_afe</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>http://www.mels.gouv.qc.ca</url>
+		<sc_name>sc_mels</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>http://www.meq.gouv.qc.ca</url>
+		<sc_name>sc_meq</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>http://www.vasy.gouv.qc.ca</url>
+		<sc_name>sc_vasy</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>http://www.viepedagogique.gouv.qc.ca</url>
+		<sc_name>sc_viepedagogique</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>http://www.c-rdi.qc.ca</url>
+		<sc_name>sc_c_rdi</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>http://www.capfe.gouv.qc.ca</url>
+		<sc_name>sc_capfe</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>http://www.capitale.gouv.qc.ca</url>
+		<sc_name>sc_capitale</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>http://www.clicfp.qc.ca</url>
+		<sc_name>sc_clicfp</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>http://www.fcsq.qc.ca</url>
+		<sc_name>sc_fcsq</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>http://www.inforoutefpt.org</url>
+		<sc_name>sc_inforoutefpt</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>http://www.kino-quebec.qc.ca</url>
+		<sc_name>sc_kino</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>http://www.livresouverts.qc.ca</url>
+		<sc_name>sc_livresouverts</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>http://www.perseverancescolairemontreal.qc.ca</url>
+		<sc_name>sc_perseverancescolairemontreal</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>http://logicielseducatifs.qc.ca</url>
+		<sc_name>sc_logicielseducatifs</sc_name>
+		<mo_name>Ministère de l'Éducation, des Loisirs et du Sport</mo_name>
+		<mo_code>MELS</mo_code>
+	</row>
+	<row>
+		<url>https://www.portail.mamr.gouv.qc.ca</url>
+		<sc_name>sc_portailmamr</sc_name>
+		<mo_name>Ministère des Affaires municipales, des Régions et de
+			l'Occupation du territoire</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.mamrot.gouv.qc.ca/</url>
+		<sc_name>sc_mamr</sc_name>
+		<mo_name>Ministère des Affaires municipales, des Régions et de
+			l'Occupation du territoire</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>https://www.portail.mamsl.gouv.qc.ca</url>
+		<sc_name>sc_portailmamsl</sc_name>
+		<mo_name>Ministère des Affaires municipales, des Régions et de
+			l'Occupation du territoire</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.piscines.gouv.qc.ca</url>
+		<sc_name>sc_piscines</sc_name>
+		<mo_name>Ministère des Affaires municipales, des Régions et de
+			l'Occupation du territoire</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.poolsafety.gouv.qc.ca</url>
+		<sc_name>sc_poolsafety</sc_name>
+		<mo_name>Ministère des Affaires municipales, des Régions et de
+			l'Occupation du territoire</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.accommodements.qc.ca</url>
+		<sc_name>sc_accommodements</sc_name>
+		<mo_name>Commission de consultation sur les pratiques d'accommodement
+			reliées aux différences culturelles</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.approvisionnement-quebec.gouv.qc.ca</url>
+		<sc_name>sc_approvisionnement</sc_name>
+		<mo_name>Centre de services partagés du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.bibliotheque.gouv.qc.ca</url>
+		<sc_name>sc_ba</sc_name>
+		<mo_name>Centre de services partagés du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cspq.gouv.qc.ca</url>
+		<sc_name>sc_cspq</sc_name>
+		<mo_name>Centre de services partagés du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.vitrine-technologique.gouv.qc.ca</url>
+		<sc_name>sc_vitrine</sc_name>
+		<mo_name>Centre de services partagés du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>https://legisquebec.gouv.qc.ca</url>
+		<sc_name>sc_legis</sc_name>
+		<mo_name>Centre de services partagés du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>https://www.approvisionnement-quebec.gouv.qc.ca</url>
+		<sc_name>sc_approvisionnement_qc</sc_name>
+		<mo_name>Centre de services partagés du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.droitauteur.gouv.qc.ca/</url>
+		<sc_name>sc_droitauteur</sc_name>
+		<mo_name>Centre de services partagés du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.publicationsduquebec.gouv.qc.ca</url>
+		<sc_name>sc_gouvqc_pub</sc_name>
+		<mo_name>Centre de services partagés du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://legisquebec.gouv.qc.ca</url>
+		<sc_name>sc_legisquebec</sc_name>
+		<mo_name>Centre de services partagés du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>https://www.securite.clicsequr.gouv.qc.ca/</url>
+		<sc_name>sc_clicsequr</sc_name>
+		<mo_name>Centre de services partagés du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.agencesss12.gouv.qc.ca/</url>
+		<sc_name>sc_agencesss12</sc_name>
+		<mo_name>Agence de santé et des services sociaux de
+			Chaudière-Appalaches</mo_name>
+		<mo_code>http://www.agencesss12.gouv.qc.ca/</mo_code>
+	</row>
+	<row>
+		<url>http://emploiquebec.net</url>
+		<sc_name>sc_emploi</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://www.benevolat.gouv.qc.ca</url>
+		<sc_name>sc_benevolat</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://www.mess.gouv.qc.ca</url>
+		<sc_name>sc_mess</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://www.rqap.gouv.qc.ca</url>
+		<sc_name>sc_rqap</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://www.toutpourreussir.com</url>
+		<sc_name>sc_reussir</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://agrement-formateurs.gouv.qc.ca</url>
+		<sc_name>sc_agrement_formateurs</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://emploietudiant.qc.ca</url>
+		<sc_name>sc_emploi_et</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://emploiquebecestrie.net</url>
+		<sc_name>sc_emploi_estrie</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://equipequebec.qc.ca</url>
+		<sc_name>sc_equipe_qc</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://www.cetech.gouv.qc.ca</url>
+		<sc_name>sc_pub_cetech</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://www.cepe.gouv.qc.ca</url>
+		<sc_name>sc_cepe</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://www.pacte-emploi.gouv.qc.ca/</url>
+		<sc_name>sc_pacte_emploi</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://www.carrieres.gouv.qc.ca/</url>
+		<sc_name>sc_carriere</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://emploi-metropole.org/</url>
+		<sc_name>sc_emploimetropole</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://www.rqap-lois.gouv.qc.ca/</url>
+		<sc_name>sc_rqap_lois</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://www.rqap-global.gouv.qc.ca/</url>
+		<sc_name>sc_rqap_global</sc_name>
+		<mo_name>Ministère de l'Emploi et de la Solidarité sociale</mo_name>
+		<mo_code>MESS</mo_code>
+	</row>
+	<row>
+		<url>http://www.emploi-quebec-trousse.com</url>
+		<sc_name>sc_trousse</sc_name>
+		<mo_name>Emploi Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.emploietudiant.qc.ca</url>
+		<sc_name>sc_emploi_et</sc_name>
+		<mo_name>Emploi Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.csmoe.org</url>
+		<sc_name>sc_csmoe</sc_name>
+		<mo_name>Emploi Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.emploiquebecmauricie.net</url>
+		<sc_name>sc_emploi_mauricie</sc_name>
+		<mo_name>Emploi Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.table-metropolitaine.org</url>
+		<sc_name>sc_table_metropolitaine</sc_name>
+		<mo_name>Emploi Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://msss.gouv.qc.ca</url>
+		<sc_name>sc_msss</sc_name>
+		<mo_name>Ministère de la Santé et des Services Sociaux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://wpp01.msss.gouv.qc.ca</url>
+		<sc_name>sc_msss</sc_name>
+		<mo_name>Ministère de la Santé et des Services Sociaux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.aqesss.qc.ca</url>
+		<sc_name>sc_agesss</sc_name>
+		<mo_name>Ministère de la Santé et des Services Sociaux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.avenirensante.com</url>
+		<sc_name>sc_msss</sc_name>
+		<mo_name>Ministère de la Santé et des Services Sociaux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.msss.gouv.qc.ca</url>
+		<sc_name>sc_msss</sc_name>
+		<mo_name>Ministère de la Santé et des Services Sociaux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://ethique.msss.gouv.qc.ca</url>
+		<sc_name>sc_ethique_msss</sc_name>
+		<mo_name>Ministère de la Santé et des Services Sociaux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.agressionsexuelle.com</url>
+		<sc_name>sc_agression_sexuelle</sc_name>
+		<mo_name>Ministère de la Santé et des Services Sociaux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.aimersansviolence.com</url>
+		<sc_name>sc_aimersansviolence</sc_name>
+		<mo_name>Ministère de la Santé et des Services Sociaux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.blogdevie.com</url>
+		<sc_name>sc_blogdevie</sc_name>
+		<mo_name>Ministère de la Santé et des Services Sociaux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.jcapote.com</url>
+		<sc_name>sc_jcapote</sc_name>
+		<mo_name>Ministère de la Santé et des Services Sociaux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.pqdcs.qc.ca</url>
+		<sc_name>sc_pqdcs</sc_name>
+		<mo_name>Ministère de la Santé et des Services Sociaux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.rqct.qc.ca</url>
+		<sc_name>sc_rqct</sc_name>
+		<mo_name>Ministère de la Santé et des Services Sociaux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.entraide.gouv.qc.ca/artisans/</url>
+		<sc_name>sc_centraide_campagne_artisans</sc_name>
+		<mo_name>Ministère de la Santé et des Services Sociaux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.sante.gouv.qc.ca</url>
+		<sc_name>sc_sante</sc_name>
+		<mo_name>Ministère de la Santé et des Services Sociaux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.registrefoncier.gouv.qc.ca</url>
+		<sc_name>sc_registre_fonc</sc_name>
+		<mo_name>Ministère des Ressources Naturelles et de la Faune</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.mrnf.gouv.qc.ca</url>
+		<sc_name>sc_mrnf</sc_name>
+		<mo_name>Ministère des Ressources Naturelles et de la Faune</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>https://www.mrnf.gouv.qc.ca</url>
+		<sc_name>sc_mrnf</sc_name>
+		<mo_name>Ministère des Ressources Naturelles et de la Faune</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://infolot.mrnf.gouv.qc.ca</url>
+		<sc_name>sc_infolot</sc_name>
+		<mo_name>Ministère des Ressources Naturelles et de la Faune</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://permis-usines.mrnfp.gouv.qc.ca</url>
+		<sc_name>sc_permis_usines</sc_name>
+		<mo_name>Ministère des Ressources Naturelles et de la Faune</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://plans-thematiques.mrnfp.gouv.qc.ca</url>
+		<sc_name>sc_plans_thematiques</sc_name>
+		<mo_name>Ministère des Ressources Naturelles et de la Faune</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cdpnq.gouv.qc.ca</url>
+		<sc_name>sc_cdpnq</sc_name>
+		<mo_name>Ministère des Ressources Naturelles et de la Faune</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.mrnf.gouv.qc.ca/faune</url>
+		<sc_name>sc_mrnfp</sc_name>
+		<mo_name>Ministère des Ressources Naturelles et de la Faune</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.quebecgeographique.gouv.qc.ca</url>
+		<sc_name>sc_qcgeo</sc_name>
+		<mo_name>Ministère des Ressources Naturelles et de la Faune</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>https://www.loyerterrain.mrnfp.gouv.qc.ca</url>
+		<sc_name>sc_loyerterrain</sc_name>
+		<mo_name>Ministère des Ressources Naturelles et de la Faune</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.fetedelapeche.gouv.qc.ca</url>
+		<sc_name>sc_fetedelapeche</sc_name>
+		<mo_name>Ministère des Ressources Naturelles et de la Faune</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.carrefourforetinnovations.gouv.qc.ca/</url>
+		<sc_name>sc_carrefourforetinnovations</sc_name>
+		<mo_name>Ministère des Ressources Naturelles et de la Faune</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.efficaciteenergetique.mrnf.gouv.qc.ca/</url>
+		<sc_name>sc_efficaciteenergetique</sc_name>
+		<mo_name>Ministère des Ressources Naturelles et de la Faune</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.inspq.qc.ca</url>
+		<sc_name>sc_inspq</sc_name>
+		<mo_name>Institut National de la Santé Publique du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://politiquespubliques.inspq.qc.ca</url>
+		<sc_name>sc_politiques_inspq</sc_name>
+		<mo_name>Institut National de la Santé Publique du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.crpspc.qc.ca</url>
+		<sc_name>sc_crpspc</sc_name>
+		<mo_name>Institut National de la Santé Publique du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://si2.commissairelobby.qc.ca</url>
+		<sc_name>sc_commissaire_lobby</sc_name>
+		<mo_name>Commissaire au Lobbyisme du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>https://si2.rdprm.gouv.qc.ca</url>
+		<sc_name>sc_si2rdprm</sc_name>
+		<mo_name>Registre des Droits Personnels et Réels Mobiliers</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://w3.oqlf.gouv.qc.ca</url>
+		<sc_name>sc_oqlf_w3</sc_name>
+		<mo_name>Office québécois de la langue française</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.oqlf.gouv.qc.ca</url>
+		<sc_name>sc_oqlf</sc_name>
+		<mo_name>Office québécois de la langue française</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://w3.granddictionnaire.com</url>
+		<sc_name>sc_granddictionnaire</sc_name>
+		<mo_name>Office québécois de la langue française</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.adoption.gouv.qc.ca</url>
+		<sc_name>sc_sss</sc_name>
+		<mo_name>Secrétariat à l'adoption internationale</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.aee.gouv.qc.ca</url>
+		<sc_name>sc_aee</sc_name>
+		<mo_name>Agence de l'efficacité énergétique</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.aetmis.gouv.qc.ca</url>
+		<sc_name>sc_aetmis</sc_name>
+		<mo_name>Agence d'évaluation des technologies et des modes
+			d'intervention en santé</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.agencesss04.qc.ca</url>
+		<sc_name>sc_rrsss04</sc_name>
+		<mo_name>Agence de la santé et des services sociaux de la Mauricie et
+			du Centre-du-Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.amt.qc.ca</url>
+		<sc_name>sc_amt</sc_name>
+		<mo_name>Agence métropolitaine de transport</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.express.amt.qc.ca</url>
+		<sc_name>sc_express_amt</sc_name>
+		<mo_name>Agence métropolitaine de transport</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.atelier-edq.qc.ca</url>
+		<sc_name>sc_atelier_edq</sc_name>
+		<mo_name>Établissement de détention de Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.mdeie.gouv.qc.ca</url>
+		<sc_name>sc_mdeie</sc_name>
+		<mo_name>Développement économique, Innovation et Exportation</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cqvb.qc.ca</url>
+		<sc_name>sc_cqbv</sc_name>
+		<mo_name>Développement économique, Innovation et Exportation</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.erq.gouv.qc.ca</url>
+		<sc_name>sc_erq</sc_name>
+		<mo_name>Développement économique, Innovation et Exportation</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.banq.qc.ca</url>
+		<sc_name>sc_banq</sc_name>
+		<mo_name>Bibliothèque et Archives nationales</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.bcn.gouv.qc.ca</url>
+		<sc_name>sc_bcn</sc_name>
+		<mo_name>Bureau de la Capitale-Nationale</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.bdrvm.com</url>
+		<sc_name>sc_bdrvm</sc_name>
+		<mo_name>Bureau de décision et de révision en valeurs mobilières
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.bdso.gouv.qc.ca</url>
+		<sc_name>sc_bdso</sc_name>
+		<mo_name>Banque de données des statistiques officielles sur le Québec
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.bingos-quebec.com</url>
+		<sc_name>sc_bingos</sc_name>
+		<mo_name>Loto Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.loto-quebec.com</url>
+		<sc_name>sc_loto</sc_name>
+		<mo_name>Loto Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.casino-de-charlevoix.com</url>
+		<sc_name>sc_casino_charlevoix</sc_name>
+		<mo_name>Loto Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.casino-de-montreal.com</url>
+		<sc_name>sc_casino_montreal</sc_name>
+		<mo_name>Loto Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.casino-du-lac-leamy.com</url>
+		<sc_name>sc_casino_lac_leamy</sc_name>
+		<mo_name>Loto Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.casinos-quebec.com</url>
+		<sc_name>sc_casinos</sc_name>
+		<mo_name>Loto Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.slvq.com</url>
+		<sc_name>sc_slvq</sc_name>
+		<mo_name>Loto Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.bnq.qc.ca</url>
+		<sc_name>sc_bnq</sc_name>
+		<mo_name>Bureau de normalisation du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.budget.finances.gouv.qc.ca</url>
+		<sc_name>sc_budget</sc_name>
+		<mo_name>Ministère des finances</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.finances.gouv.qc.ca</url>
+		<sc_name>sc_finance</sc_name>
+		<mo_name>Ministère des finances</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.sofil.gouv.qc.ca</url>
+		<sc_name>sc_sofil</sc_name>
+		<mo_name>Ministère des finances</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cai.gouv.qc.ca</url>
+		<sc_name>sc_cai</sc_name>
+		<mo_name>Commission d'accès à l'information</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.calq.gouv.qc.ca</url>
+		<sc_name>sc_calq</sc_name>
+		<mo_name>Conseil des arts et des lettres</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cbcq.gouv.qc.ca</url>
+		<sc_name>sc_cbcq</sc_name>
+		<mo_name>Commission des biens culturels</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ccq.org</url>
+		<sc_name>sc_ccq_construction</sc_name>
+		<mo_name>Commission de la construction</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>https://www.ccq.org</url>
+		<sc_name>sc_ccq_construction_s</sc_name>
+		<mo_name>Commission de la construction</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ccqf-cqfb.ca</url>
+		<sc_name>sc_ccqf</sc_name>
+		<mo_name>Conseil Cris-Québec sur la foresterie</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cctm.gouv.qc.ca</url>
+		<sc_name>sc_cctm</sc_name>
+		<mo_name>Conseil consultatif du travail et de la main-d'oeuvre
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cdg.qc.ca</url>
+		<sc_name>sc_cdg</sc_name>
+		<mo_name>Centre de développement de la géomatique</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cdm.gouv.qc.ca</url>
+		<sc_name>sc_cdm</sc_name>
+		<mo_name>Conseil du médicament</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cdpdj.qc.ca</url>
+		<sc_name>sc_cdpdj</sc_name>
+		<mo_name>Commission des droits de la personne et des droits de la
+			jeunesse</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ceaeq.gouv.qc.ca</url>
+		<sc_name>sc_ceaeq</sc_name>
+		<mo_name>Ministère du Développement durable, de l'Environnement et des
+			Parcs</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cehq.gouv.qc.ca</url>
+		<sc_name>sc_cehq</sc_name>
+		<mo_name>Ministère du Développement durable, de l'Environnement et des
+			Parcs</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.mddep.gouv.qc.ca</url>
+		<sc_name>sc_menv</sc_name>
+		<mo_name>Ministère du Développement durable, de l'Environnement et des
+			Parcs</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.regpubd.mddep.gouv.qc.ca</url>
+		<sc_name>sc_regpubd</sc_name>
+		<mo_name>Ministère du Développement durable, de l'Environnement et des
+			Parcs</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ceec.gouv.qc.ca</url>
+		<sc_name>sc_ceec</sc_name>
+		<mo_name>Commission d'évaluation et de l'enseignement collégial
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cefrio.qc.ca</url>
+		<sc_name>sc_cefriocom</sc_name>
+		<mo_name>Centre francophone d'informatisation des organisations
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>https://www.cefrio.qc.ca</url>
+		<sc_name>sc_cefrioqc</sc_name>
+		<mo_name>Centre francophone d'informatisation des organisations
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.infometre.cefrio.qc.ca</url>
+		<sc_name>sc_infometre</sc_name>
+		<mo_name>Centre francophone d'informatisation des organisations
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ces.gouv.qc.ca</url>
+		<sc_name>sc_ces</sc_name>
+		<mo_name>Commission de l'équité salariale</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cevc.gouv.qc.ca</url>
+		<sc_name>sc_cevc</sc_name>
+		<mo_name>Commission d'enquête sur le viaduc de la Concorde</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.fadq.qc.ca</url>
+		<sc_name>sc_fadq</sc_name>
+		<mo_name>La financière agricole</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cfai.qc.ca</url>
+		<sc_name>sc_cfai</sc_name>
+		<mo_name>La financière agricole</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.fadqdi.qc.ca</url>
+		<sc_name>sc_fadqdi</sc_name>
+		<mo_name>La financière agricole</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cfe.gouv.qc.ca</url>
+		<sc_name>sc_cfe</sc_name>
+		<mo_name>Conseil de la famille et de l'enfance</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cfp.gouv.qc.ca</url>
+		<sc_name>sc_cpf</sc_name>
+		<mo_name>Commission de la fonction publique</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cgap.gouv.qc.ca</url>
+		<sc_name>sc_cgap</sc_name>
+		<mo_name>Conseil de la gestion de l'assurance parentale</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cger.mtq.gouv.qc.ca</url>
+		<sc_name>sc_cger</sc_name>
+		<mo_name>Centre de gestion de l'équipement roulant</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.chq.gouv.qc.ca</url>
+		<sc_name>sc_chq</sc_name>
+		<mo_name>Corporation d'hébergement</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cja.gouv.qc.ca</url>
+		<sc_name>sc_cja</sc_name>
+		<mo_name>Conseil de la justice administrative</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.clp.gouv.qc.ca</url>
+		<sc_name>sc_clp</sc_name>
+		<mo_name>Commission des lésions professionnelles</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cm.gouv.qc.ca</url>
+		<sc_name>sc_cm</sc_name>
+		<mo_name>Conseil de la magistrature du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cmed.gouv.qc.ca</url>
+		<sc_name>sc_cmed</sc_name>
+		<mo_name>Conseil médical du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cmq.gouv.qc.ca</url>
+		<sc_name>sc_cmq</sc_name>
+		<mo_name>Commission municipale</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cnt.gouv.qc.ca</url>
+		<sc_name>sc_cnt</sc_name>
+		<mo_name>Commission des normes du travail</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.congresmtl.com</url>
+		<sc_name>sc_congresmtl</sc_name>
+		<mo_name>Société du Palais des congrès de Montréal</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.conseil-des-aines.qc.ca</url>
+		<sc_name>sc_conseil_aines</sc_name>
+		<mo_name>Conseil des aînés</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.conseilinterculturel.gouv.qc.ca</url>
+		<sc_name>sc_conseilinterculturel</sc_name>
+		<mo_name>Conseil des relations interculturelles</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.convention.qc.ca</url>
+		<sc_name>sc_convention</sc_name>
+		<mo_name>Société du Palais des congrès de Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ccpe.gouv.qc.ca</url>
+		<sc_name>sc_cpe</sc_name>
+		<mo_name>Comité-conseil sur les programmes d'études</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cpmt.gouv.qc.ca</url>
+		<sc_name>sc_cpmt</sc_name>
+		<mo_name>Commission des partenaires du marché du travail</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cpn.gouv.qc.ca</url>
+		<sc_name>sc_cpn</sc_name>
+		<mo_name>Comité patronal de négociation des collèges</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cpnsss.gouv.qc.ca</url>
+		<sc_name>sc_cpnsss</sc_name>
+		<mo_name>Comité patronal de négociation du secteur de la santé et des
+			services...</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cptaq.gouv.qc.ca</url>
+		<sc_name>sc_cptaq</sc_name>
+		<mo_name>Commission de protection du territoire agricole</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.crfq.qc.ca</url>
+		<sc_name>sc_crqf</sc_name>
+		<mo_name>Conseil de la recherche forestière du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.criq.qc.ca</url>
+		<sc_name>sc_criq_pub</sc_name>
+		<mo_name>Centre de recherche industrielle</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.icriq.com</url>
+		<sc_name>sc_icriq</sc_name>
+		<mo_name>Centre de recherche industrielle</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.csbe.gouv.qc.ca</url>
+		<sc_name>sc_csbe</sc_name>
+		<mo_name>Commissaire à la santé et au bien-être</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.csf.gouv.qc.ca</url>
+		<sc_name>sc_csf</sc_name>
+		<mo_name>Conseil du statut de la femme</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.egalitejeunesse.com</url>
+		<sc_name>sc_egalite_jeunesse</sc_name>
+		<mo_name>Conseil du statut de la femme</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cslf.gouv.qc.ca</url>
+		<sc_name>sc_cslf</sc_name>
+		<mo_name>Conseil supérieur de la langue française</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>https://www.csst.qc.ca</url>
+		<sc_name>sc_csst</sc_name>
+		<mo_name>Commission de la santé et de la sécurité du travail</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.csst.qc.ca</url>
+		<sc_name>sc_csst</sc_name>
+		<mo_name>Commission de la santé et de la sécurité du travail</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cst.gouv.qc.ca</url>
+		<sc_name>sc_cst</sc_name>
+		<mo_name>Conseil de la science et de la technologie</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ctq.gouv.qc.ca</url>
+		<sc_name>sc_ctq</sc_name>
+		<mo_name>Commission des transports</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.autochtones.gouv.qc.ca</url>
+		<sc_name>sc_saa</sc_name>
+		<mo_name>Ministère du Conseil exécutif</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.jeunes.gouv.qc.ca</url>
+		<sc_name>sc_saj</sc_name>
+		<mo_name>Ministère du Conseil exécutif</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.mce.gouv.qc.ca</url>
+		<sc_name>sc_mce</sc_name>
+		<mo_name>Ministère du Conseil exécutif</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.premier-ministre.gouv.qc.ca</url>
+		<sc_name>sc_premier</sc_name>
+		<mo_name>Ministère du Conseil exécutif</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.defi.gouv.qc.ca</url>
+		<sc_name>sc_defi</sc_name>
+		<mo_name>Ministère du Conseil exécutif</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.emplois-superieurs.gouv.qc.ca</url>
+		<sc_name>sc_ses</sc_name>
+		<mo_name>Ministère du Conseil exécutif</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.institutions-democratiques.gouv.qc.ca</url>
+		<sc_name>sc_srid</sc_name>
+		<mo_name>Ministère du Conseil exécutif</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ordre-national.gouv.qc.ca</url>
+		<sc_name>sc_ordre_national</sc_name>
+		<mo_name>Ministère du Conseil exécutif</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.saic.gouv.qc.ca</url>
+		<sc_name>sc_saic</sc_name>
+		<mo_name>Ministère du Conseil exécutif</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.versuntraite.com</url>
+		<sc_name>sc_innus</sc_name>
+		<mo_name>Ministère du Conseil exécutif</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.espacej.gouv.qc.ca</url>
+		<sc_name>sc_espacej</sc_name>
+		<mo_name>Ministère du Conseil exécutif</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.acces.mce.gouv.qc.ca</url>
+		<sc_name>sc_acces_mce</sc_name>
+		<mo_name>Ministère du Conseil exécutif</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.bape.gouv.qc.ca</url>
+		<sc_name>sc_Bape</sc_name>
+		<mo_name>Bureau d'audience publiques sur l'environnement</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.deontologie-policiere.gouv.qc.ca</url>
+		<sc_name>sc_deont_pol</sc_name>
+		<mo_name>Comité de déontologie policière</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.desequilibrefiscal.gouv.qc.ca</url>
+		<sc_name>sc_desequilibre</sc_name>
+		<mo_name>Commission sur le déséquilibre fiscal</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.educaloi.qc.ca</url>
+		<sc_name>sc_educaloi</sc_name>
+		<mo_name>Éducaloi</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.electionsquebec.qc.ca</url>
+		<sc_name>sc_electionsqc</sc_name>
+		<mo_name>Directeur général des élections du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ecoledespompiers.qc.ca</url>
+		<sc_name>sc_enpq_gouv</sc_name>
+		<mo_name>École nationale des pompiers</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.entraide.gouv.qc.ca</url>
+		<sc_name>sc_centraide_campagne</sc_name>
+		<mo_name>Comité Entraide Secteurs public et parapublic</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.etatcivil.gouv.qc.ca</url>
+		<sc_name>sc_etatcivil</sc_name>
+		<mo_name>Directeur de l'état civil</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ethique.gouv.qc.ca</url>
+		<sc_name>sc_ethique</sc_name>
+		<mo_name>Commission de l'éthique de la science et de la technologie
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.fdrh.gouv.qc.ca</url>
+		<sc_name>sc_fdrh</sc_name>
+		<mo_name>Forum des directrices et directeurs des ressources humaines
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.fecst.gouv.qc.ca</url>
+		<sc_name>sc_fecst</sc_name>
+		<mo_name>Continuum de services en traumatologie</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.fgrm.gouv.qc.ca/</url>
+		<sc_name>sc_fgrm</sc_name>
+		<mo_name>Forum des gestionnaires en ressources matérielles du
+			gouvernement du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.fgti.gouv.qc.ca</url>
+		<sc_name>sc_fgti</sc_name>
+		<mo_name>Forum des gestionnaires en Technologies de l'Information
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.fondationdelafaune.qc.ca</url>
+		<sc_name>sc_fondationdelafaune</sc_name>
+		<mo_name>Fondation de la faune du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.forestierenchef.gouv.qc.ca</url>
+		<sc_name>sc_forestierenchef</sc_name>
+		<mo_name>Bureau du Forestier en chef</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.forum-cam.qc.ca</url>
+		<sc_name>sc_forum_cam</sc_name>
+		<mo_name>Forum des intervenants de l'infustrie du camionnage général
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.forumdc.gouv.qc.ca</url>
+		<sc_name>sc_forumdc</sc_name>
+		<mo_name>Forum des responsables des communications du gouvernement du
+			Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.forumjeunes.gouv.qc.ca</url>
+		<sc_name>sc_forumjeunes</sc_name>
+		<mo_name>Forum des jeunes</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.fqrnt.gouv.qc.ca</url>
+		<sc_name>sc_fqrnt</sc_name>
+		<mo_name>Fonds de recherche sur la nature et les technologies
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.fqrsc.gouv.qc.ca</url>
+		<sc_name>sc_fqrsc</sc_name>
+		<mo_name>Fonds de recherche sur la société et la culture</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.frsq.gouv.qc.ca</url>
+		<sc_name>sc_frsq</sc_name>
+		<mo_name>Fonds de recherche en santé</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.frvi.gouv.qc.ca</url>
+		<sc_name>sc_frvi</sc_name>
+		<mo_name>Forum des responsables de la vérification interne</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.gesef.gouv.qc.ca</url>
+		<sc_name>sc_gesef</sc_name>
+		<mo_name>Groupe de travail sur l'encadrement du secteur financier
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.grandirenqualite.gouv.qc.ca</url>
+		<sc_name>sc_grandir</sc_name>
+		<mo_name>Institut de la statistique du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.stat.gouv.qc.ca</url>
+		<sc_name>sc_stat</sc_name>
+		<mo_name>Institut de la statistique du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.grandsorganismes.gouv.qc.ca</url>
+		<sc_name>sc_grandsorganismes</sc_name>
+		<mo_name>Centre d'expertise des grands organismes</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.grandtheatre.qc.ca</url>
+		<sc_name>sc_grandtheatre</sc_name>
+		<mo_name>Société du Grand Théâtre de Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.hema-quebec.qc.ca</url>
+		<sc_name>sc_hema-quebec</sc_name>
+		<mo_name>HÉMA-QUÉBEC</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.hydroquebec.com</url>
+		<sc_name>sc_hydro</sc_name>
+		<mo_name>Hydro-Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.micc.gouv.qc.ca</url>
+		<sc_name>sc_micc</sc_name>
+		<mo_name>Immigration et Communautés culturelles</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.immigration-quebec.gouv.qc.ca</url>
+		<sc_name>sc_immq</sc_name>
+		<mo_name>Immigration et Communautés culturelles</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.quebecinterculturel.gouv.qc.ca/</url>
+		<sc_name>sc_interculturel</sc_name>
+		<mo_name>Immigration et Communautés culturelles</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.quebecinterculturel.gouv.qc.ca</url>
+		<sc_name>sc_micc</sc_name>
+		<mo_name>Immigration et Communautés culturelles</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.isq.qc.ca</url>
+		<sc_name>sc_isq</sc_name>
+		<mo_name>Innovatech</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.innovatechquebec.com</url>
+		<sc_name>sc_innovatechquebec</sc_name>
+		<mo_name>Innovatech</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.tresor.gouv.qc.ca</url>
+		<sc_name>sc_tresor</sc_name>
+		<mo_name>Secrétariat du conseil du trésor</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.internet.gouv.qc.ca</url>
+		<sc_name>sc_internet</sc_name>
+		<mo_name>Secrétariat du conseil du trésor</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.investquebec.com</url>
+		<sc_name>sc_invest</sc_name>
+		<mo_name>Investissement Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.irsst.qc.ca</url>
+		<sc_name>sc_irsst</sc_name>
+		<mo_name>Institut de recherche en santé et en sécurité au travail
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ita.qc.ca</url>
+		<sc_name>sc_ita</sc_name>
+		<mo_name>Institut de technologie agroalimentaire</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ithq.qc.ca</url>
+		<sc_name>sc_ithq</sc_name>
+		<mo_name>Institut de tourisme et d'hôtellerie</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.lacaisse.com</url>
+		<sc_name>sc_lacaisse</sc_name>
+		<mo_name>Caisse de dépôt et de placement</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.macm.org</url>
+		<sc_name>sc_macm</sc_name>
+		<mo_name>Musée d'art contemporain de Montréal</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.mapaq.gouv.qc.ca</url>
+		<sc_name>sc_mapaq</sc_name>
+		<mo_name>Agriculture, Pêcheries et Alimentation</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.mcq.org</url>
+		<sc_name>sc_mcq</sc_name>
+		<mo_name>Musée de la civilisation</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.mfa.gouv.qc.ca</url>
+		<sc_name>sc_mfacf</sc_name>
+		<mo_name>Famille et Aînés</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.mnba.qc.ca</url>
+		<sc_name>sc_mnba</sc_name>
+		<mo_name>Musée national des beaux-arts du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.lojiq.org/</url>
+		<sc_name>sc_ofqj</sc_name>
+		<mo_name>Office franco québécois pour la jeunesse</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ophq.gouv.qc.ca</url>
+		<sc_name>sc_ophq</sc_name>
+		<mo_name>Office des personnes handicapées</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.formation.ophq.gouv.qc.ca/</url>
+		<sc_name>sc_ophq_formation</sc_name>
+		<mo_name>Office des personnes handicapées</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.opq.gouv.qc.ca</url>
+		<sc_name>sc_opq</sc_name>
+		<mo_name>Office des professionnels</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://participer.lojiq.org/oqaj/</url>
+		<sc_name>sc_oqaj</sc_name>
+		<mo_name>Office Québec-Amériques pour la jeunesse</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.pda.qc.ca</url>
+		<sc_name>sc_pda</sc_name>
+		<mo_name>Société de la Place des arts de Montréal</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ppp.gouv.qc.ca</url>
+		<sc_name>sc_ppp</sc_name>
+		<mo_name>Partenariats public-privé</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.racj.gouv.qc.ca</url>
+		<sc_name>sc_racj</sc_name>
+		<mo_name>Régie des alcools, des courses et des jeux</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.rcq.qc.ca</url>
+		<sc_name>sc_rcq</sc_name>
+		<mo_name>Régie du cinéma</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://test.rcq.qc.ca</url>
+		<sc_name>sc_rcq_test</sc_name>
+		<mo_name>Régie du cinéma</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.rdl.gouv.qc.ca</url>
+		<sc_name>sc_rdl</sc_name>
+		<mo_name>Régie du logement</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.recyc-quebec.gouv.qc.ca</url>
+		<sc_name>sc_recyc</sc_name>
+		<mo_name>Recyc-Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.regie-energie.qc.ca</url>
+		<sc_name>sc_req</sc_name>
+		<mo_name>Régie de l'énergie</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.rio.gouv.qc.ca</url>
+		<sc_name>sc_rio</sc_name>
+		<mo_name>Parc olympique</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.rmaaq.gouv.qc.ca</url>
+		<sc_name>sc_rmaaq</sc_name>
+		<mo_name>Régie des marchés agricoles et alimentaires</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.rrsss03.gouv.qc.ca</url>
+		<sc_name>sc_rrsss03</sc_name>
+		<mo_name>Agence de la santé et des services sociaux de la
+			Capitale-Nationale</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.rrsss07.gouv.qc.ca</url>
+		<sc_name>sc_rrsss07</sc_name>
+		<mo_name>Agence de la santé et des services sociaux de l'Outaouais
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.santeoutaouais.qc.ca</url>
+		<sc_name>sc_santeoutaouais</sc_name>
+		<mo_name>Agence de la santé et des services sociaux de l'Outaouais
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.rrsss09.gouv.qc.ca</url>
+		<sc_name>sc_rrsss09</sc_name>
+		<mo_name>Agence de la santé et des services sociaux de la Côte-Nord
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.rrsss12.gouv.qc.ca</url>
+		<sc_name>sc_rrsss12</sc_name>
+		<mo_name>Agence de la santé et des services sociaux de
+			Chaudière-Appalaches</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.rrsss15.gouv.qc.ca</url>
+		<sc_name>sc_rrsss15</sc_name>
+		<mo_name>Agence de la santé et des services sociaux des Laurentides
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.rrsss17.gouv.qc.ca</url>
+		<sc_name>sc_rrsss17</sc_name>
+		<mo_name>Régie régionale de la santé et des services sociaux du
+			Nunavik</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.saa.gouv.qc.ca</url>
+		<sc_name>sc_saa</sc_name>
+		<mo_name>Secrétariat aux affaires autochtones</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.santemontreal.qc.ca</url>
+		<sc_name>sc_rrsss06</sc_name>
+		<mo_name>Agence de la santé et des services sociaux de Montréal
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.santeestrie.qc.ca</url>
+		<sc_name>sc_rrsss05</sc_name>
+		<mo_name>Agence de la santé et des services sociaux de l'Estrie
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.santesaglac.gouv.qc.ca</url>
+		<sc_name>sc_rrsss02</sc_name>
+		<mo_name>Agence de la santé et des services sociaux du
+			Saguenay-Lac-Saint-Jean</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.saq.com</url>
+		<sc_name>sc_saq</sc_name>
+		<mo_name>Société des alcools</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.sdbj.gouv.qc.ca</url>
+		<sc_name>sc_sdbj</sc_name>
+		<mo_name>Société de développement de la Baie-James</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.sepaq.com</url>
+		<sc_name>sc_sepaq</sc_name>
+		<mo_name>Société des établissements de plein air</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.sgfqc.com</url>
+		<sc_name>sc_sgfqc</sc_name>
+		<mo_name>Société générale de financement du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.siq.gouv.qc.ca</url>
+		<sc_name>sc_siq</sc_name>
+		<mo_name>Société immobilière du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.sodec.gouv.qc.ca</url>
+		<sc_name>sc_sodec</sc_name>
+		<mo_name>Société de développement des entreprises culturelles
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.sogique.gouv.qc.ca</url>
+		<sc_name>sc_sogique</sc_name>
+		<mo_name>Société de gestion informatique</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.sonaccps.com</url>
+		<sc_name>sc_sonaccps</sc_name>
+		<mo_name>Société nationale du cheval de course</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.sopfim.qc.ca</url>
+		<sc_name>sc_sopfim</sc_name>
+		<mo_name>Société de protection des forêts contre les insectes et
+			maladies</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.spipb.com</url>
+		<sc_name>sc_spipb</sc_name>
+		<mo_name>Société du parc industriel et portuaire de Bécancour
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.srcq.gouv.qc.ca</url>
+		<sc_name>sc_srcq</sc_name>
+		<mo_name>Service de renseignement criminel du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.sssslaval.gouv.qc.ca</url>
+		<sc_name>sc_rrsss13</sc_name>
+		<mo_name>Agence de la santé et des services sociaux de Laval</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.suretequebec.gouv.qc.ca</url>
+		<sc_name>sc_sq</sc_name>
+		<mo_name>Sûreté du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.surete.qc.ca</url>
+		<sc_name>sc_sq</sc_name>
+		<mo_name>Sûreté du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.taq.gouv.qc.ca</url>
+		<sc_name>sc_taq</sc_name>
+		<mo_name>Tribunal administratif du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.tatournee.com</url>
+		<sc_name>sc_tatournee</sc_name>
+		<mo_name>Tel-jeunes</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.telequebec.tv</url>
+		<sc_name>sc_tq</sc_name>
+		<mo_name>Tele-Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.toponymie.gouv.qc.ca</url>
+		<sc_name>sc_toponymie</sc_name>
+		<mo_name>Commission de toponymie</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.traversiers.gouv.qc.ca</url>
+		<sc_name>sc_traversiers</sc_name>
+		<mo_name>Société des traversiers</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.uqtr.ca</url>
+		<sc_name>sc_uqtr</sc_name>
+		<mo_name>Université du Québec à Trois-Rivières</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>https://www.uqtr.ca</url>
+		<sc_name>sc_uqtr</sc_name>
+		<mo_name>Université du Québec à Trois-Rivières</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.urgencenucleaire.qc.ca</url>
+		<sc_name>sc_urgencenucleaire</sc_name>
+		<mo_name>Sécurité publique</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.urgences-sante.qc.ca</url>
+		<sc_name>sc_urgences-sante</sc_name>
+		<mo_name>Urgences-santé</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.ventes.gouv.qc.ca</url>
+		<sc_name>sc_ventes</sc_name>
+		<mo_name>Direction générale des acquisitions</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.vgq.gouv.qc.ca</url>
+		<sc_name>sc_vgq</sc_name>
+		<mo_name>Vérificateur général du Québec</mo_name>
+		<mo_code>vgq</mo_code>
+	</row>
+	<row>
+		<url>https://azimut.soquij.qc.ca</url>
+		<sc_name>sc_azimut</sc_name>
+		<mo_name>Société québécoise d'information juridique</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>https://si1.lobby.gouv.qc.ca</url>
+		<sc_name>sc_lobby</sc_name>
+		<mo_name>Registre des Lobbyistes</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>https://www.chq.gouv.qc.ca</url>
+		<sc_name>sc_chq</sc_name>
+		<mo_name>Corporation d'hébergement du Québec</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.protegez-vous.ca</url>
+		<sc_name>sc_protegez_vous</sc_name>
+		<mo_name>Protegez-vous</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.cldc.cspq.gouv.qc.ca/</url>
+		<sc_name>sc_cldc</sc_name>
+		<mo_name>CSPQ</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.dispositiondesbiens.gouv.qc.ca/</url>
+		<sc_name>sc_dispositiondesbiens</sc_name>
+		<mo_name>CSPQ</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.lieutenant-gouverneur.qc.ca</url>
+		<sc_name>sc_ltg</sc_name>
+		<mo_name>Bureau du Lieutenant gouverneur</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.gttsp.gouv.qc.ca</url>
+		<sc_name>sc_gttsp</sc_name>
+		<mo_name>Groupe de travail sur la tarification des services publics
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.gtie.gouv.qc.ca</url>
+		<sc_name>sc_gtie</sc_name>
+		<mo_name>Groupe de travail sur l'investissement des entreprises
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.rrspt.gouv.qc.ca</url>
+		<sc_name>sc_rrspt</sc_name>
+		<mo_name>RRSPT</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+	<row>
+		<url>http://www.electionsmunicipales.gouv.qc.ca</url>
+		<sc_name>sc_electionsmunicipales</sc_name>
+		<mo_name>Ministère des Affaires municipales, des Régions et de
+			l'Occupation</mo_name>
+		<mo_code>mamr</mo_code>
+	</row>
+	<row>
+		<url>http://www.cepnj.gouv.qc.ca/</url>
+		<sc_name>sc_cepnj</sc_name>
+		<mo_name>Commission d’enquête sur le processus de nomination des juges
+		</mo_name>
+		<mo_code>(NULL)</mo_code>
+	</row>
+</data>

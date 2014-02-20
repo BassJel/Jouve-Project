@@ -1,0 +1,13 @@
+statsType=Type de statistiques
+startDate=Date de départ
+endDate=Date de fin
+rows=Lignes
+includeFederatedCollections=Inclure les collections fédérées
+apply=Appliquer
+statsType.mostPopularReq = Les requêtes les plus populaires
+statsType.requestLog=Journal des requêtes
+statsType.mostPopularReqWOResults=Les requêtes les plus populaires sans résultat
+statsType.mostPopularReqWResults=Les requêtes les plus populaires avec résultat
+statsType.mostPopularReqWOMouseClick=Les requêtes les plus populaires sans clic de souris
+statsType.mostPopularReqWMouseClick=Les requêtes les plus populaires avec clic de souris
+queryExcludeRegexps=Requêtes exclues

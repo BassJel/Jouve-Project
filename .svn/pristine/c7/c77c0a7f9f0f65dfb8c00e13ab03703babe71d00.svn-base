@@ -1,0 +1,4 @@
+add=Ajouter une police ACL
+file=Fichier
+noValidEntry=Le fichier téléversé ne contient aucune ligne valide
+effectiveAfterIndexing=La police ACL téléversée sera effective une fois que les enregistrements de la collection auront été réindexés

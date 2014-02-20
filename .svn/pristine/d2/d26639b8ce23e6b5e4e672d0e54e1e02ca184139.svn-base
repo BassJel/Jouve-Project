@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+
+<wicket:panel>
+	<table width="45" cellpadding="2" cellspacing="2">
+		<tr>
+			<td>
+				<a wicket:id="elevateLink" href="#" style="text-decoration:none;" title="[Elevate]" wicket:message="title:elevate">
+					<wicket:container wicket:id="elevateImg">
+						<wicket:link autolink="true">
+							<img src="../../pages/images/elevate.png" alt="[Elevate]" wicket:message="alt:elevate" />
+						</wicket:link>
+					</wicket:container>
+					<wicket:container wicket:id="elevatedImg">
+						<wicket:link autolink="true">
+							<img src="../../pages/images/elevated.png" alt="[Elevate]" wicket:message="alt:elevate" />
+						</wicket:link>
+					</wicket:container>
+				</a>
+			</td>
+			
+			<wicket:enclosure child="restoreLink">
+			<td>
+				<a wicket:id="restoreLink" href="#" style="text-decoration:none;" title="[Restore]" wicket:message="title:restore">
+					<wicket:link autolink="true">
+						<img src="../../pages/images/restore.png" alt="[Restore]" wicket:message="alt:restore" />
+					</wicket:link>
+				</a>
+			</td>
+			</wicket:enclosure>
+			
+			<wicket:enclosure child="excludeLink">
+			<td>
+				<a wicket:id="excludeLink" href="#" style="text-decoration:none;" title="[Exclude]" wicket:message="title:exclude" >
+					<wicket:link autolink="true">
+						<img src="../../pages/images/exclude.png"  alt="[Exclude]" wicket:message="alt:exclude" />
+					</wicket:link>
+				</a>
+			</td>
+			</wicket:enclosure>
+			
+			<td>
+				<div wicket:id="elevatedQueriesLinkHolder" />
+			</td>
+		</tr>
+	</table>
+</wicket:panel>
+
+</html>

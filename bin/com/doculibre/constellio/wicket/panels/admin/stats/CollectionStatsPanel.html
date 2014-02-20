@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+	
+	<div id="contenu">
+        
+    <form wicket:id="form">
+    
+    <fieldset>
+	<table class="saisie" style="width:530px"> 
+		<tr>
+			<td>
+		        <strong><wicket:message key="queryExcludeRegexps">[Excluded queries (after ? in URL)]</wicket:message> : </strong>
+			</td>
+			<td>
+		        <textarea wicket:id="queryExcludeRegexps" cols="35" rows="5"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr />
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+		        <strong><wicket:message key="statsType">[Type of statistics]</wicket:message> : </strong>
+			</td>
+			<td>
+	        	<select wicket:id="statsType">
+	        		<option>1</option>
+	        		<option>2</option>
+	        		<option>3</option>
+	        	</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+		        <strong><wicket:message key="startDate">[Start date]</wicket:message> : </strong>
+			</td>
+			<td>
+		        <input wicket:id="startDate" type="text" size="8" />
+			</td>
+		</tr>	
+		<tr>
+			<td>
+		        <strong><wicket:message key="endDate">[End date]</wicket:message> : </strong>
+			</td>
+			<td>
+		        <input wicket:id="endDate" type="text" size="8" />
+			</td>
+		</tr>	
+		<tr>
+			<td>
+		        <strong><wicket:message key="rows">[Rows]</wicket:message> : </strong>
+			</td>
+			<td>
+		        <input wicket:id="rows" type="text" size="5" />
+			</td>
+		</tr>
+		
+		<wicket:enclosure child="includeFederatedCollections">
+		<tr>
+			<td>
+		        <strong><wicket:message key="includeFederatedCollections">[Include federated collections]</wicket:message> : </strong>
+			</td>
+			<td>
+		        <input wicket:id="includeFederatedCollections" type="checkbox" />
+			</td>
+		</tr>		
+		</wicket:enclosure>		
+		<tr>
+			<td colspan="2" align="center">
+		        <span class="btnRechIEBorder"><input type="submit" wicket:message="value:apply" class="btnRech" /></span>
+			</td>
+		</tr>	
+					
+		
+	    <tr>
+	        <td colspan="2">
+	        <hr />
+	        
+	        <h2 wicket:id="title" style="display:none;">[Titre]</h2>
+	        
+	        <div wicket:id="statsPanel"></div>
+
+	        </td>
+	    </tr>
+	 </table>   
+     
+     </fieldset>
+    </form> 
+     
+     </div>
+
+</wicket:panel>
+</html>

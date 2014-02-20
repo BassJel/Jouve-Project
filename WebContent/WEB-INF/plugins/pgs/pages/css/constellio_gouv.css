@@ -1,0 +1,1144 @@
+/*Constellio stylesheet*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
+{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;}
+body{line-height:1px}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+:focus{outline:0}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+table{border-collapse:collapse;border-spacing:0}
+img{border:0;}
+
+body { 
+	color: #474D52;
+	text-align:center;
+	font:0.75em/1.4em  Arial,Helvetica,Sans-Serif;
+ }
+ /* Contenant global
+----------------------------------------------- */
+#container {
+	background-color: #fff;
+	margin:0 auto;
+	text-align:left;
+	position:relative;
+}
+	
+a:link{
+	color:#057ABC;
+	text-decoration:none;
+}	
+a:visited{
+	color: #004682;
+}
+a:hover{
+	color:#057ABC;
+	text-decoration:underline;
+}
+a:actif{
+	color:#057ABC;
+	text-decoration:underline;
+}
+.right{
+	float:right;
+}
+.left{
+	float:left;
+}
+ /* Contenant accueil PIV
+----------------------------------------------- */
+#header{
+	height:110px;
+	text-align:center;
+	/*border:1px solid #fff;*/
+	padding-top: 15px;
+}
+#header #formSection {
+	float:left;
+	clear:none;
+}
+
+ /* ajuster pour bandeau PIV
+----------------------------------------------- */
+#headerAcc{
+	height:100px;
+	/*border:1px solid #fff;*/
+}
+#headerAdminRight{
+	text-align:right;
+	width:500px;
+	float:left;
+	margin-top:30px;
+}
+#pageHeader{
+	margin-top:0px;
+}
+#Main{
+	margin-top:20px;
+	margin-left:360px;
+}
+#logoRech{
+	width:110px;
+	margin-top:10px;
+	float:left;
+	clear:right;
+}
+#logoAdmin{
+	width:240px;
+	float:left;
+	margin-top:26px;
+	margin-bottom:20px;
+}
+.centre{
+	margin-left:40px;
+}
+#leftCol{
+	width:210px;
+	float:left;
+}
+#leftColAdmin{
+	width:180px;
+	float:left;
+}
+#menuAcc {
+	background-color: #ecf6ff;
+	border: 1px solid #C2E0ED;
+	width:179px;
+	float:left;
+	margin-left: 45px;
+	text-align: left;
+}
+#menuAcc ul {
+}
+
+#leftColMenu{
+	width:210px;
+	float:left;
+	background-color: #ecf6ff;
+	border: 1px solid #C2E0ED;
+}
+#leftColAdmin #leftColMenu{
+	width: 160px;
+	padding-bottom:25px;
+}
+
+#rightColAdmin{
+	width:560px;
+	float:left;
+}
+.titreMenu{
+	color:#004682;
+	font-weight: bold;
+	margin: 5px 10px;
+	background:none;
+}
+ul#menuVertical{
+	margin: 5px 0;
+}
+#menuAcc ul#menuVertical{
+	width:178px;
+}
+#leftColMenu ul#menuVertical{
+	width:210px;
+}
+#leftColAdmin #leftColMenu ul#menuVertical{
+	width:160px;
+}
+ul#menuVertical ul.sousmenu{
+	margin: 0;
+}
+ul#menuVertical li{
+	display:block;
+	background:none;
+	padding:0;
+	margin:0;
+}
+ul#menuVertical li a{
+	color:#004682;
+	border-top:1px solid #9CC9E3;
+	display:block;
+	float: left;
+	clear: left;
+	padding:3px 0 3px 15px;
+	font-size:90%;
+	text-decoration: none;
+}
+
+#menuAcc ul#menuVertical li a{
+	width:163px;
+}
+#leftColMenu ul#menuVertical li a{
+	width:195px;
+}
+#leftColAdmin #leftColMenu ul#menuVertical li a{
+	width:145px;
+}
+#leftColAdmin #leftColMenu ul#menuVertical ul.sousmenu a{
+	padding:3px 0 3px 25px;
+	width:135px;
+}
+ul#menuVertical li a:hover{
+	text-decoration: underline;
+}
+ul#menuVertical li a.selected,
+ul#menuVertical li.selected a{
+	background-color:#A6C9E9;
+	font-weight:bold;
+	text-decoration: none;
+}
+ul#menuVertical li a.currentLong{
+	background-color:#C2E0ED;
+	font-weight:bold;
+	text-decoration: none;
+}
+div.filterFacetCheck {
+	float: left;
+	vertical-align: top;
+}
+div.filterFacetLink {
+	width: 210px; 
+}
+
+tr.singleValuedFacetSelected {
+	background-color: #ECF6FF;
+}
+
+tr.singleValuedFacetSelected a{
+	font-weight: bolder;
+	font-size: 8pt;	
+}
+
+.MenuPaging{
+	background-color: #004682;
+	text-align:right;
+	clear:both;
+	padding:10px 10px 5px 0;
+}
+.MenuPagingLong{
+	background-color: #004682;
+	text-align:right;
+	clear:both;
+	padding:10px 10px 5px 0;
+}
+.MenuPaging li,
+.MenuPagingLong li{
+	display:inline;
+}
+.MenuPaging li a,
+.MenuPagingLong li a,
+.MenuPaging li em,
+.MenuPagingLong li em{
+	color: #fff;
+	font-size:90%;
+	padding:2px;
+}
+.MenuPaging a:visited,
+.MenuPaging a:hover,
+.MenuPaging a:active,
+.MenuPagingLong a:visited,
+.MenuPagingLong a:hover,
+.MenuPagingLong a:active{
+	color: #fff;
+}
+ /* Contenant central
+----------------------------------------------- */
+#sectionPrincipale {
+	background-color: #fff;
+	padding-top:1px;
+	margin:0px 10px 40px 10px;
+	clear:both;
+}
+
+#contenu{
+	margin:0 0 0 0px;
+	float:left;
+	width:480px;
+}
+#contenuRech{
+	margin:20px 0 0 20px;s
+	float:left;
+	width: 480px!important;
+	width: 460px;
+}
+#nbresults{
+	background-color: #666;
+	width:760px;
+	/*
+	width:100%;
+	float:left;
+	*/
+	margin-top: 25px;
+	margin-bottom: 20px;
+	color:#fff;
+}
+h1{
+	color:#fff;
+	padding:3px;
+	font-size:120%;
+	font-weight: bold;
+	
+}
+h1.admin{
+	color:#004682;
+	padding:15px;
+	font-size:160%;
+	font-weight: bold;
+}
+h2.stadmin{
+	color:#004682;
+	padding:10px 0 5px 0;
+	font-size:120%;
+	font-weight: bold;
+}
+#rightColAdmin h1.admin{
+	padding:0 15px 15px 0;
+}
+ /* Formulaire
+----------------------------------------------- */
+#formulaire{
+	text-align:left;
+	width:490px;
+	margin-bottom:40px;
+	margin-left:20px;
+}
+#formulaireResult{
+	width: 480px;
+	margin-bottom:40px;
+}
+.recherche{
+	margin:2px 0 1px 0;
+	width:385px; 
+	text-align:left; 
+	border:none;
+	vertical-align: top;
+}
+.recherchePetit{
+	width:380px!important;
+	width:380px;
+	border-top:2px solid #D3D2D2;
+	border-right:1px solid #D3D2D2;
+	border-bottom:1px solid #D3D2D2;
+	border-left:2px solid #D3D2D2;
+	margin:5px 0;
+}
+span.btnRechIEBorder {
+	/* Customized in constellio_gouv_ie.css */
+	border:0
+}
+.btnRech{
+	/* Customized in constellio_gouv_ie.css */
+	cursor: pointer;
+	background: #ECF6FF url(../images/bg_btn.png) repeat-x bottom;
+	color:#004682;
+	font-weight:bold;
+	border:1px solid #004682;
+	font-size:90%;
+	padding:2px;
+	width:auto;
+	overflow:visible;
+}
+.btnRech2{
+	cursor: pointer;
+	background: #ECF6FF;
+	margin-top:5px;
+}
+.btnReset{
+	cursor: pointer;
+	color:#666;
+	font-weight:normal;
+	border:1px solid #666;
+	font-size:80%;
+	margin:3px 1px;
+	padding:2px;
+	width:auto;overflow:visible;
+	background: #EBEDEC url(../images/bg_btn.png) repeat-x bottom;
+}
+.etiquette{
+	font-size:90%;
+	margin:5px 0;
+}
+.radio{
+
+	width:390px;
+	float:left;
+	text-align:right;
+}
+ /* navigation horizontale
+----------------------------------------------- */
+#navigation{
+	text-align:right;
+	width:420px;
+	font-size:90%;
+}
+#navigationPetit{
+	width:390px;
+	font-size:90%;
+	float:left;
+}
+#headerAdminRight #navigation{
+	width:500px;
+}
+#navigation ul,
+#navigationPetit ul{
+	list-style:none;
+}
+#navigation ul li, 
+#navigationPetit ul li{
+	display: inline;
+	background: none;
+	}
+#navigation ul li a,
+#navigationPetit ul li a{
+	margin:0;
+	padding:0 0 0 10px;
+	display:inline;
+	color:#057ABC;
+	}
+	#navigation ul li a.langue,
+	#navigationPetit ul li a.langue {
+	background: url(../images/ico_lang.png) no-repeat right;
+	padding:0 8px 0 10px;
+}
+
+#btnRechUserLinks {
+	text-align:right; 
+	margin-right:0px;
+}
+
+ /* styles resultats de recherche
+----------------------------------------------- */
+#resultats{
+	width:480px;
+	float:left;
+	margin:0 0 20px 10px;
+
+}
+#orthographe{
+	margin: 0 0 10px 0;
+	float:left;
+}
+.orthographe{
+	color: #B83B10;
+	font-size:110%;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+} 
+.orthographe a{
+	font-weight: normal;
+	font-size:100%;
+}
+.encart{
+	border:1px solid #D3D2D2;
+	background: url(../images/bg_encart.png) repeat-x bottom;
+	clear:both;
+	float:left;
+	width:440px;
+	padding:5px 20px;
+	}
+	
+.encart h2{
+	color: #333;
+	font-size:140%;
+	font-weight: bold;	
+	margin: 0 0 5px 0;
+	background: none;
+	/*
+	border: none;
+	*/
+	}
+.listePuce,
+.encart li{
+	list-style: square outside none;
+	margin:5px 40px;
+	background: none;
+	padding-left:0;
+}
+.detailResult{
+	float:left;
+	clear:left;
+	margin: 20px 0 0 0;
+	width:476px;
+	overflow:hidden
+}
+.detailResult em,
+.highlight {
+	font-style: italic;
+	font-weight: bold;
+} 
+.detailResult a {
+	font-size: 110%;
+	font-weight: bold;
+	padding:5px 0;
+	color:#004682;
+}
+.description{
+	margin:5px 0;
+}
+
+.adresse,
+.adresse a{
+	color:#856E54;
+	font-size: 90%;
+	margin:5px 0;
+	word-wrap:break-word;
+}
+.adresse a{
+	text-decoration: none;
+	word-wrap:break-word;
+}
+.adresse a:hover {
+	text-decoration: underline;
+}
+
+.pagination{
+	width:480px;
+	clear:both;
+	float: left;
+	padding:6px 0 3px 2px;
+	background: url(../images/bg_pagination.png) repeat-x bottom;
+}
+.pagination li{
+	display:inline;
+	margin-left:5px;
+	padding:0 5px;
+	background: none;
+}
+.pagination li a{
+
+}
+
+.paginationFacet{
+	text-align: center;
+	clear:both;
+}
+.paginationFacet li{
+	display:inline;
+	margin-left:0px;
+	padding:0 5px;
+}
+.paginationFacet li a{
+
+}
+
+/* blocs de gauche dans les resultats
+----------------------------------------------- */
+.bloc{
+	width:210px;
+	background: url(../images/bg_bloc.png) no-repeat right;
+	height:29px;
+	float:left;
+	clear: both;
+	margin:20px 0 0 0;
+}
+.titreBloc{
+	margin:10px 0 5px 10px;
+}
+.titreBloc a{
+	margin-right:5px;
+}
+.blocCache{
+	width:210px;
+	float:left;
+	clear: both;
+	margin:0 0 0 0;
+}
+.currentSearchFacet {
+	border: 1px solid #C2E0ED;
+}
+.currentSearch{
+	width:100%;
+	font-size: 90%;
+}
+.currentSearch a {
+	font-weight: bold;
+}
+.currentSearch img {
+	padding-right: 10px;
+}
+.currentSearchSectionTitle {
+	background-color: #ecf6ff;
+	width:100%;
+	height:29px;
+	float:left;
+	clear: both;
+	margin:0;
+	border-bottom:1px solid #D2D7D5;
+}
+.currentSearch .queryLabel td,
+.currentSearch .tagsLabel td,
+.currentSearch .criteriaLabel td {
+	font-weight: bold;
+	background-color: #ecf6ff;
+	padding: 3px 5px;
+	text-align: left;
+	color:#004682;
+}
+.currentSearch tr{
+}
+.currentSearch td{
+	font-weight: normal;
+	padding: 3px 0 3px 10px;
+}
+.tableBloc{
+	width:100%;
+	font-size: 90%;
+	border-collapse: collapse;
+}
+.tableBloc th{
+	font-weight: normal;
+	background-color: #EBEDED;
+	padding: 3px 5px;
+	text-align: left;
+}
+
+.tableBloc tr.allResults td {
+	font-weight: bold;
+	background-color: #EBEDED;
+	padding: 3px 5px;
+	text-align: right;
+}
+
+.tableBloc tr{
+}
+.tableBloc td{
+	font-weight: normal;
+	padding: 3px 0 3px 10px;
+	border-bottom:1px solid #D2D7D5;
+}
+select.tri{
+	font-size:90%;
+}
+.PaginationBloc{
+	text-align:right;
+	font-size:90%;
+}
+.PaginationBloc li{
+	display:inline;
+}
+#currentUser{
+	width:250px;
+	float:right;
+	clear:both;
+	margin:20px 0;
+}
+.imgUser{
+	width:25px;
+	margin:5px 0 0 5px;
+	float:left;
+}
+.nomUser{
+	text-align:right;
+	float:left;
+	width:220px;
+	font-size:90%;
+}
+.titreUser{
+	font-weight: bold;
+	color:#004682;
+}
+/*navigation par onglet en admin*/
+#navlist{
+padding: 4px 0;
+margin-left: 0;
+border-bottom: 4px solid #004682;
+width:100%
+}
+
+#navlist li{
+list-style: none;
+margin: 0;
+display: inline;
+}
+
+#navlist li a{
+padding: 5px 8px;
+border:none;
+background: #818483 url(../images/bg_menuHoriz2.png) repeat-x bottom;
+text-decoration: none;
+color:#fff;
+font-weight:bold;
+border-right:1px solid #858685;
+}
+#navlist li a:hover
+{
+color: #fff;
+background: #A6C9E9;
+}
+
+#navlist li.selected a
+{
+background: #A6C9E9 url(../images/bg_menuhoriz.png) repeat-x bottom;
+border-bottom: 1px solid #004682;
+}
+/**Tableau de donnees en admin**/
+.dataAdmin{
+	width:100%;
+	font-size: 90%;
+	border-top:1px solid #CCCCCC;
+}
+.dataAdmin th{
+	background-color: #D6DAD9;
+	text-transform: uppercase;
+	font-weight:normal;
+	padding:3px 10px;
+	border-right:1px solid #fff;
+}
+.dataAdmin td{
+	border-bottom: 1px dotted #D6DAD9;
+	border-right:1px solid #EBEDED;
+	padding:3px 10px;
+}
+.dataAdmin2{
+	width:100%;
+	font-size: 90%;
+	border-top:1px solid #CCCCCC;
+}
+.dataAdmin2 th{
+	background-color: #D6DAD9;
+	
+	font-weight:normal;
+	padding:2px;
+	border-right:1px solid #fff;
+}
+.dataAdmin2 td{
+	border-bottom: 1px dotted #D6DAD9;
+	border-right:1px solid #EBEDED;
+	padding:2px;
+}
+.aligncenter{
+	text-align: center;
+}
+.width50px{
+	width:50px;
+}
+.paginationAdmin{
+	clear:both;
+	float: right;
+	padding:6px 0 3px 2px;
+	margin:10px 0;
+}
+.paginationAdmin li{
+	display:inline;
+	margin-left:5px;
+	padding:0 5px;
+}
+.paginationAdmin li a{
+	
+}
+.boutonAdmin{
+	clear:both;
+	float: right;
+	padding:6px 0 3px 2px;
+	margin:20px 0 40px 0;
+}
+#filAriane{
+	font-size: 90%;
+	margin:10px 20px;
+}
+.filet{
+	border-top:1px solid #CCCCCC;
+	margin-top:5px;
+	padding-top:20px;
+}
+.formulaireRO{
+	width:98%;
+	margin:10px;
+}
+.formulaireRO td{
+	border-bottom: 1px dotted #D6DAD9;
+	padding:5px;
+}
+.formulaireRO td.etiquette{
+	font-size: 90%;
+	text-transform: uppercase;
+	font-weight: bold;
+	width:150px;
+}
+.saisie label {
+	font-size: 90%;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.alt{
+	background-color: #F4F5F4;}
+	
+.formulaireRO td.boutons{
+	text-align: right;
+}
+.iconeForm{
+	margin:5px 5px 5px 20px;
+}
+
+/*styles pour popup de formulaire*/
+#popup{
+	width: 550px;
+	background: #fff url(../images/bg_popup.png) no-repeat top left;
+	margin:0;
+	padding:0;
+	border:1px solid #fff;
+}
+#popup h4{
+	text-transform: uppercase;
+	color:#fff;
+	margin:15px 20px;
+	text-align:left;
+	font-size:120%;
+}
+.formulaire{
+	width:510px;
+	margin:30px 20px;
+}
+.login{
+	margin:75px 20px 30px 20px;
+	width:420px;
+}
+.formulaire td,
+.login td{
+	padding:8px;
+	vertical-align:top;
+}
+.formulaire td.etiquette,
+.login td.etiquette{
+	font-size: 90%;
+	text-transform: uppercase;
+	font-weight: bold;
+	width:140px;
+	text-align:right;
+}
+.formulaire td.boutons,
+.login td.boutons{
+	text-align: right;
+}
+.formulaire .btnRech,
+.formulaire .btnReset,
+.login .btnRech,
+.login .btnReset{
+	font-size:90%;
+	margin:5px;
+	padding:3px;
+	font-weight:bold;
+}
+.inputTextbox{
+	border-top:2px solid #D3D2D2;
+	border-right:1px solid #D3D2D2;
+	border-bottom:1px solid #D3D2D2;
+	border-left:2px solid #D3D2D2;
+	margin:5px 0;
+	width:250px;
+}
+.obligatoire{
+	font-size: 120%;
+	color:#DF0B07;
+	font-weight:bold;
+}
+/*styles pour les blocs caches en admin*/
+.blocAdmin{
+	width:100%;
+	height:29px;
+	float:left;
+	clear: both;
+	margin:0;
+	border-bottom:1px solid #D2D7D5;
+}
+.titreBlocAdmin{
+	margin:10px 0 5px 0;
+	font-size:120%;
+	color:#004682;
+}
+.titreBlocAdmin a{
+	margin-right:5px;
+}
+.blocCacheAdmin{
+	width:100%;
+	float:left;
+	clear: both;
+	margin:0;
+}
+.tableBlocAdmin{
+	width:100%;
+}
+.tableBlocAdmin th{
+	background-color: #D6DAD9;
+	text-transform: uppercase;
+	font-weight:bold;
+	padding:3px 5px;
+	border-right:1px solid #fff;
+	text-align: left;
+	font-size:90%
+}
+.tableBlocAdmin td{
+	font-weight: normal;
+	border-bottom: 1px dotted #D6DAD9;
+	border-right:1px solid #EBEDED;
+	padding: 3px 0 3px 10px;
+}
+/* pied de page adapté pour PIV
+----------------------------------------------- */
+	#pageFooter{
+	clear:both;
+	padding:20px 0;
+	text-align:center;
+	font-size:90%;
+	/* TODO à masquer? */
+	width:100%;
+	float:left;
+	border-top:0px solid #ccc;
+	}
+
+	
+.feedbackPanelERROR {
+	color: red;
+}
+
+.historiqueLienRetour a {
+	font-size: large;
+}
+
+#titreHistoriqueRecherche {
+	text-align: left;
+	padding-left: 5px;
+}
+
+.formulaireAuto{
+    width:270px;
+    margin:30px 10px;
+    overflow: scroll;
+    height: 200px;
+    border:1px solid #efefef;
+}
+td.etiquetteLabel{
+    background: url(../images/ico_etiquette.gif) no-repeat top left;
+    padding:2px 2px 5px 30px; 
+    line-height: 10px;
+    border-bottom:1px solid #efefef;
+}
+
+/* Spell checker 
+----------------------------------------------- */
+.spellCheck {
+}
+
+.spellCheck:after {
+	/*Add margin between menu and rest of content in Firefox*/
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.spellCheck ul {
+}
+
+.spellCheck ul li {
+	display: inline;
+	padding: -5;
+	margin: 0;
+	color:#004682;
+}
+
+.spellCheck .question {
+	color: #666;
+	font-size:110%;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+}
+
+.spellCheck ul .suggestion {
+	cursor: pointer;
+	text-decoration: underline;
+	color:#004682;
+}
+
+.spellCheck ul .suggestion .motSuggere {
+	text-align: left;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.spellCheck ul li a {
+	font-weight: bold;
+	color:#004682;
+	/*padding: 4px 7px;*/
+	text-decoration: none;
+	
+}
+
+.spellCheck ul li a:hover,.spellCheck ul li a.selected {
+	/*script dynamically adds a class of "selected" to the current active menu item*/
+	
+}
+
+/* ######### Style for Drop Down Menu ######### */
+.dropmenudiv {
+	position:fixed;
+	top: 0;
+	border: 1px solid #BBB; /*THEME CHANGE HERE*/
+	border-bottom-width: 0;
+	font:normal 12px Verdana;
+	line-height:18px;
+	z-index:100;
+	background-color: white;
+	width: 200px;
+	visibility: hidden;
+}
+
+.dropmenudiv a {
+	width: auto;
+	display: block;
+	text-indent: 3px;
+	border-bottom: 1px solid #BBB; /*THEME CHANGE HERE*/
+	padding: 2px 0;
+	text-decoration: none;
+	font-weight: bold;
+	color:#004682;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+	width: 100%;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+	background-color: #F0F0F0;
+}
+
+.anylinkSpellChecker {
+
+}
+
+.anylinkSpellChecker ul li {
+	display: inline;
+	padding: -5;
+	margin: 0;
+	color:#004682;
+}
+
+.anylinkSpellChecker .question {
+	color: #666;
+	font-size:110%;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+}
+
+.anylinkSpellChecker ul .suggestion {
+	cursor: pointer;
+	text-decoration: underline;
+	color:#004682;
+}
+
+.anylinkSpellChecker ul .suggestion .anchorclass {
+	text-align: left;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.anylinkSpellChecker ul li a {
+	font-weight: bold;
+	color:#004682;
+	/*padding: 4px 7px;*/
+	text-decoration: none;
+	text-align: left;
+}
+
+.anylinkcss ul li a {
+	color:#004682;
+	background-color: white;
+}
+
+.anylinkcss ul li a:hover {
+	background-color: #F0F0F0;
+}
+
+
+
+.selectedanchor{ /*CSS class that gets added to the currently selected anchor link (assuming it's a text link)*/
+background: yellow;
+}
+
+
+/* ######### Default class for drop down menus ######### */
+
+.anylinkcss{
+position: absolute;
+left: 0;
+top: 0;
+visibility: hidden;
+border: 1px solid black;
+border-bottom-width: 0;
+font: normal 12px Verdana;
+line-height: 18px;
+z-index: 100; /* zIndex should be greater than that of shadow's below */
+background: lightyellow;
+width: 200px; /* default width for menu */
+}
+
+.anylinkcss ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+	text-align: left;
+}
+
+.anylinkcss ul li a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid black;
+padding: 1px 0;
+text-decoration: none;
+font-weight: bold;
+text-indent: 5px;
+}
+
+.anylinkcss a:hover{ /*hover background color*/
+background: black;
+}
+
+/* ######### Alternate multi-column class for drop down menus ######### */
+
+
+.anylinkcsscols{
+position: absolute;
+left: 0;
+top: 0;
+visibility: hidden;
+border: 1px solid black;
+padding: 10px;
+font: normal 12px Verdana;
+z-index: 100; /*zIndex should be greater than that of shadow's below*/
+background: #DEFFCA;
+}
+
+.anylinkcsscols .column{
+width: 130px;
+float: left;
+}
+
+.anylinkcsscols .column ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.anylinkcsscols li{
+padding-bottom: 3px;
+}
+
+/* ######### class for shadow DIV ######### */
+
+
+.anylinkshadow{ /*CSS for shadow. Keep this as is */
+position: absolute;
+left: 0;
+top: 0;
+z-index: 99; /*zIndex for shadow*/
+background: black;
+visibility: hidden;
+}
+
+.thesaurusSuggestion {
+	margin-bottom: 6px;
+	border:1px solid #004682;
+	padding:3px;
+}

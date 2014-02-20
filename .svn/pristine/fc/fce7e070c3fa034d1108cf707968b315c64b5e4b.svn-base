@@ -1,0 +1,33 @@
+
+
+		Constellio Release Notes
+		
+Introduction
+------------
+CONSTELLIO : Enterprise Search
+Constellio is the first open source comprehensive suite of enterprise search. 
+Based on the popular search engine Apache Solr and using the architecture of 
+connectors of Google Search Appliance, Constellio provide the solution to index 
+all sources of information in your business.
+
+See http://www.contestellio for more information.
+
+Getting Started
+---------------
+You need a Java 1.6 VM or later installed.
+See http://wiki.constellio.com/index.php/Getting_Started
+
+Please report any bugs at : http://issues.constellio.com
+Google group : http://groups.google.com/group/constellio
+
+=================================================
+Constellio is an Open Source Enterprise Search solution developed by: 
+
+DocuLibre inc.
+2014 Cyrille-Duquet
+Suite 190
+Quebec, Quebec
+Canada
+G1X 1R3
+
+info@doculibre.com

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans spring-beans-2.0.xsd
+http://www.springframework.org/schema/util spring-util-2.0.xsd"
+default-lazy-init="true">
+
+	<util:list id="availablePluginNames">
+
+		
+	 <!--
+	 <value>pgs</value>
+		<value>kea</value>
+		<value>attribute</value>
+-->	
+	</util:list>
+ 
+	<util:map id="config">
+		<entry key="feedProcessorThreads" value="10" />
+		<entry key="supportedLanguages">
+			<list>
+				<value>fr</value>
+				<value>en</value>
+			</list>
+		</entry>
+<!-- 
+		<entry key="searchableLanguages">
+			<list>
+				<value>fr</value>
+				<value>en</value>
+				<value>de</value>
+				<value>es</value>
+				<value>it</value>
+				<value>nl</value>
+			</list>
+		</entry>
+-->	
+		
+		<!-- dir paths where it is possible to download a file using DownloadFileServlet -->
+		<!-- Usefull for connector's content url -->
+		<entry key="fileDownloadDirs">
+			<list>
+			</list>
+		</entry>
+		<entry key="defaultConnectorManager">
+			<value>http://127.0.0.1:8080/constellio</value>
+		</entry>
+		<entry key="solrServerAddress">
+			<value>http://127.0.0.1:8983</value>
+		</entry>
+		<!-- defaults to 1 -->
+		<entry key="solrReplicationFactor">
+			<value>2</value>
+		</entry>
+		<entry key="solrServerConTimeout">
+			<value>60000</value>
+		</entry>
+		<entry key="solrServerSoTimeout">
+			<value>60000</value>
+		</entry>
+		<entry key="zooKeeperAddress">
+			<value>127.0.0.1:9983</value>
+		</entry>
+		<entry key="zooKeeperConTimeout">
+			<value>60000</value>
+		</entry>
+		<entry key="zooKeeperClientTimeout">
+			<value>60000</value>
+		</entry>
+		<entry key="dictionaries">
+			<value>/WEB-INF/dictionaries</value>
+		</entry>
+	</util:map>
+	
+	<bean id="entityManager"
+      class="com.doculibre.constellio.utils.persistence.ConstellioPersistenceContext"
+      factory-method="getCurrentEntityManager"
+      scope="prototype" />
+
+	<bean id="aclServices"
+		class="com.doculibre.constellio.services.ACLServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="analyzerClassServices"
+		class="com.doculibre.constellio.services.AnalyzerClassServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="analyzerServices"
+		class="com.doculibre.constellio.services.AnalyzerServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="authorizationServices"
+		class="com.doculibre.constellio.services.AuthorizationServicesImpl"
+		scope="prototype">
+	</bean>
+	
+	<!--  edirectory example -->
+	<!-- 
+		<bean id="authenticationServices"
+		class="com.doculibre.constellio.services.AuthenticationServicesLDAP"
+		scope="prototype">
+		<property name="domains">
+			<list>
+				<value>o=MINISTERE</value>
+			</list>
+		</property>
+		<property name="url" value="ldap://localhost:389" />
+		<property name="type" value="edirectory" />
+		<property name="searchBase" value="o=MINISTERE" />
+		<property name="adminDN" value="cn=admin,o=ministere" />
+		<property name="adminPassword" value="password" />
+	</bean>
+	 -->	
+	<!-- 
+	<bean id="authenticationServices"
+		class="com.doculibre.constellio.services.AuthenticationServicesLDAP"
+		scope="prototype">
+		<property name="domains">
+			<list>
+				<value>test.doculibre.ca</value>
+			</list>
+		</property>
+		<property name="url" value="ldap://WIN-87DVRU8DGM1:389" />
+	</bean>
+	 -->
+	
+	<bean id="authenticationServices"
+		class="com.doculibre.constellio.services.AuthenticationServicesImpl"
+		scope="prototype">
+	</bean>
+
+	<bean id="backupServices"
+		class="com.doculibre.constellio.services.BackupServicesImpl"
+		scope="singleton">
+	</bean>
+
+	<bean id="clusteringServices"
+		class="com.doculibre.constellio.services.ClusteringServicesImpl"
+		scope="prototype">
+	</bean>
+
+	<bean id="collectionPermissionServices"
+		class="com.doculibre.constellio.services.CollectionPermissionServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="connectorInstanceServices"
+		class="com.doculibre.constellio.services.ConnectorInstanceServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="connectorManagerServices"
+		class="com.doculibre.constellio.services.ConnectorManagerServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="connectorTypeMetaMappingServices"
+		class="com.doculibre.constellio.services.ConnectorTypeMetaMappingServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="connectorTypeServices"
+		class="com.doculibre.constellio.services.ConnectorTypeServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="constellioInitServices"
+		class="com.doculibre.constellio.services.ConstellioInitServicesImpl"
+		scope="singleton">
+	</bean>
+
+	<bean id="credentialGroupServices"
+		class="com.doculibre.constellio.services.CredentialGroupServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="elevateServices"
+		class="com.doculibre.constellio.services.ElevateServicesImpl"
+		scope="singleton">
+	</bean>
+
+	<bean id="facetServices"
+		class="com.doculibre.constellio.services.FacetServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="featuredLinkIndexHelper"
+		class="com.doculibre.constellio.lucene.impl.FeaturedLinkIndexHelperImpl"
+		scope="singleton">
+	</bean>
+
+	<bean id="featuredLinkServices"
+		class="com.doculibre.constellio.services.FeaturedLinkServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="federationServices"
+		class="com.doculibre.constellio.services.FederationServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="fieldTypeClassServices"
+		class="com.doculibre.constellio.services.FieldTypeClassServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="fieldTypeServices"
+		class="com.doculibre.constellio.services.FieldTypeServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="filterClassServices"
+		class="com.doculibre.constellio.services.FilterClassServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="freeTextTagIndexHelper"
+		class="com.doculibre.constellio.lucene.impl.FreeTextTagIndexHelperImpl"
+		scope="singleton">
+	</bean>
+
+	<bean id="freeTextTagServices"
+		class="com.doculibre.constellio.services.FreeTextTagServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="groupServices"
+		class="com.doculibre.constellio.services.GroupServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="importExportServices"
+		class="com.doculibre.constellio.services.ImportExportServicesImpl" 
+		scope="prototype">
+	</bean>
+
+	<bean id="indexFieldServices"
+		class="com.doculibre.constellio.services.IndexFieldServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="metaNameServices"
+		class="com.doculibre.constellio.services.MetaNameServicesImpl"
+		scope="prototype">
+	</bean>
+
+	<bean id="recordCollectionServices"
+		class="com.doculibre.constellio.services.RecordCollectionServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="recordServices"
+		class="com.doculibre.constellio.services.RecordServicesSolrImpl"
+		scope="prototype">
+<!--  
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+-->		
+	</bean>
+
+	<bean id="rawContentServices"
+		class="com.doculibre.constellio.services.RawContentServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+	
+	<bean id="searchInterfaceConfigServices"
+		class="com.doculibre.constellio.services.SearchInterfaceConfigServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+	
+	<bean id="searchResultFieldServices"
+		class="com.doculibre.constellio.services.SearchResultFieldServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+	
+	<bean id="searchServices"
+		class="com.doculibre.constellio.services.SearchServicesImpl"
+		scope="prototype">
+	</bean>
+
+	<bean id="solrConfigServices"
+		class="com.doculibre.constellio.services.SolrConfigServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="solrServices"
+		class="com.doculibre.constellio.services.SolrServicesImpl"
+		scope="singleton">
+	</bean>
+
+	<bean id="skosIndexHelper"
+		class="com.doculibre.constellio.lucene.impl.SkosIndexHelperImpl"
+		scope="singleton">
+	</bean>
+
+	<bean id="skosServices"
+		class="com.doculibre.constellio.services.SkosServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="statsServices"
+		class="com.doculibre.constellio.services.StatsServicesImpl"
+		scope="singleton">
+	</bean>
+
+	<bean id="statusServices"
+		class="com.doculibre.constellio.services.StatusServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="categorizationServices"
+		class="com.doculibre.constellio.services.CategorizationServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="synonymServices"
+		class="com.doculibre.constellio.services.SynonymServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="tokenizerClassServices"
+		class="com.doculibre.constellio.services.TokenizerClassServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+
+	<bean id="userServices"
+		class="com.doculibre.constellio.services.UserServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+	
+	<bean id="keaModelServices"
+		class="com.doculibre.constellio.kea.services.KeaModelServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+	
+	<bean id="keaClassificationServices"
+		class="com.doculibre.constellio.kea.services.KeaClassificationServicesImpl"
+		scope="singleton">
+<!--		scope="prototype">-->
+	</bean>
+	
+		<bean id="autocompleteServices"
+		class="com.doculibre.constellio.services.AutocompleteServicesImpl"
+		scope="singleton">
+<!--		scope="prototype">-->
+	</bean>
+	
+	<bean id="copyFieldServices"
+		class="com.doculibre.constellio.services.CopyFieldServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+	
+	<bean id="searchInterfaceContextServices"
+		class="com.doculibre.constellio.services.SearchInterfaceContextServicesImpl"
+		scope="prototype">
+		<constructor-arg>
+			<ref bean="entityManager" />
+		</constructor-arg>
+	</bean>
+	<!--
+	<bean id="intelliGIDServiceInfo" class="com.doculibre.constellio.intelligid.IntelliGIDServiceInfo">
+		<property name="intelligidUrl" value="http://localhost:8080/intelligid" />
+	</bean>
+	  -->
+</beans>

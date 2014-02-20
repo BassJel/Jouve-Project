@@ -1,0 +1,309 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fr" xmlns:wicket="http://wicket.sourceforge.net/"> <!--<![endif]-->
+<wicket:link autolink="true">
+<head>
+	<link rel="shortcut icon" type="image/x-icon"  href="http://www.gouv.qc.ca/portail/themes/html/PGS/images/favicon/favicon.ico" />
+	<script src="../js/constellio_base.js"></script>
+	
+	<meta charset="utf-8" />
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	       More info: h5bp.com/b/378 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+	<!-- CSS: implied media=all -->
+	<!-- CSS concatenated and minified via ant build script-->
+	<link rel="stylesheet" href="css/style-autocomplete.css" />
+	<script src="scripts/libs/prefixfree.min.js"></script>
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+
+
+
+
+
+</head>
+<body>
+<div wicket:id="keepAlive"></div>
+<div id="sr_principal">
+    
+	<wicket:enclosure child="enteteSiMenuGauche">
+	<div id="sr_piv-wrapper">
+	<div id="sr_piv">
+		<div wicket:id="enteteSiMenuGauche" style="float:left;"></div>
+	</div>
+	</div>
+	<div style="clear:both;"></div>
+	</wicket:enclosure>
+	
+	<wicket:enclosure child="menuGauche">
+	<div style="float:left; clear:left;">
+	<div wicket:id="menuGauche" style="float:right;"></div>
+	</div>
+	</wicket:enclosure>
+	
+<div id="sr_page">  
+
+	<wicket:enclosure child="header">
+	<div id="sr_piv-wrapper">
+	<div id="sr_piv">
+		<div wicket:id="header"></div>
+	</div>
+	</div>
+	</wicket:enclosure>
+
+
+<div wicket:id="wrapper" id="sr_wrapper">    
+  <header>
+    <form wicket:id="searchForm" id="form-recherche" method="get" action="#">  
+		  <input wicket:id="hiddenFields" type="hidden" />
+      <h1 class="visuallyhidden"><wicket:message key="searchResults">Résultats de recherche</wicket:message></h1>
+      <p id="form-recherche-principal">
+        <label for="champ-recherche"><span id="titre-rechercher"><wicket:message key="search">[Recherche]</wicket:message></span></label>
+        <input wicket:id="query" wicket:message="placeholder:search" type="search" placeholder="[Recherche]" value="" /><button wicket:id="bouton-recherche-principale" id="bouton-recherche-principale"><img wicket:message="alt:launchSearch" src="images/btn-recherche2.gif" alt="[Lancer la recherche]" /></button>
+      </p>
+      <button wicket:id="boutonOptionsRecherche" id="bouton-options-recherche">[Moins d'options]</button>
+      <div wicket:id="optionsRecherche" id="options-recherche">
+        <p id="options-recherche-langue">
+          <label for="langue-recherche"><wicket:message key="language">[Langue]</wicket:message></label>
+          <select wicket:id="singleSearchLocale" id="langue-recherche">
+            <option>[Français]</option>
+            <option>[English]</option>
+          </select>
+        </p>
+		  <wicket:container wicket:id="searchType">	    
+        <ul id="options-recherche-type">
+          <li>
+            <input wicket:id="allWords" type="radio" checked="checked" name="options-recherche-type" value="tous-les-mots" id="option-recherche-tous-les-mots" />
+            <label for="option-recherche-tous-les-mots"> <wicket:container wicket:id="lbl_allWords">[Tous les mots]</wicket:container></label>
+          </li>
+          <li>
+            <input wicket:id="atLeastOneWord" type="radio" name="options-recherche-type" value="au-moins-un-mot" id="option-recherche-au-moins-un-mot" />
+            <label for="option-recherche-au-moins-un-mot"> <wicket:container wicket:id="lbl_atLeastOneWord">[Au moins un mot]</wicket:container></label>
+          </li>
+          <li>
+            <input wicket:id="exactExpression" type="radio" name="options-recherche-type" value="expression-exacte" id="option-recherche-expression-exacte" />
+            <label for="option-recherche-expression-exacte"> <wicket:container wicket:id="lbl_exactExpression">[Expression exacte]</wicket:container></label>
+          </li>
+        </ul>
+      </wicket:container>
+      
+        <p id="options-recherche-bouton">
+          <input wicket:id="searchButton2" wicket:message="value:launchSearch" type="submit" value="[Lancer la recherche]" />
+        </p>
+        <nav id="actions-recherche">
+          <ul>
+            <li><a wicket:id="newSearchLink" href="#"><wicket:message key="newSearch">[Faire une nouvelle recherche (effacer tous les critères)]</wicket:message></a></li>  
+            <li wicket:id="adminLinkHolder">
+              <span>[Administration]</span>
+            </li>
+            <li wicket:id="signOutLinkHolder">
+              <span>[Déconnexion]</span>
+            </li>
+          </ul>
+        </nav>
+        <div class="bas"></div>
+      </div>
+    </form>
+  </header>
+  <div id="principal" role="main">
+    <nav wicket:id="navigationOngletsPanel" id="navigation-onglets-recherche">
+      <ul>
+        <li class="premier"><a href="#" class="actif"><span><strong>[Portail Québec]</strong> (4&nbsp;575)</span></a></li>
+        <li class="deuxieme"><a href="#"><strong>Citoyens</strong> (2&nbsp;214)</a></li>
+        <li class="troisieme"><a href="#"><strong>Entreprises</strong> (1&nbsp;114)</a></li>
+        <li class="dernier"><a href="#"><strong>International</strong> (238)</a></li>
+        <li id="navigation-onglets-recherche-tous"><a href="#"><strong>Tout le gouvernement</strong> (75&nbsp;655)</a></li>
+      </ul>
+    </nav>
+    
+    <wicket:container wicket:id="principal">
+    <div class="bloc-3-colonnes">
+      <div class="bloc-3-colonnes-contenu">
+        <h2 wicket:id="totalResultatsRecherche" id="total-resultats-recherche">[Un total de 4&nbsp;575 résultats pour «<strong>formulaire</strong>» dans Portail Québec]</h2>
+        <div class="bloc-3-colonnes-principale">
+          <div id="resultats-recherche">
+            
+            <div wicket:id="spellCheckerSuggestions" id="suggestion-mots"> <img src="images/suggestion-ico-jaune.png" alt="[Suggestion d'autres mots à essayer.]" id="suggestion-mots-ico"/>
+              <p><strong><wicket:message key="spellChecker.typed">[Vous avez écrit]</wicket:message> :  «<wicket:container wicket:id="queryWord">Tsé</wicket:container>»</strong></p>
+              <p><wicket:message key="spellChecker.suggestion">[Essayer plutôt]</wicket:message> : 
+                  <wicket:container wicket:id="suggestedQueriesForWord">
+                	<a wicket:id="suggestedQueryLink" href="#" title="En cliquant sur ce lien, vous relancerez la recherche avec la requête xyz."><wicket:container wicket:id="suggestedQuery">tésté</wicket:container></a>
+                	</wicket:container>
+              </p>
+            </div>
+            
+            
+              
+            <div wicket:id="thesaurusSuggestion" id="suggestion-mots">
+              <img src="images/suggestion-ico.png" alt="Suggestion d'autres mots à essayer." id="suggestion-mots-ico"/>
+              <p><strong><wicket:message key="thesaurus.typed">[Vous avez cherché]</wicket:message> : "<wicket:container wicket:id="query">Tsé</wicket:container>"</strong></p>
+              <p><wicket:container wicket:id="question">[Essayer plutôt :]</wicket:container> 
+                <wicket:container wicket:id="suggestions">
+              	<a wicket:id="suggestedQueryLink" href="#" title="En cliquant sur ce lien, vous relancerez la recherche avec la requête xyz."><wicket:container wicket:id="suggestedQuery">tésté</wicket:container></a>
+                </wicket:container>
+              </p>
+            </div>      
+            
+            <wicket:enclosure child="legacySpellChecker">
+            <div class="spellCheckWrapper">
+            	<img src="images/suggestion-ico.png" alt="Suggestion d'autres mots à essayer." id="suggestion-mots-ico"/>
+            	<div wicket:id="legacySpellChecker"></div>
+            </div>
+            </wicket:enclosure>
+          
+            <wicket:container wicket:id="featuredLink">
+            <div id="recommande_titre"><span wicket:id="title">Recommandé par Service Québec</span></div>
+            <article wicket:id="description" class="recommande">
+              <h3><a href="#">Location à long terme d'un véhicule : Services Québec - Citoyens</a></h3>
+              <p>Il existe 2 types de contrat de location à long terme, soit le contrat de location simple avec ou sans option d'achat et le contrat de location avec valeur résiduelle garantie.</p>
+              <p class="url">http://www4.gouv.qc.ca/fr/Portail/Citoyens/Evenements/consommateur-renseignement-plainte/Pages/location-long-terme-vehicule.aspx</p>
+            </article>   
+            </wicket:container>
+            
+            <article wicket:id="resultatsRecherche">
+                <h3><a wicket:id="titleLink" href="#"><wicket:container wicket:id="title">Location à long terme d'un véhicule : Services Québec - Citoyens</wicket:container></a>
+                <wicket:container wicket:id="elevatePanel" /></h3>
+                <p wicket:id="excerpt">Il existe 2 types de contrat de location à long terme, soit le contrat de location simple avec ou sans option d'achat et le contrat de location avec valeur résiduelle garantie.</p>
+                <p wicket:id="url" class="url">http://www4.gouv.qc.ca/fr/Portail/Citoyens/Evenements/consommateur-renseignement-plainte/Pages/location-long-terme-vehicule.aspx</p>
+                <p wicket:id="taggingPanel"></p>
+            </article>  
+            
+            <nav wicket:id="pagination" class="pagination">
+              <ul>
+                <li class="navigation-premiere"><a href="#"><span class="visuallyhidden">Première page</span></a></li>
+                <li class="navigation-precedente"><a href="#"><span class="visuallyhidden">Page </span>précédente</a></li>
+                <li class="active"><a href="#"><span class="visuallyhidden">Page </span>1</a></li>
+                <li><a href="#"><span class="visuallyhidden">Page </span>2</a></li>
+                <li><a href="#"><span class="visuallyhidden">Page </span>3</a></li>
+                <li><a href="#"><span class="visuallyhidden">Page </span>4</a></li>
+                <li><a href="#"><span class="visuallyhidden">Page </span>5</a></li>
+                <li class="navigation-suivante"><a href="#"><span class="visuallyhidden">Page </span>suivante</a></li>
+                <li class="navigation-derniere"><a href="#"><span class="visuallyhidden">Dernière page</span></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        
+        <div class="bloc-3-colonnes-secondaire">
+        <wicket:enclosure child="facets">
+          <div id="raffinement-recherche">
+          	<h2><wicket:message key="refineSearch">Raffiner<br/>la recherche</wicket:message></h2>
+            <div id="raffinement-recherche-contenu"> 
+              <div wicket:id="facets">
+              <h3 wicket:id="name">Évènement de vie</h3>
+              <ul>
+                <li wicket:id="values"><a wicket:id="addFacetLink" href="#"><span wicket:id="count">S'installer au Québec (52)</span></a></li>
+                <wicket:remove>
+                <li><a href="#">S'installer au Québec (52)</a></li>
+                <li><a href="#">Devenir parent (44)</a></li>
+                <li><a href="#">Que faire lors d’un décès (57)</a></li>
+                <li><a href="#">Quand un couple se sépare (83)</a></li>
+                <li><a href="#">Perdre son autonomie (56)</a></li>
+                <li class="actif"><a href="#">Prendre sa retraite (14)</a></li>
+                </wicket:remove>
+              </ul>       
+              </div>
+              
+			  <wicket:remove>
+              <h3>Clientèles</h3>
+              <ul>
+                <li><a href="#">Aînés : programmes et services (61)</a></li>
+                <li><a href="#">Consommateurs (39)</a></li>
+                <li><a href="#">Personnes handicapées (34)</a></li>
+                <li><a href="#">Québécois à l'étranger (41)</a></li>
+                <li><a href="#">Travailleurs salariés (27)</a></li>
+              </ul>
+              <h3>Inscription et transactions</h3>
+              <ul>
+                <li><a href="#">Comment changer d'adresse (53)</a></li>
+                <li><a href="#">Cartes, permis et certificats (46)</a></li>
+                <li><a href="#">Dépôt direct (66)</a></li>
+                <li><a href="#">Vivre en logement (33)</a></li>
+                <li><a href="#">Acheter ou rénover sa maison (28)</a></li>
+              </ul>    
+              </wicket:remove>  
+            	
+              <wicket:enclosure child="allResultsLink">
+              <h3><a wicket:id="allResultsLink" href="#"><wicket:message key="results.all">Tous les résultats</wicket:message></a></h3>
+              </wicket:enclosure>
+            </div>
+          </div>
+        </wicket:enclosure>
+        </div>
+      </div>
+      
+      <div class="bloc-3-colonnes-tertiaire"> </div>
+    </div>
+    <div wicket:id="thesaurusSemanticNetwork" id="suggestions-recherche">
+      <div id="suggestions-recherche-droit">
+        <div id="suggestions-recherche-gauche">
+          <h2 class="visuallyhidden"><wicket:message key="suggestedSearches">Suggestions de recherche</wicket:message></h2>
+          <div class="suggestion-3-colonnes">
+            <div class="suggestion-3-colonnes-1 suggestion-3-colonnes-colonne">
+              <h3><wicket:message key="relatedSearches">Recherches associées à</wicket:message> : <wicket:container wicket:id="prefLabel">[Pref label]</wicket:container></h3>
+              <ul wicket:id="colonne1">
+	              <li>
+        				<a wicket:id="link" href="#" title="En cliquant sur ce lien, vous relancerez la recherche xyz."><wicket:container wicket:id="label">[Link label]</wicket:container></a>
+	              </li>
+              </ul>
+            </div>
+            <div class="suggestion-3-colonnes-2 suggestion-3-colonnes-colonne">
+              <ul wicket:id="colonne2">
+	              <li>
+        				<a wicket:id="link" href="#" title="En cliquant sur ce lien, vous relancerez la recherche xyz."><wicket:container wicket:id="label">[Link label]</wicket:container></a>
+	              </li>
+              </ul>
+            </div>
+            <div class="suggestion-3-colonnes-3 suggestion-3-colonnes-colonne">
+              <ul wicket:id="colonne3">
+	              <li>
+        				<a wicket:id="link" href="#" title="En cliquant sur ce lien, vous relancerez la recherche xyz."><wicket:container wicket:id="label">[Link label]</wicket:container></a>
+	              </li>
+              </ul>
+            </div>
+          </div>
+          <p id="source-suggestion-recherche"><wicket:message key="source">Source</wicket:message>: <a wicket:id="thesaurusSourceLink" wicket:message="title:thesaurus.notification" href="http://www.thesaurus.gouv.qc.ca/" target="_blank" title="En cliquant sur ce lien, une nouvelle fenêtre s'ouvrira."><wicket:message key="thesaurus">[Thésaurus de l’activité gouvernementale]</wicket:message></a> <span wicket:id="thesaurusPopupLink"><img wicket:message="data-title:thesaurus.terminologyGuide,alt:thesaurus.popup" class="clic" src="images/info.png" tabindex="0" data-title='Thésaurus de l’activité gouvernementale (guide terminologique)' alt="Vous voulez obtenir un renseignement précis, mais vous avez de la difficulté à trouver le mot ou l'expression à employer pour faire votre recherche? Le thésaurus de l'activité gouvernementale est un outil qui vous aide à trouver le mot juste pour faire une recherche efficace dans les sites Internet du gouvernement du Québec." /></span> (<wicket:message key="terminologyGuide">guide terminologique</wicket:message>) </p>
+        </div>
+      </div>
+    </div>
+  </wicket:container>  
+  </div>
+</div>
+
+  <footer id="sr_footer">    
+	<wicket:container wicket:id="footer"></wicket:container>  
+  </footer>
+</div>
+</div>
+<!--! end of #container -->
+<!-- JavaScript at the bottom for fast page loading -->
+<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline-->
+<script>window.jQuery || document.write('<script src="resources/com.doculibre.constellio.wicket.pages.pgs.PGSSearchResultsPage/scripts/libs/jquery-1.8.1.min.js"><\/script>')</script>
+<!-- scripts concatenated and minified via ant build script-->
+<script defer src="scripts/plugins.js"></script>
+<script defer src="scripts/script.js"></script>
+<script defer src="scripts/jquery.simpletooltip.js"></script>
+<!-- end scripts-->
+</body>
+</wicket:link>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> </html> <![endif]-->
+<!--[if IE 7]>    </html> <![endif]-->
+<!--[if IE 8]>    </html> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> </html> <!--<![endif]-->

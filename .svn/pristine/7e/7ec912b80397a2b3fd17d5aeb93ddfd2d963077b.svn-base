@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+
+<wicket:panel>
+
+<script language="javascript" type="text/javascript"> 
+        jQuery(document).ready(function(){ 
+            if (typeof Wicket != 'undefined' && Wicket.Window) {
+                    Wicket.Window.unloadConfirmation = false; 
+            }
+        }); 
+</script> 
+
+<div id="popup">
+  <h4><wicket:message key="signIn">[Sign in]</wicket:message></h4>
+  
+	<div wicket:id="feedback" />
+
+<form wicket:id="signInForm">
+		
+  <table class="login">
+  <tr>
+    <td class="etiquette"><label for="textfield"><wicket:message key="auth.username">[Username]</wicket:message></label>
+      <span class="obligatoire">*</span></td>
+    <td>
+      <input wicket:id="username" name="textfield" type="text" class="inputTextbox" id="textfield" /></td>
+  </tr>
+   <tr>
+    <td class="etiquette"><label for="label"><wicket:message key="auth.password">[Password]</wicket:message> </label><span class="obligatoire">*</span></td>
+    <td>
+      <input wicket:id="password" type="password" name="textfield2"  class="inputTextbox" id="label" /></td>
+  </tr>
+  <tr>
+    <td class="etiquette">&nbsp;</td>
+    <td wicket:id="rememberMeRow"><input wicket:id="rememberMe" type="checkbox" name="checkbox" id="checkbox" />
+      <label for="checkbox"><wicket:message key="auth.remember">[Remember me]</wicket:message> </label> 
+      <a href="#" class="right" style="display:none;">[Forgotten password?]</a></td>
+  </tr>
+ 
+  <tr>
+    <td>&nbsp;</td>
+    <td class="boutons">
+    	<span class="btnRechIEBorder"><input wicket:id="submitButton" wicket:message="value:signIn" name="Submit" type="submit" class="btnRech" value="[Sign in]" /></span> 
+    	<input wicket:id="cancelButton" wicket:message="value:cancel" name="Submit2" type="submit" class="btnReset" value="[Cancel]" />
+    </td>
+  </tr>
+</table>
+
+</form>	
+
+</div>
+</wicket:panel>
+</html>

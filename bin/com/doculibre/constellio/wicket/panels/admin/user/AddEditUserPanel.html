@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:extend>
+
+<div id="container">
+	<table class="formulaire">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="username">[Username]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="username" type="text" />
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="password">[Password]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="password" type="password" />
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="passwordConfirmation">[Password confirmation]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="passwordConfirmation" type="password" />
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="firstName">[First name]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="firstName" type="text" />
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="lastName">[Last name]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="lastName" type="text" />
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="localeCode">[Default language :]</wicket:message>
+			</td>
+			<td>
+				<select wicket:id="localeCode">
+					<option>[Français]</option>
+					<option>[Anglais]</option>
+				</select> 
+			</td>
+		</tr>
+	<wicket:enclosure child="admin">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="admin">[System Administrator]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="admin" type="checkbox" />
+			</td>
+		</tr>
+	</wicket:enclosure>		
+	<wicket:enclosure child="collaborator">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="collaborator">[Collaborator]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="collaborator" type="checkbox" />
+			</td>
+		</tr>
+	</wicket:enclosure>	
+	<wicket:enclosure child="credentialGroups">	
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="credentialGroups">[Credentials]</wicket:message> :
+			</td>
+			<td>
+				<fieldset wicket:id="credentialGroups">
+					<legend wicket:id="name">[Credential group name]</legend>
+					<table>
+						<tr>
+							<td>
+								<wicket:message key="username">[Name]</wicket:message>
+							</td>
+							<td>
+								<input wicket:id="username" type="text" />
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<wicket:message key="encryptedPassword">[Password]</wicket:message>
+							</td>
+							<td>
+								<input wicket:id="encryptedPassword" type="password" />
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<wicket:message key="domain">[Domain]</wicket:message>
+							</td>
+							<td>
+								<input wicket:id="domain" type="text" />
+							</td>
+						</tr>
+					</table>
+				</fieldset>
+			</td>
+		</tr>
+	</wicket:enclosure>	
+	</table>
+</div>
+
+</wicket:extend>
+</html>

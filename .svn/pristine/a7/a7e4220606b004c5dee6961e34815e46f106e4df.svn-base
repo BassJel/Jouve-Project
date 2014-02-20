@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:head>
+<script>
+Wicket.Window.unloadConfirmation = false;
+</script>
+</wicket:head>
+<wicket:panel>
+
+<div id="container">
+<div id="popupTag">
+	<div class="filet">
+		<table class="formulaireRO">
+  			<tr>
+    			<td class="etiquette" style="width:250px;">
+    				<wicket:message key="prefLabel">[Preferred label]</wicket:message> :
+    			</td>
+    			<td>
+					<a wicket:id="detailsLink">
+						<span wicket:id="prefLabel">[Pref label]</span>
+					</a>
+    			</td>
+  			</tr>
+  			<wicket:enclosure child="altLabels">
+  			<tr>
+    			<td class="etiquette">
+    				<wicket:message key="altLabels">[Synonyms]</wicket:message> :
+    			</td>
+    			<td>
+					<div wicket:id="altLabels">
+						<div wicket:id="altLabel">[Synonym]</div>
+					</div>
+    			</td>
+  			</tr>
+  			</wicket:enclosure>
+  			<tr>
+    			<td class="etiquette">
+    				<wicket:message key="skosNotes">[Notes]</wicket:message> :
+    			</td>
+    			<td>
+					<span wicket:id="skosNotes">6</span>
+    			</td>
+  			</tr>
+  			<wicket:enclosure child="broader">
+  			<tr>
+    			<td class="etiquette">
+    				<wicket:message key="broader">[Broader term]</wicket:message> :
+    			</td>
+    			<td>
+					<div wicket:id="broader">
+						<a wicket:id="detailsLink">
+							<span wicket:id="prefLabel">[Pref label]</span>
+						</a>
+					</div>
+    			</td>
+  			</tr>
+  			</wicket:enclosure>
+  			<wicket:enclosure child="narrower">
+  			<tr>
+    			<td class="etiquette">
+    				<wicket:message key="narrower">[Narrower terms]</wicket:message> :
+    			</td>
+    			<td>
+					<div wicket:id="narrower">
+						<a wicket:id="detailsLink">
+							<span wicket:id="prefLabel">[Pref label]</span>
+						</a>
+					</div>
+    			</td>
+  			</tr>
+  			</wicket:enclosure>
+  			<wicket:enclosure child="related">
+  			<tr>
+    			<td class="etiquette">
+    				<wicket:message key="related">[Related terms]</wicket:message> :
+    			</td>
+    			<td>
+					<div wicket:id="related">
+						<a wicket:id="detailsLink">
+							<span wicket:id="prefLabel">[Pref label]</span>
+						</a>
+					</div>
+    			</td>
+  			</tr>
+  			</wicket:enclosure>
+  		</table>
+  	</div>		
+	
+</div>
+</div>        
+</wicket:panel>
+
+</html>

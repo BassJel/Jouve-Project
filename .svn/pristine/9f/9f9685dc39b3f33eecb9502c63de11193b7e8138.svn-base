@@ -1,0 +1,28 @@
+<!-- BAS DE PAGE RRQ -->   
+		</div> 
+</div> 
+        <div id="znBasPage"> 
+          <div id="OutilsBasPage"> 
+            <div class="OutilsBasPage"> 
+              <div class="divOutilsBasPage_gauche"> 
+                
+              </div> 
+              <div class="divOutilsBasPage_Droit"> 
+                <div class="bouton"><a id="PR3POutils1_hypHautPage" title="Haut de page" class="PR3OutilsImage" href="javascript:scrollTo(0,0);"><img class="XiCrImage" src="http://www.rrq.gouv.qc.ca/SiteCollectionImages/PortailRRQ/fr/ico_haut.gif" alt="Haut de page" border="0" style="height:1.25em;width:1.1875em;" /></a><a id="PR3POutils1_Xicrhyperlink1" title="Haut de page" class="Texte" href="javascript:scrollTo(0,0);"><b>Haut</b><br> 
+                  de page</a></div> 
+              </div> 
+            </div> 
+            <div id="PR3POutils1_NavBasPage" class="conteneurNavBasPage"> 
+              <div class="NavBasPage"><a id="PR3POutils1_hypPlanifiezRetraite" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/planification/">Planifiez votre retraite</a>&nbsp;| <a id="PR3POutils1_hypServiceLigne" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/services/services_en_ligne/">Services en ligne</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="PR3POutils1_hypFormulaires" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/services/formulaires/">Formulaires</a>&nbsp;<span id="PR3POutils1_XiCrLabel1" class="XiCrLabel">|</span>&nbsp;<a id="PR3POutils1_hypPublications" class="XICrHyperLink" href="/http://www.rrq.gouv.qc.cafr/services/publications/">Publications</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="PR3POutils1_hypProgrammes" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/programmes/">Programmes</a><br> 
+                <a id="PR3POutils1_hypVieADeux" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/vie_a_deux/">Vie à deux</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="PR3POutils1_hypEnfants" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/enfants/">Enfants</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="PR3POutils1_hypTravail" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/travail/">Travail</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="PR3POutils1_hypRetraite" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/retraite/">Retraite</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="PR3POutils1_hypInvalidite" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/invalidite/">Invalidité</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="PR3POutils1_hypDeces" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/deces/">Décès</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a id="PR3POutils1_hypClienteles" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/clienteles/">Pour les professionnels</a></div> 
+            </div> 
+          </div> 
+          <div id="copyright"><a id="PR3PBasPage1_hypGouvQC" accesskey="Q" title="Ce lien ouvrira une nouvelle fenêtre vers le portail Québec" class="XICrHyperLink" href="http://www.gouv.qc.ca/" target="_blank"><img class="XiCrImage" src="http://www.rrq.gouv.qc.ca/fra/Commun/Images/quebec_drapeau.gif" alt="Ce lien ouvrira une nouvelle fenêtre vers le portail Québec" border="0" /></a> 
+            <div class="divHyperlienPolitiqueDeclaration"><a id="PR3PBasPage1_hypPolitique" title="Politique de confidentialité" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/services/services_en_ligne/pages/politique_confidentialite.aspx">Politique de confidentialité</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a id="PR3PBasPage1_hypDeclaration" title="Déclaration de services aux citoyens" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/regie/declaration_services/">Déclaration de services aux citoyens</a></div> 
+            <a id="PR3PBasPage1_hypCopyright" title="© Gouvernement du Québec, 2002" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/copyright/">© Gouvernement du Québec, 2002</a> 
+            <noscript> 
+            </noscript> 
+          </div> 
+        </div>        
+        </div> 
+        <!-- FIN BAS DE PAGE RRQ -->

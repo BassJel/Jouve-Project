@@ -1,0 +1,47 @@
+<!-- debut entete de page: PIV -->
+    <script type="text/javascript">
+       var NTPT_SET_IDCOOKIE = false;
+    </script>
+    <noscript>
+       <img style="display:none;" src="https://stats-sqc.gouv.qc.ca/images/ntpagetag.gif" height="1" width="1" border="0" hspace="0" vspace="0" alt="">
+    </noscript> 
+    
+    <div id="piv">
+	  <a id="piv-logo" href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/?lang=fr"><img src='###piv-logo.gif###' alt="Qu&eacute;bec." title="Qu&eacute;bec." /></a>
+      <nav>
+        <ul title="Qu&eacute;bec">
+			<li class="first"><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/?lang=fr" title="Portail Qu&eacute;bec.">Portail Qu&eacute;bec</a></li>
+			<li><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/informationsutiles/aide/?lang=fr" title="Aide.">Aide</a></li>
+			<li><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/plansite?lang=fr" title="Plan du site.">Plan du site</a></li>
+			<li><a href="###nous_joindre_fr###" title="Pour nous joindre.">Pour nous joindre</a></li>
+   			<li><a href="http://###moteur_recherche###/recherche/app/form?curl=txt|http://wwwxml.gouv.qc.ca/reperage/###collection###/&lx=###lxParam###&displayLang=en&lang.includedValues=en&singleSearchLocale=en&Locale=en" lang="en" title="English.">English</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <div id="outils-entete">
+      <p id="titre">Portail Qu&eacute;bec</p>
+      <div id="outils">
+        <p class="visuallyhidden">Menu pour changer la taille du texte.</p>
+        <ul id="taille-texte">
+          <li><button id="taille-texte-normal"><img src="###taille-texte-normale.gif###" alt="Taille du texte normale." /></button></li>
+          <li><button id="taille-texte-moyenne"><img src="###taille-texte-moyenne.gif###" alt="Taille du texte moyenne." /></button></li>
+          <li><button id="taille-texte-grande"><img src="###taille-texte-grande.gif###" alt="Taille du texte grande." /></button></li>
+        </ul>
+        <p id="outils-imprimer"><button onclick="window.print();"><img src="###imprimer.gif###" alt="Imprimer la page." /></button></p>
+      </div>
+      <nav>
+        <p class="visuallyhidden">Vous &ecirc;tes ici:</p>
+        <ul>
+          <li><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/?lang=fr" title="Accueil Portail Qu&eacute;bec">Portail Qu&eacute;bec</a></li>
+		  ###retour_site_fr###
+		  <li><b>Recherche</b></li>
+        </ul>
+      </nav>
+    </div>
+
+<!-- fin entete de page: PIV -->
+
+
+

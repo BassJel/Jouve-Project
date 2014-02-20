@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:extend>
+
+<div id="container">
+	<table class="formulaire">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="metaName">[Meta Name]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="metaName" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="indexFieldName">[Index Field Name]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="indexFieldName" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="indexed">[Indexed]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="indexed" type="checkbox" />
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="multiValued">[Multi valued]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="multiValued" type="checkbox" />
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="fieldType">[Field Type]</wicket:message> :
+			</td>
+			<td>
+				<a wicket:id="addFieldTypeLink" href="#">
+					<wicket:message key="addFieldType">[Add Field Type]</wicket:message>
+				</a>
+				<div wicket:id="fieldTypeModal" />
+				<br />
+				<select wicket:id="fieldType">
+					<option>[Option 1]</option>
+					<option>[Option 2]</option>
+				</select> 
+			</td>
+		</tr>
+	</table>
+</div>
+
+</wicket:extend>
+</html>

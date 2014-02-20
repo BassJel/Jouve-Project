@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns:wicket>
+<body>
+  <wicket:panel>
+  
+    <ul>
+      <wicket:enclosure child="first">
+      <li class="navigation-premiere"><a wicket:id="first" wicket:message="title:firstTitle" href="#" title="Première page."><span class="visuallyhidden"><wicket:message key="first">Première page</wicket:message></span></a></li>
+      </wicket:enclosure>
+      <wicket:enclosure child="prev">
+      <li class="navigation-precedente"><a wicket:id="prev" wicket:message="title:prevTitle" href="#" title="Page précédente."><wicket:message key="prev">Précédente</wicket:message></a></li>
+      </wicket:enclosure>
+      <li wicket:id="navigation" class="active"><a wicket:id="pageLink" href="#" title="Page 5."><span wicket:id="pageNumber">5</span></a></li>
+      <wicket:enclosure child="next">
+      <li class="navigation-suivante"><a wicket:id="next" wicket:message="title:nextTitle" href="#" title="Page suivante."><wicket:message key="next">Suivante</wicket:message></a></li>
+      </wicket:enclosure>
+      <wicket:enclosure child="last">
+      <li class="navigation-derniere"><a wicket:id="last" wicket:message="title:lastTitle" href="#" title="Dernière page."><span class="visuallyhidden"><wicket:message key="last">Dernière page</wicket:message></span></a></li>
+      </wicket:enclosure>
+    </ul>
+
+</wicket:panel> 
+</body>
+</html>

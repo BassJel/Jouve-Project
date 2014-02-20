@@ -1,0 +1,5 @@
+title=Autocomplete
+simpleSearchAutocompletion=Simple search autocomplete based on most popular queries
+autocompleteMinQueries=Minimum search queries for autocomplete
+blacklistedTerms=Blacklisted terms
+delete=Delete

@@ -1,0 +1,24 @@
+<!-- pied de page normalise PGS -->
+
+<div class="footer">
+	<ul class="first-line">
+		<li class="first"><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/informationsutiles/apropos/?lang=fr" title='&Agrave; propos de ce portail.'>&Agrave; propos de ce portail</a></li>
+		<li class="dernier"><a href="http://www.gouv.qc.ca/util/setCookieMobile.do?/portail/quebec/m/pgs/commun/?lang=fr" title='Version mobile de Portail Québec.'>Version mobile de Portail Québec</a></li>
+	</ul>
+	<ul>
+		<li class="first"><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/informationsutiles/linguistique/?lang=fr" title="Politique linguistique.">Politique linguistique</a></li>
+		<li><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/informationsutiles/confidentialite/?lang=fr" title="Politique de confidentialit&eacute;.">Politique de confidentialit&eacute;</a></li>
+		<li class="dernier"><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/informationsutiles/conditions/?lang=fr" title="Conditions d'utilisation.">Conditions d'utilisation</a></li>
+	</ul>
+</div>    
+
+<div class="footer-gouv">
+	<p>
+    <a href="http://www.gouv.qc.ca/"><img class="gouv-logo" src="http://www.gouv.qc.ca/portail/themes/html/PGSI-05-SFA/images/mini-logo-quebec.gif" alt="Qu&eacute;bec." title="Qu&eacute;bec."></a>
+  </p>
+  <p>  
+	  <a class="copyright" href="http://www.droitauteur.gouv.qc.ca/copyright.php" title="&copy; Gouvernement du Qu&eacute;bec, &nbsp;2012.">&copy; Gouvernement du Qu&eacute;bec, 2012</a>
+  </p> 
+</div>	
+<script type="text/javascript" src="https://stats-sqc.gouv.qc.ca/scripts/ntpagetag.js"></script>
+<!-- fin pied de page: PIV -->

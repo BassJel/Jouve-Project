@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+      	
+    <wicket:enclosure child="manageConnectorsLink"> 	
+	<div>
+		<span style="font-weight: bold;">
+			<wicket:message key="noConnector">[No connector is configured for this collection]</wicket:message>
+		</span>
+    	<div style="padding-left:50px;">
+    	<ul>
+    		<li>
+ 				<a wicket:id="manageConnectorsLink" href="#"><wicket:message key="manageConnectors">[Manage connectors]</wicket:message></a>
+    		</li>
+    	</ul>
+    	</div>
+	</div>
+    </wicket:enclosure> 
+    
+    <wicket:enclosure child="synchronizeIndexFieldsLink"> 
+	<div>    				
+		<span style="font-weight: bold;">
+    		<wicket:message key="synchronizationRequired">[Index fields are not synchronized with the admin console]</wicket:message>
+    	</span>
+    	<div style="padding-left:50px;">
+    	<ul>
+    		<li>
+				<a wicket:id="synchronizeIndexFieldsLink" href="#"><wicket:message key="synchronizeIndexFields">[Synchronize index fields]</wicket:message></a>
+    		</li>
+    		<li>
+				<a wicket:id="manageIndexFieldsLink" href="#"><wicket:message key="manageIndexFields">[Manage index fields]</wicket:message></a>
+    		</li>
+    	</ul>
+    	</div>
+	</div>      	
+	</wicket:enclosure>
+      	
+	<div class="filet">
+		<table class="formulaireRO">
+  			<tr>
+    			<td class="etiquette" style="width:250px;" >
+    				<wicket:message key="recordCount">[Traversed document count]</wicket:message> :
+    			</td>
+    			<td>
+					<span wicket:id="recordCount">6</span>
+    			</td>
+    			<td align="right">
+			    	<span class="btnRechIEBorder"><input wicket:id="deleteAllLink" type="submit" class="btnRech" wicket:message="value:deleteAll" value="[Delete all]" /></span> 
+    			</td>
+  			</tr>
+  			<tr>
+    			<td class="etiquette">
+    				<wicket:message key="indexedRecordCount">[Indexed document count]</wicket:message> :
+    			</td>
+    			<td>
+    				<span wicket:id="indexedRecordCount">4</span>
+    			</td>
+    			<td align="right" wicket:id="controlIndexingButtons">
+			    	<span class="btnRechIEBorder"><input wicket:id="reindexAllLink" type="submit" class="btnRech" wicket:message="value:reindexAll" value="[Reindex all]" /></span>
+			    	<span class="btnRechIEBorder"><input wicket:id="resumeIndexingLink" type="submit" class="btnRech" wicket:message="value:resumeIndexing" value="[Resume indexing]" /></span>
+			    	<span class="btnRechIEBorder"><input wicket:id="optimizeLink" type="submit" class="btnRech" wicket:message="value:optimize" value="[Optimize index]" /></span> 
+    			</td>
+  			</tr>
+  			<tr>
+    			<td class="etiquette">
+    				<wicket:message key="indexSizeOnDisk">[Index size on disk]</wicket:message> :
+    			</td>
+    			<td colspan="2">
+    				<span wicket:id="indexSizeOnDisk">1,94 MB</span>
+    			</td>
+  			</tr>
+  			<tr wicket:id="connectorTraversalStates">
+    			<td class="etiquette">
+    				<wicket:message key="latestTraversalDate">[Latest traversal date]</wicket:message> 
+    				<wicket:enclosure child="displayName">
+    				(<span wicket:id="displayName">[Connector name]</span>)
+    				</wicket:enclosure>
+    				:
+    			</td>
+    			<td>
+    				<span wicket:id="latestTraversalDate">2009-08-19</span>
+    			</td>
+    			<td align="right">
+    				<span class="btnRechIEBorder"><input wicket:id="restartTraversalLink" type="submit" class="btnRech" wicket:message="value:restartTraversal" value="[Restart traversal]" /></span>
+			    	<span class="btnRechIEBorder"><input wicket:id="disableConnectorLink" type="submit" class="btnRech" wicket:message="value:disableConnector" value="[Disable connector]" /></span> 
+			    	<span class="btnRechIEBorder"><input wicket:id="enableConnectorLink" type="submit" class="btnRech" wicket:message="value:enableConnector" value="[Enable connector]" /></span> 
+    			</td>
+  			</tr>
+		</table>
+	</div>
+      	
+	<h1 class="admin"><wicket:message key="latestIndexedRecords">[Latest indexed documents]</wicket:message></h1>
+	<div>
+		<table class="formulaireRO">
+  			<tr>
+    			<td class="etiquette">
+    				<textarea wicket:id="latestIndexedRecordsTextArea" cols="60" rows="10" readonly="readonly">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </textarea>
+    			</td>
+  			</tr>
+  		</table>
+  	</div>
+      	
+	<h1 class="admin"><wicket:message key="latestTraversedRecords">[Latest traversed documents]</wicket:message></h1>
+	<div>
+		<table class="formulaireRO" style="padding-top:0px;">
+  			<tr wicket:id="connectorTraversalTextAreas">
+    			<td style="vertical-align:top;">
+		  			<table>
+			  			<tr>
+			    			<td class="etiquette">
+			    				<div>
+			    					<span wicket:id="displayName">[Connector name]</span> :
+			    				</div>
+			    			</td>
+		    			</tr>	
+			  			<tr>
+			  				<td>
+		    					<textarea wicket:id="traversalTextArea" cols="60" rows="10" readonly="readonly">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </textarea>
+			  				</td>
+			  			</tr>
+		  			</table>
+    			</td>
+  			</tr>
+  		</table>
+	</div>
+<div wicket:id="popUpIndexedRecords"></div>
+<div wicket:id="popUpSizeDisk"></div>
+<div wicket:id="popUpBothQuotas"></div>
+<div wicket:id="popUpPercentageIndexedRecords"></div>
+<div wicket:id="popUpPercentageSizeDisk"></div>
+</wicket:panel>
+</html>

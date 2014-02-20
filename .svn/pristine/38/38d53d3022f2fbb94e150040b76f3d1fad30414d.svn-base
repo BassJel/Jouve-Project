@@ -1,0 +1,40 @@
+searchResults=Résultats de recherche
+totalResultatsRecherche.0=Aucun résultat pour «<strong>${query}</strong>» dans ${collectionName} ${suffix}
+totalResultatsRecherche.1=Un total de 1 résultat pour «<strong>${query}</strong>» dans ${collectionName} ${suffix}
+totalResultatsRecherche.n=Un total de ${nbRes} résultats pour «<strong>${query}</strong>» dans ${collectionName} ${suffix}
+suggestedSearchNotification=En cliquant sur ce lien, vous relancerez la recherche avec la requête {0}.
+
+searchType.allWords=Tous les mots
+searchType.atLeastOneWord=Au moins un mot
+searchType.exactExpression=Expression exacte
+language=Langue
+language.all=Toutes les langues
+search=Recherche
+
+launchSearch=Lancer la recherche
+newSearch=Faire une nouvelle recherche (effacer tous les critères)
+refineSearch=Raffinez <br /> la recherche
+results.all=Tous les résultats
+
+suggestedSearches=Suggestions de recherche
+optionsRecherche.moins=Moins d'options
+optionsRecherche.plus=Plus d'options
+
+spellChecker.typed=Vous avez écrit
+spellChecker.suggestion=Essayez plutôt
+
+thesaurus.typed=Vous avez cherché
+thesaurus.disambiguation=Que voulez-vous dire?
+thesaurus.suggestion=Essayez plutôt :
+
+source=Source
+thesaurus=Thésaurus de l'activité gouvernementale
+thesaurus.notification=Thésaurus de l\u2019activité gouvernementale. Cet hyperlien s\u2019ouvrira dans une nouvelle fenêtre.
+thesaurus.terminologyGuide=Thésaurus de l'activité gouvernementale <br/> (guide terminologique)
+thesaurus.popup=Vous voulez obtenir un renseignement précis, mais vous avez de la difficulté à trouver le mot ou l'expression à employer pour faire votre recherche? Le thésaurus de l'activité gouvernementale est un outil qui vous aide à trouver le mot juste pour faire une recherche efficace dans les sites Internet du gouvernement du Québec.
+terminologyGuide=Guide terminologique
+
+relatedSearches=Recherches associées à 
+
+thisSite		=	Tout le site
+allGovernment	=	Tout le gouvernement

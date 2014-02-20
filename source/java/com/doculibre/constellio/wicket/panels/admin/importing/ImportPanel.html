@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:head>
+<script>
+Wicket.Window.unloadConfirmation = false;
+</script>
+</wicket:head>
+<wicket:panel>
+	
+	<div id="contenu">
+     
+	<form wicket:id="importForm" action="#">
+     <fieldset title="Importation">
+     	<table class="formulaire">
+     		<tr>
+     			<td class="etiquette">
+     				<wicket:message key="lucene.index">[Index Lucene (sélectionner un fichier dans celui-ci)]</wicket:message>
+     			</td>
+     			<td>
+     				<input wicket:id="indexPath" type="text" />
+     			</td>
+     		</tr>
+     		<tr>
+     			<td>
+     				&nbsp;
+     			</td>
+     			<td>
+     				<input wicket:id="importButton" type="submit" value="Importation" wicket:message="value:import" />
+     				<div wicket:id="progressPanel" />
+     			</td>
+     		</tr>
+     	</table>
+     </fieldset>
+	</form>      
+     
+     </div>
+
+</wicket:panel>
+</html>

@@ -1,0 +1,45 @@
+<!-- debut entete de page: PIV -->
+    <script type="text/javascript">
+       var NTPT_SET_IDCOOKIE = false;
+    </script>
+    <noscript>
+       <img style="display:none;" src="https://stats-sqc.gouv.qc.ca/images/ntpagetag.gif" height="1" width="1" border="0" hspace="0" vspace="0" alt="">
+    </noscript> 
+    
+    <div id="piv">
+  	  <a id="piv-logo" href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/?lang=en"><img src='###piv-logo.gif###' alt="Qu&eacute;bec." title="Qu&eacute;bec." /></a>
+      <nav>
+        <ul title="Qu&eacute;bec">
+			<li class="first"><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/?lang=en" title="Qu&eacute;bec Portal.">Qu&eacute;bec Portal</a></li>
+			<li><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/informationsutiles/aide/?lang=en" title="Help.">Help</a></li>
+			<li><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/plansite?lang=en" title="Site Map.">Site Map</a></li>
+			<li><a href="###nous_joindre_en###" title="Contact Us.">Contact Us</a></li>
+      		<li><a href="http://###moteur_recherche###/recherche/app/form?curl=txt|http://wwwxml.gouv.qc.ca/reperage/###collection###/&lx=###lxParam###&displayLang=fr&lang.includedValues=fr&singleSearchLocale=fr&Locale=fr" lang="fr" title="Fran&ccedil;ais.">Fran&ccedil;ais</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <div id="outils-entete">
+      <p id="titre">Qu&eacute;bec Portal</p>
+      <div id="outils">
+        <p class="visuallyhidden">Menu pour changer la taille du texte.</p>
+        <ul id="taille-texte">
+          <li><button id="taille-texte-normal"><img src="###taille-texte-normale.gif###" alt="Taille du texte normale." /></button></li>
+          <li><button id="taille-texte-moyenne"><img src="###taille-texte-moyenne.gif###" alt="Taille du texte moyenne." /></button></li>
+          <li><button id="taille-texte-grande"><img src="###taille-texte-grande.gif###" alt="Taille du texte grande." /></button></li>
+        </ul>
+        <p id="outils-imprimer"><button onclick="window.print();"><img src="###imprimer.gif###" alt="Print the page." /></button></p>
+      </div>
+      <nav>
+        <p class="visuallyhidden">Vous &ecirc;tes ici:</p>
+        <ul>
+          <li><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/?lang=en" title="Qu&eacute;bec Portal Home.">Home - Qu&eacute;bec Portal</a></li>
+		  ###retour_site_en###
+          <li><b>Search</b></li>
+        </ul>
+      </nav>
+    </div>
+	
+
+<!-- fin entete de page: PIV -->

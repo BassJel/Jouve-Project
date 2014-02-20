@@ -1,0 +1,10 @@
+add=Add a meta mapping
+edit=Edit a meta mapping
+metaName=Meta name
+indexFieldName=Index field name
+indexed=Indexed
+stored=Stored
+highlighted=Highlighted
+multiValued=Multi valued
+fieldType=Field Type
+addFieldType=Add Field Type

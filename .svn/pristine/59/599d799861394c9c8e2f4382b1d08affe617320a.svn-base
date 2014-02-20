@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema name="nutch" version="1.1">
+	<fields>
+		<field name="constellio-intelligid:type" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:motsCles" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:dateOuverture" type="date" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:dateFermeture" type="date" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:uniteAdministrativeProprietaire" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:typesSupports" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:utilisateursPorteurs" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:statutExemplairePrincipalSaisi" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:url" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:dateCreation" type="date" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:titre" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:relationEstPartieDe" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:motsClesThesaurus" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:resume" type="string" indexed="true" stored="true" multiValued="true"/>
+		
+		<field name="constellio-intelligid:dossier.statutArchivistique" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:dossier.delai" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:dossier.posteClassementProprietair" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:dossier.dateModification" type="date" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:dossier.regleConservation" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:dossier.Emplacementgeographiquedudossier" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:dossier.ouvertureAnnuelle" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:dossier.AncienNumeroGVAA" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:dossier.Contenant" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:dossier.Volume" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:dossier.numeroBoite" type="string" indexed="true" stored="true" multiValued="true"/>
+		
+		<field name="constellio-intelligid:document.ListePiecesJointes_" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.CC_Courriel" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.DE_Courriel" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.DateEnvoiCourriel" type="date" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.createursDocument" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.langues" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.supports" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.Contenu_Courriel" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.NotesComplementairesCourriel" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.StatutVersionCreation" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.datePublication" type="date" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.A_Courriel" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.Viseparlereglementsurladiffusion" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.dateExpedition" type="date" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.dateReception" type="date" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.DateReceptionCourriel" type="date" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.CCI_Courriel" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.Objet_Courriel" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.Aunomde_Courriel" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.Societe" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:document.classificationTypeDocument" type="string" indexed="true" stored="true" multiValued="true"/>
+		
+		<field name="constellio-intelligid:fichier.nom" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:fichier.version" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:fichier.downloadURL" type="string" indexed="true" stored="true" multiValued="true"/>
+		<field name="constellio-intelligid:fichier.extension" type="string" indexed="true" stored="true" multiValued="true"/>		
+	</fields>
+</schema>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+
+  <ul id="btnRechUserLinks">  
+    <li style="display:none;" wicket:id="switchSearchMethod"><a href="#">[Switch to simple/advanced search]</a></li>
+    <li wicket:id="newSearchLinkHolder"><a href="#">[New search]</a></li>
+    <li wicket:id="searchHistoryLinkHolder"><a href="#">[Search history]</a></li>
+    <li wicket:id="adminLinkHolder"><a href="#">[Admin]</a></li>
+    <li style="display:none;" wicket:id="switchLocaleLinkHolder"><a href="#" class="langue">[EN]</a></li>
+    <li style="display:none;" wicket:id="signInLinkHolder"><a href="#">[Sign in]</a></li>
+    <li wicket:id="signOutLinkHolder"><a href="#">[Sign out]</a></li>
+  </ul>
+  
+</wicket:panel>
+</html>

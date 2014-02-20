@@ -1,0 +1,38 @@
+		<!-- HAUT PAGE RRQ--> 
+                  <div id="Conteneur"> 
+	                  <div id="PIV"> 
+        	            <div id="znRaccourcisNavigation"> 
+                	      <ul> 
+                        	<li><A href="#contenu" accessKey="C" tabIndex="0"><span id="PR3PPIV1_PR3PBarreRaccrNavgt1_XiCrLabel1" title="Aller au contenu" class="XiCrLabel">Aller directement au contenu de la page</span></A> 
+<li> 
+			<a id="PR3PPIV1_PR3PBarreRaccrNavgt1_lnkAccessibilite" accesskey="A" tabindex="2" title="Aller à la page de politique d'accessibilité" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/politique_accessibilite">Politique d'accessibilité</a></li> 
+	                      </ul> 
+        	            </div> 
+                	    <DIV id="logoRRQ"><a id="PR3PPIV1_XICrHyperLink1" tabindex="3" title="Régie des rentes du Québec - RRQ" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/"><img class="XiCrImage" src="http://www.rrq.gouv.qc.ca/fra/Commun/Images/bandeau_rrq_logo.gif" alt="Régie des rentes du Québec - RRQ" border="0" /></a></DIV> 
+	                    <!-- logo --> 
+        	            <DIV id="imgPIV"></DIV> 
+                	    <!-- imgPIV --> 
+	                    <div id="barrebleu"> 
+        	              <div class="divGauche"> 
+                	        <ul> 
+                        	  <li><a id="PR3PPIV1_hypAccueil" accesskey="A" tabindex="4" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/">Accueil</a> 
+	                          <li><a id="PR3PPIV1_hypPlanSite" accesskey="P" tabindex="5" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/plan/">Plan du site</a> 
+        	                  <li><a id="PR3PPIV1_hypNousJoindre" accesskey="J" tabindex="6" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/services/nous_joindre">Nous joindre</a> 
+                	          <li><a id="PR3PPIV1_hypAProposDeNous" tabindex="7" class="XICrHyperLink" href="http://www.rrq.gouv.qc.ca/fr/regie/">À propos de nous!</a> 
+                        	  <li><a id="PR3PPIV1_hypPortailQuebec" tabindex="8" title="Ce lien ouvrira une nouvelle fenêtre vers le portail Québec" class="XICrHyperLink" href="http://www.gouv.qc.ca/wps/portal/pgs/commun" target="_blank">Portail Québec</a></li> 
+	                        </ul> 
+        	              </div> 
+                	      <div class="divDroite"> 
+	                        <ul> 
+        	                  <li><a id="PR3PPIV1_hypChangeLangue" accesskey="L" tabindex="9" class="XICrHyperLink" lang="en" onClick="javascript:changeCookieLangue(); return true;" href="http://recherched.gouv.qc.ca/Internet/recherche.asp?Lang=en&curl=htm|http://www.rrq.gouv.qc.ca/recherche2/&int=RRQ&cs=utf-8&salign=c&rd=y&Adv=y&sCatList=rrq2">English</a></li> 
+                	        </ul> 
+	                      </div> 
+        	            </div> 
+                    <!-- barrebleu --> 
+                	  </div> 
+		 				
+				  <a name="contenu"></a>  
+		<div id="znConteneurDroit"> 
+				  <!--Conteneur-->   
+				  <!-- FIN HAUT PAGE RRQ-->  
+				<div id="znContenu">  

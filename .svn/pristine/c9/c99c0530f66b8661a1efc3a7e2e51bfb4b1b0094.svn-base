@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gsafeed PUBLIC "-//Google//DTD GSA Feeds//EN" "gsafeed.dtd">
+<gsafeed>
+	<header>
+		<datasource>web</datasource>
+		<feedtype>incremental</feedtype>
+	</header>
+	<group>
+		<record url="http://www.corp.enterprise.com/hello02" mimetype="text/plain"/>
+	</group>
+</gsafeed>

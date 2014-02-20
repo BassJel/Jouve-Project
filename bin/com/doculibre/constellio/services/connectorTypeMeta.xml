@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="helloworld-connector-meta" class="com.doculibre.constellio.entities.ConnectorTypeMeta">
+		<property name="langMap">
+			<map>
+				<entry key="connectorType">
+					<map>
+						<entry key="fr" value="Bonjour Monde!" />
+						<entry key="en" value="Hello World!" />
+					</map>
+				</entry>
+			</map>
+		</property>
+		<property name="icon" value="file:icon.gif" />
+	</bean>
+</beans>

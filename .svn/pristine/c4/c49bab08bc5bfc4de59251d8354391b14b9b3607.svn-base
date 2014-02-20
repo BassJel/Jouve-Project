@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+
+    <ul>
+      <li wicket:id="collections"><wicket:container wicket:id="collectionLinkHolder"></wicket:container></li>
+      <wicket:remove>
+      <li class="premier"><a href="#" class="actif"><span><strong>Portail Québec</strong> (14&nbsp;575)</span></a></li>
+      <li class="deuxieme"><a href="#"><strong>Citoyens</strong> (2&nbsp;214)</a></li>
+      <li class="troisieme"><a href="#"><strong>Entreprises</strong> (1&nbsp;114)</a></li>
+      <li class="dernier"><a href="#"><strong>International</strong> (1&nbsp;238)</a></li>
+      <li class="navigation-onglets-recherche-tous"><a href="#"><strong>Tout le gouvernement</strong> (375&nbsp;655)</a></li>
+      </wicket:remove>
+    </ul>
+	
+	<div wicket:id="pager">
+	<ul class="MenuPaging">
+	    <li><a href="#">1</a></li>
+	    <li> <a href="#">2</a></li>
+	    <li> <a href="#">3</a> </li>
+	    <li><a href="#">&gt;&gt;</a></li>
+	</ul>
+	</div>
+
+</wicket:panel>
+</html>

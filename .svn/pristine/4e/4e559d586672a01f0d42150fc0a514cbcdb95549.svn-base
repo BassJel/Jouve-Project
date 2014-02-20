@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:wicket="http://wicket.sourceforge.net/">
+<wicket:head>
+<!-- 
+     Example File From "JavaScript and DHTML Cookbook"
+     Published by O'Reilly & Associates
+     Copyright 2003 Danny Goodman
+-->
+    <script language="JavaScript" type="text/javascript"> 
+		function submitViaEnter(evt) {
+		    evt = (evt) ? evt : event;
+		    var target = (evt.target) ? evt.target : evt.srcElement;
+		    var charCode = (evt.charCode) ? evt.charCode : ((evt.which) ? evt.which : evt.keyCode);
+		    if (charCode == 13) {
+			    var searchButton = document.getElementById("searchButton");
+			    searchButton.click();
+	            return false;
+		    } else {
+		    	return true;
+			}
+		}
+    </script>
+</wicket:head>    
+<wicket:panel>
+
+<form wicket:id="searchForm" action="#" method="get">
+	<input wicket:id="hiddenFields" type="hidden" />
+
+<div wicket:id="advancedSearchFormDiv" id="formulaire" style="width:100%">
+	<span wicket:id="advanceForm"></span>
+</div>
+	
+<div wicket:id="simpleSearchFormDiv" id="formulaire">
+	<table width="100%" cellpadding="0" cellspacing="0" style="border: 1px solid; padding: 5px 0px 5px 2px;">
+		<tr>
+			<td style="padding-left:3px;" align="left">
+				<label>
+					<input wicket:id="query" type="text" class="recherche" onkeypress="return submitViaEnter(event)" />
+					<input wicket:id="searchButton" src="/constellio/images/ico_loupe.png" type="image" name="searchButton" class="btnRech2" />
+				</label>
+			</td>
+		</tr>
+	</table>
+
+	
+
+	<select wicket:id="singleSearchLocale"></select>
+	<wicket:container wicket:id="searchType">	
+	<input wicket:id="allWords" name="typeRech" type="radio" value="tous" id="tous" />
+	<label for="tous" class="etiquette"><span wicket:id="lbl_allWords">[All words]</span></label>
+	
+	<input wicket:id="atLeastOneWord" name="typeRech" type="radio" value="unMot" id="unMot" />
+	<label for="unMot" class="etiquette"><span wicket:id="lbl_atLeastOneWord">[At least one word]</span></label>
+	
+	<input wicket:id="exactExpression" name="typeRech" type="radio" value="exacte" id="exacte" />
+	<label for="exacte" class="etiquette"><span wicket:id="lbl_exactExpression">[Exact expression]</span></label>
+	</wicket:container>
+
+	<br />
+
+</div>
+</form>
+
+
+</wicket:panel>
+</html>

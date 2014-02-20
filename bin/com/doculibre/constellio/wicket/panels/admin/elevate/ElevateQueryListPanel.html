@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+     
+     <table class="dataAdmin">
+     	<tr>
+     		<th><wicket:message key="queryText">[Query text]</wicket:message></th>
+     		<th colspan="2"><wicket:message key="nbDocs">[Number of documents]</wicket:message></th>
+     	</tr>
+     	<tr wicket:id="queries">
+     		<td>
+     			<a wicket:id="detailsLink">
+     				<wicket:container wicket:id="queryText">(java)</wicket:container>
+     			</a>
+     			<div wicket:id="detailsModal"></div>
+     		</td>
+     		<td wicket:id="nbDocs">
+     			[123]
+     		</td>
+     		<td style="width:20px;">
+                <div id="icon">
+                	<a wicket:id="deleteLink" href="#" style="text-decoration:none;"><wicket:link autolink="true"><img src="../../../pages/images/ico_poubelle.png" alt="Supprimer" /></wicket:link></a>
+                </div>
+     		</td>
+     	</tr>
+     </table>
+	
+	<br />
+	
+	<wicket:enclosure child="excludedDocIdsPanel">
+	<h1 class="admin"><wicket:message key="excludedDocIds">[Excluded document ids]</wicket:message></h1> 
+	
+	<div wicket:id="excludedDocIdsPanel">
+	</div> 
+	</wicket:enclosure>
+
+</wicket:panel>
+</html>

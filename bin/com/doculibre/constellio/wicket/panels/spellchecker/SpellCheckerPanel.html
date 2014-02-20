@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:head>
+<wicket:link>
+	<script src="SpellCheckerPanel.js" language="JavaScript"></script>
+</wicket:link>
+
+<script type="text/javascript">
+
+//anylinkcssmenu.init("menu_anchors_class") ////Pass in the CSS class of anchor links (that contain a sub menu)
+anylinkcssmenu.init("anchorclass")
+</script>
+</wicket:head>
+
+<wicket:panel>
+<wicket:remove>
+<script type="text/javascript">
+    rechercheSuggeree = "jestions de promet";
+</script>
+</wicket:remove>
+
+    <div class="anylinkSpellChecker"> 
+	    <ul> 
+	    	<li class="question"><wicket:message key="suggestion">[Voulez-vous corriger ces mots]</wicket:message> ?</li> 
+	    	<span id="suggestion" class="suggestion"> 
+	    	<!-- 
+	    		Utilisation d'un tag <wicket:container> afin d'eviter de repeter le tag <span>
+	    	-->
+	    	<wicket:container wicket:id="suggestion">
+				<li><a wicket:id="motSuggere" id="mot0" class="anchorclass" onclick="lancerRechercheSuggeree();" rel="suggestion11" href="#">jestion</a></li> 
+				<li wicket:id="motNonSuggere" onclick="lancerRechercheSuggeree();">[de]</li>
+			</wicket:container>    
+			</span> 
+	    </ul> 
+    </div>  
+ 
+           
+    <div wicket:id="autresSuggestionsMot" id="suggestion1" class="anylinkcss">
+    	<ul>
+    		<li wicket:id="lienRemplacerMot">
+			    <a wicket:id="lien" href="#" onclick="remplacerMot('jestions', 1);">
+			    	<wicket:container wicket:id="libelle">[jestions]</wicket:container></a>
+    		</li>
+    	</ul>
+    </div>                             
+         
+</wicket:panel>
+</html>

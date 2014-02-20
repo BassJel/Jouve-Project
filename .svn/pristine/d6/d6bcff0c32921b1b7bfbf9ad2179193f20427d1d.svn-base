@@ -1,0 +1,14 @@
+add=Ajouter un paramètre
+edit=Modifier un paramètre
+paramName=Nom du paramètre
+paramType=Type
+paramType.text=Texte
+paramType.img=Image
+paramType.textFile=Fichier texte (ex.: Javascript, CSS)
+paramType.binaryFile=Fichier binaire (ex.: Flash, applet Java)
+paramType.requestParam=Paramètre de requête (ex.: query)
+textValue=Valeur
+binaryValue=Fichier
+inherited=Hérité
+inherited.true=Oui
+inherited.false=Non

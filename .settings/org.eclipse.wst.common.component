@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="constellio">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/source/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/source/javatests"/>
+        <property name="java-output-path" value="/constellio/bin"/>
+        <property name="context-root" value="constellio"/>
+    </wb-module>
+</project-modules>

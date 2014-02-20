@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+
+  <ul class="MenuPaging">
+	<li><a wicket:id="first">&lt;&lt;</a></li>
+	<li><a wicket:id="prev">&lt;</a></li>
+	<li><span wicket:id="navigation">
+		  <a wicket:id="pageLink" href="#"><span wicket:id="pageNumber">5</span></a>
+    </span></li>
+    <li><a wicket:id="next">&gt;</a></li>
+    <li><a wicket:id="last">&gt;&gt;</a></li>
+  </ul>
+
+</wicket:panel>
+</html>

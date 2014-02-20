@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:extend>
+
+<div id="container">
+	<table class="formulaire">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="titleField">[Title]</wicket:message> :
+			</td>
+			<td>
+				<div wicket:id="linkTitle">
+					<input wicket:id="titleLocale" type="text" />
+					<span wicket:id="localeName">[Locale Name]</span>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="description">[Description]</wicket:message> :
+			</td>
+			<td>
+				<div wicket:id="description">
+					<textarea wicket:id="descriptionLocale" cols="20" rows="10"></textarea>
+					<span wicket:id="localeName">[Locale Name]</span>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="keywords">[Mots-clés]</wicket:message> :
+			</td>
+			<td>
+				<textarea wicket:id="keywords" rows="5" cols="20"></textarea> 
+			</td>
+		</tr>
+	</table>
+</div>
+
+</wicket:extend>
+</html>

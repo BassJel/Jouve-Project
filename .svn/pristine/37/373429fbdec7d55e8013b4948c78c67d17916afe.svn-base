@@ -1,0 +1,60 @@
+<rdf:RDF 
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:dc="http://purl.org/dc/terms/">
+<skos:ConceptScheme rdf:about="http://www.infomuse.net/520/vocab/recipethesaurus">
+<dc:title>Recipe Thesaurus</dc:title>
+       <dc:description>A subject thesaurus produced to support description and retrieval of recipes.</dc:description>
+       <dc:creator>Kristina M. Spurgin</dc:creator>
+       <dc:date>2009-03-14</dc:date>
+       <dc:language>en</dc:language>
+       <skos:hasTopConcept rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus/food_products"/>    
+       <skos:hasTopConcept rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus/food_preparation_techniques"/>
+       <skos:hasTopConcept rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus/ingredients"/>           
+   </skos:ConceptScheme>
+ <skos:Concept rdf:about="http://www.infomuse.net/520/vocab/recipethesaurus/food_products">
+       <skos:prefLabel>food products</skos:prefLabel>
+       <skos:altLabel>foods</skos:altLabel>
+       <skos:scopeNote>Includes names of dishes and other foods that are the product of a preparation process or 
+          the result of a recipe. Foods as raw materials used in recipes are considered ingredients, 
+          not food products</skos:scopeNote>
+       <skos:inScheme rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus"/>
+   </skos:Concept>
+ <skos:Concept rdf:about="http://www.infomuse.net/520/vocab/recipethesaurus/appetizers">
+       <skos:prefLabel>appetizers</skos:prefLabel>
+       <skos:altLabel>hors d'oeuvre</skos:altLabel>
+       <skos:broader rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus/food_products"/>
+       <skos:inScheme rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus"/>
+   </skos:Concept>
+<skos:Concept rdf:about="http://www.infomuse.net/520/vocab/recipethesaurus/food_preparation_techniques">
+       <skos:prefLabel>food preparation techniques</skos:prefLabel>
+       <skos:altLabel>preparation techniques</skos:altLabel>
+       <skos:altLabel>culinary techniques</skos:altLabel>
+       <skos:altLabel>cooking techniques</skos:altLabel>
+       <skos:scopeNote>Includes actions performed on ingredients to turn them into food products.</skos:scopeNote>
+       <skos:inScheme rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus"/>
+   </skos:Concept>
+<skos:Concept rdf:about="http://www.infomuse.net/520/vocab/recipethesaurus/ingredients">
+       <skos:prefLabel>ingredients</skos:prefLabel>
+       <skos:scopeNote>Includes the raw materials used to produce food products.</skos:scopeNote>
+       <skos:inScheme rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus"/>
+   </skos:Concept>
+<skos:Concept rdf:about="http://www.infomuse.net/520/vocab/recipethesaurus/hummus">
+       <skos:prefLabel>hummus</skos:prefLabel>
+       <skos:broader rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus/appetizers"/>
+       <skos:related rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus/chickpeas"/>
+       <skos:inScheme rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus"/>
+   </skos:Concept>
+<skos:Concept rdf:about="http://www.infomuse.net/520/vocab/recipethesaurus/chickpeas">
+       <skos:prefLabel>chickpeas</skos:prefLabel>
+       <skos:altLabel>garbanzo beans</skos:altLabel>
+       <skos:broader rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus/legumes"/>
+       <skos:inScheme rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus"/>
+   </skos:Concept>
+<skos:Concept rdf:about="http://www.infomuse.net/520/vocab/recipethesaurus/legumes">
+       <skos:prefLabel>legumes</skos:prefLabel>
+       <skos:broader rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus/ingredients"/>
+       <skos:inScheme rdf:resource="http://www.infomuse.net/520/vocab/recipethesaurus"/>
+   </skos:Concept>
+</rdf:RDF>

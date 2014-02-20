@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:extend>
+
+<div id="container">
+	<table class="formulaire">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="contextName">[Context name]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="contextName" type="text" />
+			</td>
+		</tr>
+		<wicket:enclosure child="parentContext">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="parentContext">[Parent search context]</wicket:message> :
+			</td>
+			<td>
+				<wicket:container wicket:id="parentContext" />
+			</td>
+		</tr>
+		</wicket:enclosure>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="curlValue">[Curl value]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="curlValue" type="text" size="50" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="externalFiles">[External files]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="externalFiles" type="checkbox" />
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="headerHtmlContent">[Header HTML]</wicket:message> :
+			</td>
+			<td>
+				<div wicket:id="headerHtmlContent">
+					<textarea wicket:id="headerHtmlContentLocale" cols="50" rows="10"></textarea>
+					<span wicket:id="localeName">[Locale Name]</span>
+					<a wicket:id="copyLink" href="#"><wicket:message key="copyFromParentContext">[Copy from parent context]</wicket:message></a>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="footerHtmlContent">[Footer HTML]</wicket:message> :
+			</td>
+			<td>
+				<div wicket:id="footerHtmlContent">
+					<textarea wicket:id="footerHtmlContentLocale" cols="50" rows="10"></textarea>
+					<span wicket:id="localeName">[Locale Name]</span>
+					<a wicket:id="copyLink" href="#"><wicket:message key="copyFromParentContext">[Copy from parent context]</wicket:message></a>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="headTagHtmlContent">[Head tag HTML]</wicket:message> :
+			</td>
+			<td>
+				<div wicket:id="headTagHtmlContent">
+					<textarea wicket:id="headTagHtmlContentLocale" cols="50" rows="10"></textarea>
+					<span wicket:id="localeName">[Locale Name]</span>
+					<a wicket:id="copyLink" href="#"><wicket:message key="copyFromParentContext">[Copy from parent context]</wicket:message></a>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+</wicket:extend>
+</html>

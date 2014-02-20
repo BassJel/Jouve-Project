@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+<form wicket:id="form">
+
+<table class="formulaire">
+	<tr>
+		<td class="etiquette">
+			<wicket:message key="minClicks"></wicket:message>
+			<font color="red">* </font>
+		</td>
+		<td>
+			<input wicket:id="minClicks" type="text"/>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="etiquette">
+			<wicket:message key="maxResults"></wicket:message>
+			<font color="red">* </font>
+		</td>
+		<td>
+			<input wicket:id="maxResults" type="text"/>
+		</td>
+	</tr>
+		
+
+		<tr>
+			<td  align="center" colspan="2">
+<!--				<a wicket:id="updateSolrConfig" wicket:message="value:updateSolrConfig"/>-->
+					<span class="btnRechIEBorder"><input wicket:id="submitButton" type="submit" wicket:message="value:useResultsRelvance" class="btnRech" /></span>
+					<input wicket:id="cancelButton" type="submit" wicket:message="value:defaultSearch" class="btnReset" />
+			</td>
+			
+		</tr>
+	
+	</table>
+
+</form>	
+
+</wicket:panel>
+</html>

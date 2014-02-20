@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+<wicket:extend>
+
+<div id="container">
+	<table class="formulaire">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="constellioGroup">[Group]</wicket:message>
+			</td>
+			<td>
+				<select wicket:id="constellioGroup">
+					<option>Option 1</option>
+					<option>Option 2</option>
+				</select> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="constellioUser">[User]</wicket:message>
+			</td>
+			<td>
+				<select wicket:id="constellioUser">
+					<option>Option 1</option>
+					<option>Option 2</option>
+				</select> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="search">[Search]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="search" type="checkbox" />
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="collaboration">[Collaboration]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="collaboration" type="checkbox" />
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="admin">[Admin]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="admin" type="checkbox" />
+			</td>
+		</tr>
+	</table>
+
+</div>	
+</wicket:extend>
+</wicket:panel>
+</html>

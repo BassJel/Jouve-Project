@@ -1,0 +1,40 @@
+searchResults=Search results
+totalResultatsRecherche.0=No result for «<strong>${query}</strong>» in ${collectionName} ${suffix}
+totalResultatsRecherche.1=A total of 1 result for «<strong>${query}</strong>» in ${collectionName} ${suffix}
+totalResultatsRecherche.n=A total of ${nbRes} results for «<strong>${query}</strong>» in ${collectionName} ${suffix}
+suggestedSearchNotification=Click on this link, and you will launch a search using {0}.
+
+searchType.allWords=All words
+searchType.atLeastOneWord=At least one word
+searchType.exactExpression=Exact expression
+language=Language
+language.all=All languages
+search=Search
+
+launchSearch=Launch the search
+newSearch=Launch a new search (reset)
+refineSearch=Refine <br /> the search
+results.all=All results
+
+optionsRecherche.moins=Fewer options
+optionsRecherche.plus=More options
+
+suggestedSearches=Suggested searches
+spellChecker.typed=You have indicated
+spellChecker.suggestion=Instead, try
+
+thesaurus.typed=Your search was for
+thesaurus.disambiguation=What do you mean?
+thesaurus.suggestion=Instead, try :
+
+source=Source
+thesaurus=Thésaurus de l'activité gouvernementale
+thesaurus.notification=Thésaurus de l\u2019activité gouvernementale. (In French only). This link will open in a new window.
+thesaurus.terminologyGuide=Thésaurus de l'activité gouvernementale <br/> (terminology guide)
+thesaurus.popup=Are you looking for a specific piece of information, but having trouble finding the right word or expression to use in your search? The Thésaurus de l\u2019activité gouvernementale is a tool to help you find the right word(s) so you can efficiently search the websites of the gouvernement du Québec.
+terminologyGuide=Terminology guide
+
+relatedSearches=Searches related to
+
+thisSite		=	This site
+allGovernment	=	All government

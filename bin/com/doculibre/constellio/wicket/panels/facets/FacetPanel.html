@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+
+<wicket:panel>
+	
+<form wicket:id="facetForm">
+
+<table class="tableBloc">
+  <wicket:container wicket:id="facetHeader">
+  <tr>
+    <th scope="col" style="width: 100%">
+      <wicket:enclosure>
+      <label for="select"><wicket:message key="sort">[Sort]</wicket:message> :</label>
+	  <select wicket:id="sort" name="select" style="font-size:10px;">
+	   	<option>[A / Z]</option>
+	     	<option>[Occurences]</option>
+	    </select>
+	  </wicket:enclosure> 
+	  <wicket:container wicket:id="multiValuedFacetOptions">
+      <input wicket:id="excludeButton" wicket:message="value:exclude" type="submit" name="Button2" value="[Exclude]" id="Button" class="btnReset" style="width:40px; margin-left: 1px; margin-right: 1px;" />
+      <input wicket:id="refineButton" wicket:message="value:refine" type="submit" name="Button22" value="[Refine]" id="Button2" class="btnReset" style="width:40px; margin-left: 1px;" />
+      </wicket:container> 
+     </th>
+  </tr>
+   </wicket:container> 
+  <wicket:container wicket:id="selectedValuesCheckGroup">
+  <tr style="border: none;">
+  	<td wicket:id="listViewContainer" style="padding-left:0px; padding-right:0px; padding-bottom: 0px; border: none;">
+	  	<table class="tableBloc" cellpadding="0" cellspacing="0" style="width:100%;" >
+	  		<tr wicket:id="possibleValues">
+			    <td style="padding-left:0px;">
+			    	<div class="filterFacetCheck">
+			    		<input wicket:id="selectFacet" type="checkbox" name="checkbox" value="checkbox" />
+			    	</div>	
+			     	<div class="filterFacetLink" style="width:190px;float:left;">
+						<a wicket:id="addFacetLink" style="width:190px; word-wrap:break-word;"> 
+							<span wicket:id="count" />
+						</a>
+						<a wicket:id="deleteFacetLink" wicket:message="alt:delete" style="float:right; text-decoration:none;">
+							<wicket:link autolink="true">
+							<img src="../../pages/images/exclude.png" />
+							</wicket:link>
+						</a> 
+			    	</div>
+			    </td>
+	  		</tr>
+	  	</table>
+  	</td>
+  </tr>
+  </wicket:container>
+  <tr class="allResults" wicket:id="facetFooter">
+    <td scope="col" style="width: 100%;"  >
+	<span wicket:id="pagingNavigator"></span>
+    	<a wicket:id="allResultsLink" ><wicket:message key="allResults">[allResults]</wicket:message></a>
+     </td>
+  </tr>
+  <tr>
+  </tr>
+</table>
+
+</form>
+<br/>
+</wicket:panel>
+</html>

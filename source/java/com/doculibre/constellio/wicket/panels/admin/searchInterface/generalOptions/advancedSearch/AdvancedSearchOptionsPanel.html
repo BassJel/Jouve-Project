@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wicket="http://wicket.sourceforge.net">
+<wicket:panel>
+	
+	<input type="checkbox" wicket:id="enabled" id="enabled"/>
+	<label for="enabled"><wicket:message key="enabled">[enabled]</wicket:message></label>
+	<br></br>
+	<wicket:message key="initialRules">["initialRules"]</wicket:message>
+	<select wicket:id="initialRules"></select>
+	
+	<table class="dataAdmin">
+		<tr wicket:id="enabledRulesHeader">
+			<th><wicket:message key="indexField">[indexField]</wicket:message></th>
+			<th><wicket:message key="indexFieldEnabled">[indexFieldEnabled]</wicket:message></th>
+			<th><wicket:message key="autocomplete">[autocomplete]</wicket:message><span style="color:red; font-weight: bolder">*</span></th>
+		</tr>
+		<tr wicket:id="enabledRules">
+			<td><span wicket:id="indexFieldName"></span></td>
+			<td><input type="checkbox" wicket:id="enabled" /></td>
+			<td><input type="checkbox" wicket:id="autoComplete" /></td>
+		</tr>
+	</table>
+	<p style="color:red; width: 320px;">* <wicket:message key="needReindex">[key]</wicket:message></p>
+</wicket:panel>
+</html>

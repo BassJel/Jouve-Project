@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:head>
+<script>
+	Wicket.Window.unloadConfirmation = false;
+</script>
+</wicket:head>
+<wicket:panel>
+
+	<table width="100%">
+		<tr>
+			<td align="left">
+			<table width="100%">
+				<tr>
+<!--					<td align="left"><span class="urlLink" wicket:id="folderNames"/></td>-->
+					<td align="right"><a style="font-size:80%" href="#" onclick="window.print();"><wicket:message key="print">[Imprimer ce courriel]</wicket:message></a></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="left"><span style="font-size:80%"><wicket:message key="froms">[De]</wicket:message>:</span> <span class="urlLink" wicket:id="froms"></span>&nbsp;&nbsp;&nbsp;<span style="font-size:80%"><wicket:message key="recipients">[A]</wicket:message> :</span> <span class="urlLink" wicket:id="recipients"></span></td>
+					<td align="right"><span style="font-size:80%" wicket:id="receivedDate" /></td>
+					<td>&nbsp;</td>
+				</tr>
+			</table>
+			<hr />
+<!--			<span class="text12" wicket:id="messageContentHtml"></span>-->
+
+			<span class="text12" wicket:id="messageContent"></span>
+
+			<hr />
+			<table style="font-size:80%">
+				<tr>
+					<td><wicket:message key="attachmentNames">[Fichier joints]</wicket:message> :</td>
+					<td>
+						<table>
+							<tr wicket:id="linksList">
+								<td>
+<!--									<span  wicket:id="webmarkupContainer">-->
+										<a class="urlLink" wicket:id="attachmentLinks"> <span wicket:id="urlTitle"></span> </a>
+<!--									</span>-->
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td><wicket:message key="flags">[Notes]</wicket:message> :</td>
+					<td><span class="urlLink" wicket:id="flags"></span></td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+	</table>
+</wicket:panel>
+
+</html>

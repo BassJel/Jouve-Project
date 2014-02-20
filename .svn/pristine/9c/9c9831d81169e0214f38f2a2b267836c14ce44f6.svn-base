@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans classpath:org/springframework/beans/factory/xml/spring-beans-2.0.xsd" default-lazy-init="false" default-autowire="no" default-dependency-check="none">
+
+	<bean id="searchResultPanelClassName" class="java.lang.String">
+		<constructor-arg value="com.doculibre.constellio.wicket.panels.results.IntelliGIDSearchResultPanel"/>
+	</bean>
+	
+	<bean id="initInstanceHandlerClassName" class="java.lang.String">
+		<constructor-arg value="com.doculibre.constellio.utils.connector.init.InitIntelliGIDConnectorHandler"/>
+	</bean>
+	
+</beans>

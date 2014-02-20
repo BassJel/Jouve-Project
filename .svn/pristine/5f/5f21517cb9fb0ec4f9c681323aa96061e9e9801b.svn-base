@@ -1,0 +1,5 @@
+edit=Modifier la classe du panneau Wicket de résultat de recherche
+defaultClass=Panneau par défaut de Constellio
+defaultConnectorTypeClass=Panneau par défaut du connecteur
+customClass=Panneau personnalisé
+class=Classe

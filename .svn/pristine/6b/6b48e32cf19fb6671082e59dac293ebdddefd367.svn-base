@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:wicket="http://wicket.sourceforge.net/">
+<wicket:extend>
+
+	<h3 id="titreHistoriqueRecherche" class="titreBlocAdmin"><wicket:message key="historiqueRecherche">[Historique de recherche]</wicket:message></h3>
+
+	<table class="" width="100%" cellpadding="0" cellspacing="0">	
+	    <tr>
+	        <td colspan="2">
+	        	<table class="historiqueTable, dataAdmin" width="100%" border="0" cellpadding="0" cellspacing="0" >
+	        		<tbody>
+	        			
+	        			<tr class="historiqueThRow">
+	        				<th class="historiqueTh">
+	        					<wicket:message key="query">[Searched text]</wicket:message>
+	        				</th>
+	        				<th class="historiqueTh">
+	        					<wicket:message key="criteria">[Criteria]</wicket:message>
+	        				</th>
+	        				<th class="historiqueTh">
+	        					<wicket:message key="collection">[Collection]</wicket:message>
+	        				</th>
+	        				<th wicket:id="cloudKeyword.header" class="historiqueTh">
+	        					<wicket:message key="cloudKeyword.keywords">[Cloud keywords]</wicket:message>
+	        				</th>
+	        				<th class="historiqueTh">
+	        					<wicket:message key="resultsCount">[Results count]</wicket:message>
+	        				</th>
+	        				<th class="historiqueTh">
+	        					&nbsp;
+	        				</th>
+	        				<th class="historiqueTh">
+	        					&nbsp;
+	        				</th>
+	        			</tr>
+	        			
+	        			<tr wicket:id="searchHistory" class="historiqueTdRow">
+	        				<td wicket:id="query" class="historiqueTd">
+	        					[Quubec]
+	        				</td>
+	        				<td class="historiqueTd">
+	        					<div wicket:id="includedFacetValues">
+	        						<span wicket:id="label">
+	        							[Ministere / Organisme : Sante et Services sociaux]
+	        						</span>
+	        					</div>	
+								<div wicket:id="excludedFacetValues" style="text-decoration:line-through;">
+									<span wicket:id="label">
+										[Formats : html]
+									</span>
+								</div>	    
+								<div wicket:id="noFacet">
+									[S/O]
+								</div>    					 
+	        				</td>
+	        				<td wicket:id="collectionName" class="historiqueTd">
+	        					[accueil]
+	        				</td>
+	        				<td wicket:id="cloudKeyword.keyword" class="historiqueTd">
+	        					[accueil]
+	        				</td>
+	        				<td wicket:id="resultsCount" class="historiqueTd">
+	        					[25]
+	        				</td>
+	        				<td class="historiqueTd">
+	        					<a wicket:id="relaunchSearchLink" href="#"><wicket:message key="relaunchSearch">[Relaunch search]</wicket:message></a>
+	        				</td>
+	        				<td class="historiqueTd">
+	        					<a wicket:id="deleteSearchLink" href="#"><wicket:message key="deleteSearch">[Delete search]</wicket:message></a>
+	        				</td>
+	        			</tr>
+	        			
+	        		</tbody>
+	        	</table>
+	        </td>
+	    </tr>
+	</table>
+	
+</wicket:extend>
+</html>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:extend>
+
+<div id="container">
+	<table class="formulaire">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="filterClass">[Champ]</wicket:message> :
+			</td>
+			<td>
+				<a wicket:id="addFilterClassLink" href="#">
+					<wicket:message key="addFilterClass">[Add Filter Class]</wicket:message>
+				</a>
+				<div wicket:id="filterClassModal" />
+				<br />
+				<select wicket:id="filterClass">
+					<option>Field 1</option>
+					<option>Field 2</option>
+				</select> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="ignoreCase">[Ignore Case]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="ignoreCase" type="checkbox" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="expand">[Expand]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="expand" type="checkbox" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="enablePositionIncrements">[Enable Position Increments]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="enablePositionIncrements" type="checkbox" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="language">[Language]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="language" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="wordsText">[Words Text]</wicket:message> :
+			</td>
+			<td>
+				<textarea wicket:id="wordsText" rows="5" cols="10"></textarea> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="synonymsText">[Synonyms Text]</wicket:message> :
+			</td>
+			<td>
+				<textarea wicket:id="synonymsText" rows="5" cols="10"></textarea> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="protectedText">[Protected Text]</wicket:message> :
+			</td>
+			<td>
+				<textarea wicket:id="protectedText" rows="5" cols="10"></textarea> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="generateWordParts">[Generate Word Parts]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="generateWordParts" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="generateNumberParts">[Generate Number Parts]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="generateNumberParts" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="catenateWords">[Catenate Words]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="catenateWords" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="catenateNumbers">[Catenate Numbers]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="catenateNumbers" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="catenateAll">[Catenate All]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="catenateAll" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="splitOnCaseChange">[Split On Case Change]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="splitOnCaseChange" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="delimiter">[Delimiter]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="delimiter" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="encoder">[Encoder]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="encoder" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="pattern">[Pattern]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="pattern" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="replace">[Replace]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="replace" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="replacement">[Replacement]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="replacement" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="inject">[Inject]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="inject" type="checkbox" /> 
+			</td>
+		</tr>
+	</table>
+</div>	
+
+
+</wicket:extend>
+</html>

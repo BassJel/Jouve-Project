@@ -1,0 +1,4 @@
+title=Google Analytics
+useGoogleAnalytics=Activer Google Analytics
+googleAnalyticsUA=Code UA
+googleAnalyticsHeader=HTML du tag <head>

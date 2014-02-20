@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <lst name="responseHeader">
+    <int name="status">0</int>
+    <int name="QTime">23</int>
+  </lst>
+  <result name="response" numFound="1" start="0">
+    <doc name="doc">
+      <double name="bigPrice">0.0</double>
+      <arr name="cat">
+        <str>software</str>
+        <str>search</str>
+      </arr>
+      <arr name="features">
+        <str>Advanced Full-Text Search Capabilities using Lucene</str>
+        <str>Optimized for High Volume Web Traffic</str>
+        <str>Standards Based Open Interfaces - XML and HTTP</str>
+        <str>Comprehensive HTML Administration Interfaces</str>
+        <str>Scalability - Efficient Replication to other Solr Search Servers</str>
+        <str>Flexible and Adaptable with XML configuration and Schema</str>
+        <str>Good unicode support: héllo (hello with an accent over the e)</str>
+      </arr>
+      <str name="id">SOLR1000</str>
+      <bool name="inStock">true</bool>
+      <date name="incubationdate_dt">2006-01-17T00:00:00Z</date>
+      <str name="manu">Apache Software Foundation</str>
+      <str name="name">Solr, the Enterprise Search Server</str>
+      <long name="nbItems">123</long>
+      <int name="popularity">10</int>
+      <float name="price">0.0</float>
+    </doc>
+  </result>
+  <lst name="otherNamedList">
+  <lst name="facial">
+    <int name="frequency">1</int>
+    <lst name="suggestions">
+      <lst name="faciale">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="faucial">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="fascial">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="facing">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="faciei">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="facialis">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="social">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="facile">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="spacial">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="glacial">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="marcial">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="facies">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="facio">
+        <int name="frequency">1</int>
+      </lst>
+    </lst>
+  </lst>
+  <lst name="salophosphoprotein">
+    <int name="frequency">0</int>
+    <lst name="suggestions">
+      <lst name="sialophosphoprotein">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="phosphoprotein">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="phosphoproteins">
+        <int name="frequency">1</int>
+      </lst>
+      <lst name="alphalipoprotein">
+        <int name="frequency">1</int>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+  
+</response>

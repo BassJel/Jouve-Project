@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+
+<wicket:panel>
+
+	<table cellpadding="0" cellspacing="0">
+		<tr>
+			<td style="vertical-align:top;">
+				<a wicket:id="detailsMailLink">
+					<span wicket:id="subject"></span>
+				</a>
+			</td>
+			<td>
+				&nbsp;
+			</td>
+			<td style="vertical-align:top;">
+       			<div wicket:id="elevatePanel"></div>
+       		</td>
+       	</tr>
+       </table>			
+       
+       <p class="description"><span class="text12" wicket:id="messageContent"></span></p>
+       
+       <p class="adresse">
+<!--        <span class="urlLink" wicket:id="from"></span> -->
+       -
+       
+       <wicket:enclosure>
+       <span class="urlLink" wicket:id="recipient"></span> 
+       -
+       </wicket:enclosure>
+       
+       
+       <span class="urlLink" wicket:id="date"></span> 
+       
+       <wicket:enclosure child="hasAttachmentsImg">
+       - 
+       <span class="urlLink">
+       	<wicket:container wicket:id="hasAttachmentsImg">
+        	<wicket:link autolink="true">
+        		<img src="paper_clip.gif" />
+        	</wicket:link>
+       	</wicket:container>
+       </span>
+       </wicket:enclosure>
+       </p>
+	   
+	   <wicket:enclosure child="searchResultFields">
+	   <table style="margin-bottom:10px;">
+	       <tr wicket:id="searchResultFields">
+	           <td class="etiquette">
+	               <span class="urlLink" wicket:id="indexField">[Index field]</span> :&nbsp;
+	           </td>
+	           <td class="etiquette">
+	               <span wicket:id="indexFieldValue">[Index field value]</span>
+	           </td>		
+	       </tr>	
+	   </table>
+	   </wicket:enclosure>
+       
+       <div wicket:id="detailsMailModal"></div>
+
+</wicket:panel>
+
+</html>

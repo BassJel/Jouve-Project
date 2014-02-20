@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+
+	
+<div id="container">
+<div id="popup">
+    <h4 wicket:id="panelTitle">
+    	[Queries] / [Labelled Values]
+    </h4>
+       
+    <form wicket:id="filterForm">
+    <table class="formulaire">
+       	<tr>
+       		<td class="etiquette">
+       			<wicket:message key="filter">[Filter]</wicket:message> : 
+			</td> 
+			<td>
+				<input wicket:id="filterField" type="text" /> 
+			</td>  
+			<td>
+				<a wicket:id="clearButton" href="#"><wicket:message key="clear">[Clear]</wicket:message></a> 
+			</td>  
+   		</tr>
+   	</table>
+   	</form>		
+       
+    <form wicket:id="addForm">
+    <table class="formulaire">
+       	<tr>
+       		<td class="etiquette">
+       			<wicket:message key="key">[Value]</wicket:message> : 
+			</td> 
+			<td>
+				<input wicket:id="key" type="text" /> 
+			</td>  
+		</tr>
+       	<tr wicket:id="locales">
+       		<td class="etiquette">
+       			<wicket:message key="label">[Label]</wicket:message> : 
+			</td> 
+			<td>
+				<input wicket:id="label" type="text" />
+				<span wicket:id="localeName">[Locale Name]</span> 
+			</td>  
+		</tr>
+       	<tr>
+       		<td>
+       			&nbsp;
+			</td> 
+			<td>
+				<input wicket:id="addButton" type="submit" wicket:message="value:add" /> 
+			</td>  
+		</tr>
+   	</table>
+   	</form>		
+       
+    <fieldset wicket:id="valuesContainer" style="margin-left:0px;">
+	    <table width="100%" border="0" cellspacing="1" cellpadding="0" class="affichage">
+	      <tr>
+	      	<th scope="col"><wicket:message key="value">[Value]</wicket:message></th>
+	        <th scope="col" wicket:id="locales">
+	        	<wicket:message key="label">[Label]</wicket:message> 
+	        	<span wicket:id="localeName">&nbsp;</span>
+	        </th>
+	        <th>&nbsp;</th>
+	      </tr>
+	      <tr wicket:id="items">
+	        <td>
+	 			<span wicket:id="value">[Value]</span>
+			</td>
+	 		<td wicket:id="labels">
+	 			<span wicket:id="editableLabel">[Label]</span>
+	 		</td>
+	 		<td>
+                <div id="icon">
+                	<a wicket:id="deleteLink" href="#" class="delete">
+    				<wicket:link autolink="true">
+    				<img src="../../../../pages/images/ico_poubelle.png" alt="Supprimer" />
+    				</wicket:link>
+                	</a>
+                </div>
+	 		</td>
+	      </tr>
+	    </table>
+    </fieldset>
+</div>
+</div>    
+
+</wicket:panel>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+
+<wicket:panel>
+	<div wicket:id="query" style="word-wrap: break-word;">[Query]</div>
+	<div wicket:id="facets" style="font-size:10px;padding-left:5px;">
+		<div><span wicket:id="label">[Facet label]</span> : </div>
+		<div style="padding-left:5px;">
+			<div wicket:id="includedValues"><span wicket:id="label">[Facet value label]</span></div>
+			<div wicket:id="excludedValues" style="text-decoration:line-through;"><span wicket:id="label">[Facet value label]</span></div>
+		</div>
+	</div>
+	<div style="font-size:10px;padding-left:5px;" wicket:id="languages"><wicket:message key="language">[Language]</wicket:message> : <span wicket:id="language">[Language]</span></div>
+	<wicket:enclosure child="searchType">
+	<div style="font-size:10px;padding-left:5px;"><wicket:message key="searchType">[Search type]</wicket:message> : <span wicket:id="searchType">[Search type]</span></div>
+	</wicket:enclosure>
+</wicket:panel>
+</html>

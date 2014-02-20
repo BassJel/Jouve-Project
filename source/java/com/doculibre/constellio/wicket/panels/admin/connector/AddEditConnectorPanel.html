@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.sourceforge.net" xml:lang="cs" lang="cs">
+<wicket:panel>
+<wicket:extend>
+
+	<table class="formulaire">
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="connectorType">[Type]</wicket:message> :
+			</td>
+			<td>
+				<select wicket:id="connectorType">
+					<option>[Web]</option>
+					<option>[Courriel]</option>
+				</select> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="displayName">[Name]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="displayName" type="text" /> 
+			</td>
+		</tr>
+	</table>	
+
+	<table wicket:id="configFormSnippet" id="configFormSnippet" class="saisie"></table>
+	
+	<table class="formulaire">	
+		<tr>
+			<td colspan="2">
+				<h1 class="admin"><wicket:message key="schedule">[Schedule]</wicket:message></h1>
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="disabled">[Disabled]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="disabled" type="checkbox" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="load">[The hostload (in docs per minute) as an integer]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="load" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="retryDelayMillis">[Time to wait before next traversal (milliseconds)]</wicket:message> :
+			</td>
+			<td>
+				<input wicket:id="retryDelayMillis" type="text" /> 
+			</td>
+		</tr>
+		<tr>
+			<td class="etiquette">
+				<wicket:message key="timeIntervals">[Time intervals]</wicket:message> :
+			</td>
+			<td>
+				<span wicket:id="timeIntervalsPanel">[Time intervals]</span> 
+			</td>
+		</tr>
+	</table>
+
+</wicket:extend>	
+</wicket:panel>
+</html>

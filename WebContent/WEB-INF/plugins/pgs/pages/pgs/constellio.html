@@ -1,0 +1,378 @@
+
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="fr" xmlns:wicket="http://wicket.sourceforge.net/"> <!--<![endif]-->
+
+<head>
+	<link rel="shortcut icon" type="image/x-icon"  href="http://www.gouv.qc.ca/portail/themes/html/PGS/images/favicon/favicon.ico">
+	<script src="resources/com.doculibre.constellio.wicket.pages.pgs.PGSSearchResultsPage/null/js/constellio_base.js"></script>
+	
+	<meta charset="utf-8" />
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	       More info: h5bp.com/b/378 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+	<!-- CSS: implied media=all -->
+	<!-- CSS concatenated and minified via ant build script-->
+	<link rel="stylesheet" href="css/style-autocomplete.css"/>
+	<script src="scripts/libs/prefixfree.min.js"></script>
+	<script src="scripts/libs/respond.min.js"></script>
+	<!-- end CSS-->
+	<!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+	<!-- All JavaScript at the bottom, except for Modernizr / Respond.
+	       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+	       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+	<script src="scripts/libs/modernizr-2.0.6.min.js"></script>
+<script type="text/javascript" src="http://localhost:8080/constellio-srig/app/resources/org.apache.wicket.markup.html.WicketEventReference/wicket-event.js"></script>
+<script type="text/javascript" src="http://localhost:8080/constellio-srig/app/resources/org.apache.wicket.ajax.WicketAjaxReference/wicket-ajax.js"></script>
+<script type="text/javascript" ><!--/*--><![CDATA[/*><!--*/
+Wicket.Event.add(window, "load", function() { setTimeout("var wcall=wicketAjaxGet('?wicket:interface=:0::IActivePageBehaviorListener:0:&wicket:ignoreIfNotActive=true&curl=txt|http://wwwxml.gouv.qc.ca/reperage/pgs/&lx=958&displayLang=fr&popupLink=false',null,null);", 30000);;});
+/*-->]]>*/</script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<script type="text/javascript"><!--/*--><![CDATA[/*><!--*/
+
+var lblOptionsRechercheMoins="Moins d'options";
+var lblOptionsRecherchePlus="Plus d'options";
+
+/*-->]]>*/</script>
+
+<link rel="stylesheet" type="text/css" href="css/style-responsive-mobile.css" />
+<title>Services Québec</title>
+<script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30044613-1']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script>
+<script type="text/javascript" ><!--/*--><![CDATA[/*><!--*/
+Wicket.Event.add(window, "load", function() { document.getElementById('champ-recherche').focus();});
+/*-->]]>*/</script>
+
+</head>
+<body>
+<div id="page">   
+       
+	<!-- debut entete de page: PIV -->
+    <script type="text/javascript">
+       var NTPT_SET_IDCOOKIE = false;
+    </script>
+    <noscript>
+       <img style="display:none;" src="https://stats-sqc.gouv.qc.ca/images/ntpagetag.gif" height="1" width="1" border="0" hspace="0" vspace="0" alt="">
+    </noscript> 
+    
+    <div id="piv"> 
+	  <a id="piv-logo" href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/?lang=fr"><img src='http://localhost:8080/constellio-srig/app/resources/org.apache.wicket.Application/SearchInterfaceContextParam_9_1332446239000' alt="Qu&eacute;bec." title="Qu&eacute;bec." /></a>
+      <nav>
+        <ul title="Qu&eacute;bec">
+			<li class="first"><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/?lang=fr" title="Portail Qu&eacute;bec.">Portail Qu&eacute;bec</a></li>
+			<li><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/informationsutiles/aide/?lang=fr" title="Aide.">Aide</a></li>
+			<li><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/plansite?lang=fr" title="Plan du site.">Plan du site</a></li>
+			<li><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/nousjoindre?lang=fr" title="Pour nous joindre.">Pour nous joindre</a></li>
+   			<li><a href="http://184.107.168.90:8080/recherche/app/form?curl=txt|http://wwwxml.gouv.qc.ca/reperage/pgs/&lx=958&displayLang=en&lang.includedValues=en&singleSearchLocale=en&Locale=en" lang="en" title="English.">English</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <div id="outils-entete">
+      <p id="titre">Portail Qu&eacute;bec</p>
+      <div id="outils">
+        <p class="visuallyhidden">Menu pour changer la taille du texte.</p>
+        <ul id="taille-texte">
+          <li><button id="taille-texte-normal"><img src="http://localhost:8080/constellio-srig/app/resources/org.apache.wicket.Application/SearchInterfaceContextParam_12_1332446239000" alt="Taille du texte normale." /></button></li>
+          <li><button id="taille-texte-moyenne"><img src="http://localhost:8080/constellio-srig/app/resources/org.apache.wicket.Application/SearchInterfaceContextParam_7_1332446239000" alt="Taille du texte moyenne." /></button></li>
+          <li><button id="taille-texte-grande"><img src="http://localhost:8080/constellio-srig/app/resources/org.apache.wicket.Application/SearchInterfaceContextParam_8_1332446239000" alt="Taille du texte grande." /></button></li>
+        </ul>
+        <p id="outils-imprimer"><button onclick="window.print();"><img src="http://localhost:8080/constellio-srig/app/resources/org.apache.wicket.Application/SearchInterfaceContextParam_4_1332446239000" alt="Imprimer la page." /></button></p>
+      </div>
+      <nav>
+        <p class="visuallyhidden">Vous &ecirc;tes ici:</p>
+        <ul>
+          <li><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/?lang=fr" title="Accueil Portail Qu&eacute;bec">Portail Qu&eacute;bec</a></li>
+		  
+		  <li><b>Recherche</b></li>
+        </ul>
+      </nav>
+    </div>
+
+<!-- fin entete de page: PIV -->
+
+<div wicket:id="wrapper" style="float:right;">
+  <header>
+    <form id="form-recherche" action="search?curl=txt|http://wwwxml.gouv.qc.ca/reperage/pgs/&lx=958&displayLang=fr&popupLink=false" method="get">  
+		  <input name="curl" value="txt|http://wwwxml.gouv.qc.ca/reperage/pgs/" type="hidden"/><input name="popupLink" value="false" type="hidden"/><input name="displayLang" value="fr" type="hidden"/><input name="lx" value="958" type="hidden"/><input name="collectionName" value="test" type="hidden"/>
+      <h1 class="visuallyhidden">Résultats de recherche</h1>
+      <p id="form-recherche-principal">
+        <label for="champ-recherche"><span id="titre-rechercher">Recherche</span></label>
+        <input id="champ-recherche" placeholder="Recherche" name="query" value="doculibre" type="search"/><button id="bouton-recherche-principale" name="searchButton"><img alt="Lancer la recherche" src="images/btn-recherche2.gif"/></button>
+      </p>
+      <button id="bouton-options-recherche" onClick="var wcall=wicketAjaxGet('?wicket:interface=:0:searchForm:boutonOptionsRecherche::IBehaviorListener:0:&curl=txt|http://wwwxml.gouv.qc.ca/reperage/pgs/&lx=958&displayLang=fr&popupLink=false',null,null, function() {return Wicket.$('bouton-options-recherche') != null;}.bind(this));">Plus d&#039;options</button>
+      <div id="options-recherche" style="display:none;">
+        <p id="options-recherche-langue">
+          <label for="langue-recherche">Langue</label>
+          <select id="langue-recherche" name="singleSearchLocale">
+<option selected="selected" value="fr">Fran&#231;ais</option>
+<option value="">Toutes les langues</option>
+</select>
+        </p>
+		  	    
+        <ul id="options-recherche-type">
+          <li>
+            <input id="option-recherche-tous-les-mots" name="searchType" value="allWords" type="radio" checked="checked"/>
+            <label for="option-recherche-tous-les-mots"> Tous les mots</label>
+          </li>
+          <li>
+            <input id="option-recherche-au-moins-un-mot" name="searchType" value="atLeastOneWord" type="radio"/>
+            <label for="option-recherche-au-moins-un-mot"> Au moins un mot</label>
+          </li>
+          <li>
+            <input id="option-recherche-expression-exacte" name="searchType" value="exactExpression" type="radio"/>
+            <label for="option-recherche-expression-exacte"> Expression exacte</label>
+          </li>
+        </ul>
+      
+      
+        <p id="options-recherche-bouton">
+          <input id="searchButton2" name="searchButton2" value="Lancer la recherche" type="submit"/>
+        </p>
+        <nav id="actions-recherche">
+          <ul>
+            <li><a href="search?collectionName=test&amp;curl=txt|http://wwwxml.gouv.qc.ca/reperage/pgs/&amp;lx=958&amp;displayLang=fr&amp;popupLink=false">Faire une nouvelle recherche (effacer tous les critères)</a></li>  
+            
+            
+          </ul>
+        </nav>
+        <div class="bas"></div>
+      </div>
+    </form>
+  </header>
+  <div id="principal" role="main">
+    
+    
+    
+    <div class="bloc-3-colonnes">
+      <div class="bloc-3-colonnes-contenu">
+        <h2 id="total-resultats-recherche">Un total de 19 résultats pour «<strong>doculibre</strong>» dans test </h2>
+        <div class="bloc-3-colonnes-principale">
+          <div id="resultats-recherche">
+            
+            <div id="suggestion-mots"> <img id="suggestion-mots-ico" alt="[Suggestion d'autres mots à essayer.]" src="images/suggestion-ico-jaune.png"/>
+              <p><strong>Vous avez écrit :  «doculibre»</strong></p>
+              <p>Essayez plutôt : 
+                  
+                	<a title="En cliquant sur ce lien, vous relancerez la recherche avec la requête déséquilibre." href="search?page=0&amp;query=d%C3%A9s%C3%A9quilibre&amp;singleSearchLocale=fr&amp;searchType=allWords&amp;collectionName=test&amp;curl=txt|http://wwwxml.gouv.qc.ca/reperage/pgs/&amp;lx=958&amp;displayLang=fr&amp;popupLink=false">déséquilibre</a>
+                	
+                	<a title="En cliquant sur ce lien, vous relancerez la recherche avec la requête documente." href="search?page=0&amp;query=documente&amp;singleSearchLocale=fr&amp;searchType=allWords&amp;collectionName=test&amp;curl=txt|http://wwwxml.gouv.qc.ca/reperage/pgs/&amp;lx=958&amp;displayLang=fr&amp;popupLink=false">documente</a>
+                	
+                	<a title="En cliquant sur ce lien, vous relancerez la recherche avec la requête documentaire." href="search?page=0&amp;query=documentaire&amp;singleSearchLocale=fr&amp;searchType=allWords&amp;collectionName=test&amp;curl=txt|http://wwwxml.gouv.qc.ca/reperage/pgs/&amp;lx=958&amp;displayLang=fr&amp;popupLink=false">documentaire</a>
+                	
+                	<a title="En cliquant sur ce lien, vous relancerez la recherche avec la requête documenter." href="search?page=0&amp;query=documenter&amp;singleSearchLocale=fr&amp;searchType=allWords&amp;collectionName=test&amp;curl=txt|http://wwwxml.gouv.qc.ca/reperage/pgs/&amp;lx=958&amp;displayLang=fr&amp;popupLink=false">documenter</a>
+                	
+                	
+              </p>
+            </div>
+            
+            
+              
+                  
+          
+            
+            
+            <article>
+                <h3><a target="_self" onmousedown="sendGet('http://localhost:8080/constellio-srig/computeSearchResultClick?url=googleconnector%3A%2F%2Fdefault_test_http-connector_1361984106848.localhost%2Fdoc%3Fdocid%3Dhttp%253A%252F%252Fwww.doculibre.com%252FDocuLibre-Contacts-Quebec-Montreal-Ottawa&recordCollection=test&searchLogDocId=JQcBM4W_8Kj1v_XZignmKy_rihc_&page=0&query=doculibre&singleSearchLocale=fr&searchType=allWords&collectionName=test'); window.location=this.href;" href="http://www.doculibre.com/DocuLibre-Contacts-Quebec-Montreal-Ottawa"><span>info@doculibre.com | DocuLibre</span></a>
+                </h3>
+                <p>commerciale entre deux entreprises (<em>Doculibre</em> et Gestar)
+ Direction informatique
+ ------------------
+ Logiciel ...  de l'information et des documents (<em>Doculibre</em> et Gestar), ont d&eacute;cid&eacute; de mettre leurs logiciels et leur expertise ...</p>
+                <p class="url">http://www.doculibre.com/DocuLibre-Contacts-Quebec-Montreal-Ottawa</p>
+                
+            </article><article>
+                <h3><a target="_self" onmousedown="sendGet('http://localhost:8080/constellio-srig/computeSearchResultClick?url=googleconnector%3A%2F%2Fdefault_test_http-connector_1361984106848.localhost%2Fdoc%3Fdocid%3Dhttp%253A%252F%252Fwww.doculibre.com%252Fcontent%252Fdernieres-nouvelles&recordCollection=test&searchLogDocId=JQcBM4W_8Kj1v_XZignmKy_rihc_&page=0&query=doculibre&singleSearchLocale=fr&searchType=allWords&collectionName=test'); window.location=this.href;" href="http://www.doculibre.com/content/dernieres-nouvelles"><span>Dernières nouvelles | DocuLibre</span></a>
+                </h3>
+                <p>entreprises (<em>Doculibre</em> et Gestar)
+ Direction informatique
+ ------------------
+ Logiciel libre: deux rivaux ...  et des documents (<em>Doculibre</em> et Gestar), ont d&eacute;cid&eacute; de mettre leurs logiciels et leur expertise en commun ...</p>
+                <p class="url">http://www.doculibre.com/content/dernieres-nouvelles</p>
+                
+            </article><article>
+                <h3><a target="_self" onmousedown="sendGet('http://localhost:8080/constellio-srig/computeSearchResultClick?url=googleconnector%3A%2F%2Fdefault_test_http-connector_1361984106848.localhost%2Fdoc%3Fdocid%3Dhttp%253A%252F%252Fwww.doculibre.com%252Fevenement-a-venir&recordCollection=test&searchLogDocId=JQcBM4W_8Kj1v_XZignmKy_rihc_&page=0&query=doculibre&singleSearchLocale=fr&searchType=allWords&collectionName=test'); window.location=this.href;" href="http://www.doculibre.com/evenement-a-venir"><span>Événements à venir | DocuLibre</span></a>
+                </h3>
+                <p>&Eacute;v&eacute;nements &agrave; venir 
+ 
+              <em>Doculibre</em> et Gestar donneront une conf&eacute;rence sur les communaut&eacute;s ...  de pratiques au congr&egrave;s de l'AAQ.
+ -----------------------
+ <em>DocuLibre</em> pr&eacute;sentera la recherche s&eacute;mantique ...</p>
+                <p class="url">http://www.doculibre.com/evenement-a-venir</p>
+                
+            </article><article>
+                <h3><a target="_self" onmousedown="sendGet('http://localhost:8080/constellio-srig/computeSearchResultClick?url=googleconnector%3A%2F%2Fdefault_test_http-connector_1361984106848.localhost%2Fdoc%3Fdocid%3Dhttp%253A%252F%252Fwww.doculibre.com%252Fcontent%252Fbasfront&recordCollection=test&searchLogDocId=JQcBM4W_8Kj1v_XZignmKy_rihc_&page=0&query=doculibre&singleSearchLocale=fr&searchType=allWords&collectionName=test'); window.location=this.href;" href="http://www.doculibre.com/content/basfront"><span>Basfront | DocuLibre</span></a>
+                </h3>
+                <p>entre deux entreprises (<em>Doculibre</em> et Gestar)
+ Direction informatique
+ ------------------
+ Logiciel libre ...  et des documents (<em>Doculibre</em> et Gestar), ont d&eacute;cid&eacute; de mettre leurs logiciels et leur expertise en commun ...</p>
+                <p class="url">http://www.doculibre.com/content/basfront</p>
+                
+            </article><article>
+                <h3><a target="_self" onmousedown="sendGet('http://localhost:8080/constellio-srig/computeSearchResultClick?url=googleconnector%3A%2F%2Fdefault_test_http-connector_1361984106848.localhost%2Fdoc%3Fdocid%3Dhttp%253A%252F%252Fwww.doculibre.com%252Fdoculibre%252Fgestion-documentaire&recordCollection=test&searchLogDocId=JQcBM4W_8Kj1v_XZignmKy_rihc_&page=0&query=doculibre&singleSearchLocale=fr&searchType=allWords&collectionName=test'); window.location=this.href;" href="http://www.doculibre.com/doculibre/gestion-documentaire"><span>Gestion documentaire | DocuLibre</span></a>
+                </h3>
+                <p><em>DocuLibre</em> accompagne ses clients depuis la cr&eacute;ation de leurs documents jusqu'&agrave; leur archivage d&eacute;finitif ...  de vos projets de gestion documentaire.
+ De plus, <em>DocuLibre</em> est la premi&egrave;re entreprise au Qu&eacute;bec ...</p>
+                <p class="url">http://www.doculibre.com/doculibre/gestion-documentaire</p>
+                
+            </article><article>
+                <h3><a target="_self" onmousedown="sendGet('http://localhost:8080/constellio-srig/computeSearchResultClick?url=googleconnector%3A%2F%2Fdefault_test_http-connector_1361984106848.localhost%2Fdoc%3Fdocid%3Dhttp%253A%252F%252Fwww.doculibre.com%252FDocuLibre-Realisations-Moteurs-recherche-ECM-Developpement-Consultation&recordCollection=test&searchLogDocId=JQcBM4W_8Kj1v_XZignmKy_rihc_&page=0&query=doculibre&singleSearchLocale=fr&searchType=allWords&collectionName=test'); window.location=this.href;" href="http://www.doculibre.com/DocuLibre-Realisations-Moteurs-recherche-ECM-Developpement-Consultation"><span>Parmi nos réalisations, notons : | DocuLibre</span></a>
+                </h3>
+                <p>de recherche officiel du gouvernement du Qu&eacute;bec
+ 
+              
+
+              <em>DocuLibre</em> supporte depuis 2006 ...  de la r&eacute;gie du cin&eacute;ma du Qu&eacute;bec
+ 
+              <em>DocuLibre</em> supporte le moteur de recherche de filmes ...</p>
+                <p class="url">http://www.doculibre.com/DocuLibre-Realisations-Moteurs-recherche-ECM-Developpement-Consultation</p>
+                
+            </article><article>
+                <h3><a target="_self" onmousedown="sendGet('http://localhost:8080/constellio-srig/computeSearchResultClick?url=googleconnector%3A%2F%2Fdefault_test_http-connector_1361984106848.localhost%2Fdoc%3Fdocid%3Dhttp%253A%252F%252Fwww.doculibre.com%252FDocuLibre-Carrieres&recordCollection=test&searchLogDocId=JQcBM4W_8Kj1v_XZignmKy_rihc_&page=0&query=doculibre&singleSearchLocale=fr&searchType=allWords&collectionName=test'); window.location=this.href;" href="http://www.doculibre.com/DocuLibre-Carrieres"><span>Carrières | DocuLibre</span></a>
+                </h3>
+                <p><em>DocuLibre</em> est pr&eacute;sentement &agrave; la recherche de gens passionn&eacute;s qui poss&egrave;dent une expertise dans la gestion ...  commerciale entre deux entreprises (<em>Doculibre</em> et Gestar)
+ Direction informatique
+ ------------------
+ Logiciel ...</p>
+                <p class="url">http://www.doculibre.com/DocuLibre-Carrieres</p>
+                
+            </article><article>
+                <h3><a target="_self" onmousedown="sendGet('http://localhost:8080/constellio-srig/computeSearchResultClick?url=googleconnector%3A%2F%2Fdefault_test_http-connector_1361984106848.localhost%2Fdoc%3Fdocid%3Dhttp%253A%252F%252Fwww.doculibre.com%252FDocuLibre-Produits-Constellio-Solr-Apache-Lucene-Nutch-Alfresco&recordCollection=test&searchLogDocId=JQcBM4W_8Kj1v_XZignmKy_rihc_&page=0&query=doculibre&singleSearchLocale=fr&searchType=allWords&collectionName=test'); window.location=this.href;" href="http://www.doculibre.com/DocuLibre-Produits-Constellio-Solr-Apache-Lucene-Nutch-Alfresco"><span>Produits | DocuLibre</span></a>
+                </h3>
+                <p>Moteurs de recherche
+ 
+              <em>DocuLibre</em> met &agrave; votre disposition un ensemble de moteurs de recherche ...  par <em>DocuLibre</em> :
+ 
+              	Constellio Enterprise Search (Solution d&eacute;velopp&eacute;e par <em>DocuLibre</em>) http ...</p>
+                <p class="url">http://www.doculibre.com/DocuLibre-Produits-Constellio-Solr-Apache-Lucene-Nutch-Alfresco</p>
+                
+            </article><article>
+                <h3><a target="_self" onmousedown="sendGet('http://localhost:8080/constellio-srig/computeSearchResultClick?url=googleconnector%3A%2F%2Fdefault_test_http-connector_1361984106848.localhost%2Fdoc%3Fdocid%3Dhttp%253A%252F%252Fwww.doculibre.com%252F&recordCollection=test&searchLogDocId=JQcBM4W_8Kj1v_XZignmKy_rihc_&page=0&query=doculibre&singleSearchLocale=fr&searchType=allWords&collectionName=test'); window.location=this.href;" href="http://www.doculibre.com/"><span>DocuLibre</span></a>
+                </h3>
+                <p>de recherche
+                                  	Constellio (une solution de <em>Doculibre</em>)
+	Apache Solr
+	Apache ...  commerciale entre deux entreprises (<em>Doculibre</em> et Gestar)
+ Direction informatique
+ ------------------
+ Logiciel ...</p>
+                <p class="url">http://www.doculibre.com/</p>
+                
+            </article><article>
+                <h3><a target="_self" onmousedown="sendGet('http://localhost:8080/constellio-srig/computeSearchResultClick?url=googleconnector%3A%2F%2Fdefault_test_http-connector_1361984106848.localhost%2Fdoc%3Fdocid%3Dhttp%253A%252F%252Fwww.doculibre.com%252Fcontent%252Fabc123&recordCollection=test&searchLogDocId=JQcBM4W_8Kj1v_XZignmKy_rihc_&page=0&query=doculibre&singleSearchLocale=fr&searchType=allWords&collectionName=test'); window.location=this.href;" href="http://www.doculibre.com/content/abc123"><span>abc123 | DocuLibre</span></a>
+                </h3>
+                <p>Constellio (une solution de <em>Doculibre</em>)
+	Apache Solr
+	Apache Lucene
+	Nutch + Hadoop ...  commerciale entre deux entreprises (<em>Doculibre</em> et Gestar)
+ Direction informatique
+ ------------------
+ Logiciel ...</p>
+                <p class="url">http://www.doculibre.com/content/abc123</p>
+                
+            </article>       
+               
+            
+            
+            <nav class="pagination">
+  
+    <ul>
+      
+      
+      <li class="active"><span title="Page 1."><em><span>1</span></em></span></li><li class="active"><a title="Page 2." href="search?page=1&amp;query=doculibre&amp;singleSearchLocale=fr&amp;searchType=allWords&amp;collectionName=test&amp;curl=txt|http://wwwxml.gouv.qc.ca/reperage/pgs/&amp;lx=958&amp;displayLang=fr&amp;popupLink=false"><span>2</span></a></li>
+      
+      <li class="navigation-suivante"><a title="Page suivante." href="search?page=1&amp;query=doculibre&amp;singleSearchLocale=fr&amp;searchType=allWords&amp;collectionName=test&amp;curl=txt|http://wwwxml.gouv.qc.ca/reperage/pgs/&amp;lx=958&amp;displayLang=fr&amp;popupLink=false">Suivante</a></li>
+      
+      
+      <li class="navigation-derniere"><a title="Dernière page." href="search?page=1&amp;query=doculibre&amp;singleSearchLocale=fr&amp;searchType=allWords&amp;collectionName=test&amp;curl=txt|http://wwwxml.gouv.qc.ca/reperage/pgs/&amp;lx=958&amp;displayLang=fr&amp;popupLink=false"><span class="visuallyhidden">Dernier</span></a></li>
+      
+    </ul>
+
+</nav>
+          </div>
+        </div>
+      
+      <div class="bloc-3-colonnes-secondaire">
+		<div style="background-color:red; width:290px;">
+			Menu gauche 2
+		</div>    
+      </div>
+        
+      </div>
+      
+      <div class="bloc-3-colonnes-tertiaire"> 
+      </div>
+    </div>
+    
+    
+  </div>
+</div>  
+
+  <footer>    
+	<!-- pied de page normalise PGS -->
+
+<div class="footer">
+	<ul class="first-line">
+		<li class="first"><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/informationsutiles/apropos/?lang=fr" title='&Agrave; propos de ce portail.'>&Agrave; propos de ce portail</a></li>
+		<li class="dernier"><a href="http://www.gouv.qc.ca/util/setCookieMobile.do?/portail/quebec/m/pgs/commun/?lang=fr" title='Version mobile de Portail Québec.'>Version mobile de Portail Québec</a></li>
+	</ul>
+	<ul>
+		<li class="first"><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/informationsutiles/linguistique/?lang=fr" title="Politique linguistique.">Politique linguistique</a></li>
+		<li><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/informationsutiles/confidentialite/?lang=fr" title="Politique de confidentialit&eacute;.">Politique de confidentialit&eacute;</a></li>
+		<li class="dernier"><a href="http://www.gouv.qc.ca/portail/quebec/pgs/commun/informationsutiles/conditions/?lang=fr" title="Conditions d'utilisation.">Conditions d'utilisation</a></li>
+	</ul>
+</div>   
+
+<div class="footer-gouv">
+	<p>
+    <a href="http://www.gouv.qc.ca/"><img class="gouv-logo" src="http://www.gouv.qc.ca/portail/themes/html/PGSI-05-SFA/images/mini-logo-quebec.gif" alt="Qu&eacute;bec." title="Qu&eacute;bec."></a>
+  </p>
+  <p>  
+	  <a class="copyright" href="http://www.droitauteur.gouv.qc.ca/copyright.php" title="&copy; Gouvernement du Qu&eacute;bec, &nbsp;2012.">&copy; Gouvernement du Qu&eacute;bec, 2012</a>
+  </p> 
+</div>	
+<script type="text/javascript" src="https://stats-sqc.gouv.qc.ca/scripts/ntpagetag.js"></script>
+<!-- fin pied de page: PIV -->  
+  </footer>
+</div>
+<!--! end of #container -->
+<!-- JavaScript at the bottom for fast page loading -->
+<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline-->
+<script onclick="window.location.href='//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js';return false;" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="scripts/libs/jquery-1.8.1.min.js"><\/script>')</script>
+<!-- scripts concatenated and minified via ant build script-->
+<script defer="" src="scripts/plugins.js"></script>
+<script defer="" src="scripts/script.js"></script>
+<script defer="" src="scripts/jquery.simpletooltip.js"></script>
+<!-- end scripts-->
+</body>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> </html> <![endif]-->
+<!--[if IE 7]>    </html> <![endif]-->
+<!--[if IE 8]>    </html> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> </html> <!--<![endif]-->
